@@ -6,7 +6,7 @@ E-book divulgativo di 6 pagine A4, tratto dall'intervento di Maria Francesca Cav
 
 - `tutto-comincia-dalla-bocca.pdf`: il PDF pronto da condividere (6 pagine A4 verticali).
 - `tutto-comincia-dalla-bocca.html`: il file sorgente modificabile (testo, stili, bibliografia).
-- `assets/`: foto dell'autrice e font Barlow (licenza OFL).
+  È autosufficiente: foto e font Barlow (licenza SIL OFL) sono incorporati nel file, che si apre da solo.
 
 Trattandosi di materiale per un corso ECM, l'e-book non contiene logo né riferimenti aziendali.
 
@@ -20,3 +20,9 @@ Trattandosi di materiale per un corso ECM, l'e-book non contiene logo né riferi
 
 I richiami numerati `[n]` nel testo corrispondono all'elenco numerato della pagina 6.
 Tutte le fonti sono state verificate su PubMed.
+
+## Pagina online e QR code
+
+- Pagina di lettura e download: https://claude.ai/artifact/M9opi5abCdkKWiARu2QsRn
+  (va resa pubblica dal menu Condividi della pagina, altrimenti chi inquadra il QR non riesce ad aprirla).
+- `qr-code-ebook.png` e `qr-code-ebook.svg`: QR code che punta a quella pagina (SVG per la stampa).
