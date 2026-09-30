@@ -27,3 +27,8 @@ Tutte le fonti sono state verificate su PubMed.
   https://cdn.shopify.com/s/files/1/0686/6812/9429/files/Tutto-comincia-dalla-bocca.pdf
 - `qr-code-ebook.png` e `qr-code-ebook.svg`: QR code che apre direttamente quel PDF (SVG per la stampa).
 - Per aggiornare il PDF senza cambiare il QR: in Shopify › Contenuti › File sostituisci il file mantenendo lo stesso nome.
+
+## Slide della relatrice
+
+- `slide-relatrice.pdf` e `slide-relatrice.png`: slide 16:9 (1920×1080) con foto, presentazione e QR code dell'e-book.
+- Versione modificabile online: https://claude.ai/artifact/RHvJeXHGzatafFz2988s7n (esportabile in PowerPoint o PDF).
