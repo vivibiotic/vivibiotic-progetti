@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Tutto comincia dalla bocca · Vivibiotic</title>
+<meta name="author" content="Maria Francesca Cavaleri">
+<style>
+/* ---------- Font Barlow (file locali in assets/fonts) ---------- */
+@font-face{font-family:"Barlow";src:url(assets/fonts/Barlow-Regular.ttf);font-weight:400}
+@font-face{font-family:"Barlow";src:url(assets/fonts/Barlow-Italic.ttf);font-weight:400;font-style:italic}
+@font-face{font-family:"Barlow";src:url(assets/fonts/Barlow-Medium.ttf);font-weight:500}
+@font-face{font-family:"Barlow";src:url(assets/fonts/Barlow-SemiBold.ttf);font-weight:600}
+@font-face{font-family:"Barlow";src:url(assets/fonts/Barlow-Bold.ttf);font-weight:700}
+@font-face{font-family:"Barlow SC";src:url(assets/fonts/BarlowSemiCondensed-SemiBold.ttf);font-weight:600}
+@font-face{font-family:"Barlow SC";src:url(assets/fonts/BarlowSemiCondensed-Bold.ttf);font-weight:700}
+@font-face{font-family:"Barlow SC";src:url(assets/fonts/BarlowSemiCondensed-ExtraBold.ttf);font-weight:800}
+@font-face{font-family:"Barlow SC";src:url(assets/fonts/BarlowSemiCondensed-SemiBoldItalic.ttf);font-weight:600;font-style:italic}
+
+/* ---------- Palette Vivibiotic (dalla brochure A5) ---------- */
+:root{
+  --petrolio:#003F45;   /* fondo copertina, titoli */
+  --teal:#00666D;       /* occhielli */
+  --acqua:#00939B;      /* accenti grafici */
+  --oro:#C8A96E;        /* dettagli */
+  --oro-scuro:#8A6D35;  /* oro leggibile su fondo chiaro */
+  --crema:#F6F3EC;      /* riquadri */
+  --inchiostro:#14282A; /* testo */
+}
+
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#d9d6cf}
+body{font-family:"Barlow",sans-serif;color:var(--inchiostro);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+.page{position:relative;width:210mm;height:297mm;overflow:hidden;background:#fff;margin:0 auto 8mm;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto;margin-bottom:0}
+@media print{html,body{background:#fff}.page{margin:0}}
+
+/* ---------- Pagine interne ---------- */
+.inner{position:absolute;left:18mm;right:18mm;top:15mm;bottom:17mm;display:flex;flex-direction:column}
+.kicker{font-family:"Barlow SC";font-weight:700;font-size:9.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:3mm}
+.kicker::before{content:"";width:10mm;height:1.2mm;background:var(--oro)}
+h2{font-family:"Barlow SC";font-weight:800;font-size:29pt;line-height:1.02;color:var(--petrolio);margin:3mm 0 3.5mm;letter-spacing:-.005em}
+.lead{font-size:13pt;line-height:1.42;font-weight:500;color:var(--petrolio);margin:0 0 5mm;max-width:160mm}
+.cols{column-count:2;column-gap:9mm;column-fill:balance}
+p{margin:0 0 2.8mm;font-size:10.9pt;line-height:1.52;text-align:left;hyphens:auto;-webkit-hyphens:auto;orphans:3;widows:3}
+h3{font-family:"Barlow SC";font-weight:700;font-size:13pt;line-height:1.15;color:var(--petrolio);margin:4mm 0 1.6mm;break-after:avoid}
+.cols>h3:first-child{margin-top:0}
+em{font-style:italic}
+.ref{font-weight:600;color:var(--teal);white-space:nowrap}
+sup.ref{font-size:7.5pt;vertical-align:super;line-height:0}
+
+.box{break-inside:avoid;background:var(--crema);border-top:1.2mm solid var(--acqua);padding:3.6mm 4.2mm 1.4mm;margin:3.5mm 0 3.5mm}
+.box h4{font-family:"Barlow SC";font-weight:700;font-size:11.5pt;color:var(--petrolio);margin:0 0 1.4mm}
+.box p{font-size:10.3pt;line-height:1.48}
+.box.dark{background:var(--petrolio);border-top-color:var(--oro)}
+.box.dark h4{color:var(--oro)}
+.box.dark p{color:#fff}
+
+.quote{break-inside:avoid;font-family:"Barlow SC";font-weight:600;font-style:italic;font-size:15pt;line-height:1.22;color:var(--petrolio);border-left:0;border-top:.5mm solid var(--oro);border-bottom:.5mm solid var(--oro);padding:3mm 0;margin:3.5mm 0}
+
+.stat{break-inside:avoid;display:flex;align-items:baseline;gap:3.5mm;margin:3mm 0 3.5mm;padding:3mm 0;border-top:.4mm solid #d8d2c4;border-bottom:.4mm solid #d8d2c4}
+.stat b{font-family:"Barlow SC";font-weight:800;font-size:26pt;line-height:.95;color:var(--petrolio);white-space:nowrap}
+.stat span{font-size:9.6pt;line-height:1.35}
+
+.footer{position:absolute;left:18mm;right:18mm;bottom:8mm;display:flex;align-items:center;justify-content:space-between;font-size:8pt;color:#5d6b6c;border-top:.3mm solid #d8d2c4;padding-top:2.2mm}
+.footer img{height:6mm}
+.footer .num{font-family:"Barlow SC";font-weight:700;color:var(--petrolio);font-size:9pt}
+
+/* ---------- Copertina ---------- */
+.cover{background:var(--petrolio);color:#fff}
+.cover .ring{position:absolute;border-radius:50%}
+.cover .top{position:absolute;left:20mm;right:20mm;top:18mm;display:flex;justify-content:space-between;align-items:flex-start}
+.cover .top img{height:17mm}
+.cover .event{font-family:"Barlow SC";font-weight:600;font-size:9.5pt;letter-spacing:.13em;text-transform:uppercase;color:var(--oro);text-align:right;line-height:1.45}
+.cover .title{position:absolute;left:20mm;right:20mm;top:62mm}
+.cover .bar{width:16mm;height:1.4mm;background:var(--oro);margin-bottom:7mm}
+.cover h1{font-family:"Barlow SC";font-weight:800;font-size:58pt;line-height:.93;margin:0;letter-spacing:-.01em;max-width:150mm}
+.cover h1 span{color:var(--oro)}
+.cover .subtitle{font-size:16pt;line-height:1.32;font-weight:500;color:var(--crema);margin:7mm 0 0;max-width:128mm}
+.cover .photo{position:absolute;right:0;bottom:0;width:92mm;height:128mm;overflow:hidden}
+.cover .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;filter:grayscale(1) contrast(1.02)}
+.cover .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--petrolio) 0%,rgba(0,63,69,0) 26%)}
+.cover .author{position:absolute;left:20mm;bottom:52mm;width:92mm}
+.cover .author .name{font-family:"Barlow SC";font-weight:700;font-size:17pt;line-height:1.1}
+.cover .author .role{font-size:10.5pt;line-height:1.45;color:var(--crema);margin-top:2mm}
+.cover .congress{position:absolute;left:20mm;bottom:18mm;width:92mm;border-top:.3mm solid rgba(246,243,236,.45);padding-top:4mm;font-size:9.3pt;line-height:1.5;color:var(--crema)}
+.cover .congress b{color:var(--oro);font-weight:600}
+
+/* ---------- Bibliografia ---------- */
+.legend{display:flex;flex-wrap:wrap;gap:1.8mm 3mm;margin:0 0 4mm}
+.tag{display:inline-block;font-family:"Barlow SC";font-weight:700;font-size:7.4pt;letter-spacing:.06em;text-transform:uppercase;padding:.7mm 1.8mm;border-radius:1mm;line-height:1.25;white-space:nowrap}
+.t-uomo{background:#DCEFEF;color:#00474D}
+.t-rev{background:#EFE6D2;color:#6B5226}
+.t-lab{background:#F4DCD3;color:#7A2E17}
+.t-lg{background:#E1E6F2;color:#27365E}
+ol.biblio{margin:0;padding:0;list-style:none;counter-reset:b}
+ol.biblio li{counter-increment:b;position:relative;padding-left:8mm;margin:0 0 2.2mm;font-size:9.1pt;line-height:1.38;break-inside:avoid}
+ol.biblio li::before{content:counter(b);position:absolute;left:0;top:0;font-family:"Barlow SC";font-weight:800;color:var(--petrolio);font-size:10pt}
+ol.biblio .tt{font-weight:600}
+ol.biblio a{color:var(--teal);text-decoration:none;overflow-wrap:anywhere}
+ol.biblio .tag{margin-left:1mm;font-size:6.8pt;padding:.4mm 1.4mm}
+.biocard{margin-top:auto;display:flex;gap:6mm;align-items:stretch;background:var(--crema);padding:5mm;border-top:1.2mm solid var(--oro)}
+.biocard img.ph{width:30mm;height:38mm;object-fit:cover;object-position:50% 12%;filter:grayscale(1)}
+.biocard .txt{flex:1;display:flex;flex-direction:column;gap:1.5mm}
+.biocard .n{font-family:"Barlow SC";font-weight:800;font-size:14pt;color:var(--petrolio)}
+.biocard p{font-size:9.3pt;line-height:1.45;margin:0}
+.biocard .row{display:flex;justify-content:space-between;align-items:flex-end;margin-top:auto}
+.biocard .row img{height:11mm}
+.disclaimer{font-size:8pt;line-height:1.4;color:#4d5a5b;margin:3mm 0 0}
+</style>
+</head>
+<body>
+
+<!-- ======================= PAGINA 1 · COPERTINA ======================= -->
+<section class="page cover">
+  <div class="ring" style="left:-45mm;top:160mm;width:70mm;height:70mm;border:.6mm solid rgba(200,169,110,.45)"></div>
+  <div class="ring" style="left:52mm;top:196mm;width:14mm;height:14mm;background:var(--oro);opacity:.9"></div>
+  <div class="ring" style="left:36mm;top:176mm;width:5mm;height:5mm;background:var(--acqua)"></div>
+
+  <div class="top">
+    <img src="assets/logo-white.png" alt="Vivibiotic">
+    <div class="event">E-book divulgativo<br>Benessere e Salute 2026 · Palermo</div>
+  </div>
+
+  <div class="title">
+    <div class="bar"></div>
+    <h1>Tutto comincia dalla <span>bocca</span></h1>
+    <p class="subtitle">Microbiota orale, infiammazione e prevenzione oncologica, raccontati senza allarmi e senza promesse</p>
+  </div>
+
+  <div class="photo"><img src="assets/foto-cavaleri.jpg" alt="Ritratto di Maria Francesca Cavaleri"></div>
+
+  <div class="author">
+    <div class="name">Maria Francesca Cavaleri</div>
+    <div class="role">Farmacista, chimica e tecnologa farmaceutica, esperta di microbiota orale, fondatrice di Vivibiotic</div>
+  </div>
+
+  <div class="congress">
+    Dall'intervento <b>«Educare il microbiota orale: una nuova frontiera nella prevenzione oncologica»</b><br>
+    Corso ECM «Benessere e Salute 2026 – Dall'oncologia all'oncologia integrata»<br>
+    Villa Magnisi, Palermo · 3 ottobre 2026
+  </div>
+</section>
+
+<!-- ======================= PAGINA 2 ======================= -->
+<section class="page">
+  <div class="inner">
+    <div class="kicker">1 · Il punto di partenza</div>
+    <h2>La città che abiti senza saperlo</h2>
+    <p class="lead">Ogni mattina, prima ancora del caffè, la tua bocca è già un luogo affollato. Sulle gengive, sulla lingua, tra i denti e nella saliva vivono comunità di batteri, lieviti e altri microrganismi: insieme li chiamiamo microbiota orale.</p>
+    <div class="cols">
+      <p>Per la gran parte sono inquilini tranquilli. Occupano lo spazio, si nutrono di ciò che mangiamo e producono sostanze che tengono a bada i vicini più aggressivi. Come in un quartiere ben tenuto, l'ordine non dipende da un solo vigile, ma dall'equilibrio tra tanti abitanti diversi.</p>
+      <p>Quando questo equilibrio si rompe – per un'igiene trascurata, per il fumo, per una dieta ricca di zuccheri, per farmaci o malattie che seccano la bocca – alcune specie opportuniste prendono il sopravvento. Gli specialisti chiamano questo squilibrio <em>disbiosi</em>.</p>
+      <p>Un esempio che molti conoscono: dopo qualche giorno di febbre, di antibiotici o di bocca secca, la lingua si copre di una patina e il sapore delle cose cambia. È il quartiere che ha perso per un po' i suoi equilibri. Di solito li ritrova da solo; quando invece lo squilibrio diventa abituale, la bocca comincia a dare segnali più insistenti.</p>
+      <p>Il segnale più comune di una disbiosi che dura nel tempo è una gengiva che sanguina. Spesso lo liquidiamo con un «capita», eppure è il segno visibile di un'infiammazione. Quando l'infiammazione scende in profondità e intacca i tessuti che sostengono il dente si parla di parodontite, una malattia tutt'altro che rara.</p>
+      <div class="stat"><b>796 milioni</b><span>le persone con parodontite grave nel mondo nel 2017, secondo il Global Burden of Disease <span class="ref">[1]</span></span></div>
+
+      <h3>Perché parlarne a un congresso di oncologia</h3>
+      <p>Il 3 ottobre 2026, a Villa Magnisi, medici e professionisti della salute si sono ritrovati a Palermo per discutere di un passaggio: dall'oncologia all'oncologia integrata. In quella giornata ho portato un tema che a prima vista può sembrare fuori posto: la bocca.</p>
+      <p>Oncologia integrata non significa sostituire le cure, né affiancare alla chemioterapia rimedi «naturali». Significa aggiungere una domanda a quella classica. Accanto a «come colpisco il tumore?» c'è anche «in quale terreno è cresciuto, e in che condizioni è il corpo che deve affrontare le terapie?».</p>
+      <p>Infiammazione cronica, difese immunitarie, ecosistemi microbici: sono tutti pezzi di quel terreno. E la bocca è la porta d'ingresso da cui passa tutto quello che mangiamo, beviamo e respiriamo.</p>
+      <div class="quote">La bocca non è un capitolo a parte del corpo. È la prima pagina.</div>
+      <p>Una premessa onesta, prima di andare avanti: il microbiota orale non causa il tumore da solo e non lo cura. Quello che la ricerca sta mostrando è più sottile e, a suo modo, più interessante: la bocca può partecipare a processi che riguardano il resto dell'organismo.</p>
+      <p>Nelle prossime pagine vediamo come ciò può accadere, quali prove abbiamo sull'uomo, quali risultati sono ancora preliminari e che cosa possiamo fare, già da domani, senza promettere nulla che la scienza non abbia dimostrato.</p>
+    </div>
+  </div>
+  <div class="footer"><img src="assets/logo-teal.png" alt="Vivibiotic"><span>Tutto comincia dalla bocca · M. F. Cavaleri</span><span class="num">2</span></div>
+</section>
+
+<!-- ======================= PAGINA 3 ======================= -->
+<section class="page">
+  <div class="inner">
+    <div class="kicker">2 · I meccanismi</div>
+    <h2>Il viaggio di un batterio fuori dalla bocca</h2>
+    <p class="lead">Come fa un batterio che vive tra i denti a far parlare di sé in un altro organo? Le strade sono due, ed entrambe sono molto concrete.</p>
+    <div class="cols">
+      <h3>La strada della saliva</h3>
+      <p>Deglutiamo di continuo, giorno e notte, e con la saliva scendono anche i microrganismi che la abitano. Per anni si è pensato che quasi nessuno sopravvivesse al viaggio attraverso lo stomaco.</p>
+      <p>Uno studio europeo che ha confrontato saliva e feci di 470 persone di cinque paesi ha mostrato il contrario: il passaggio di ceppi batterici dalla bocca all'intestino è comune anche nelle persone sane, ed è più marcato in chi ha un tumore del colon-retto <span class="ref">[2]</span>. È un'osservazione: non dice che quel passaggio causi la malattia, ma conferma che bocca e intestino sono un unico percorso, non due mondi separati.</p>
+      <h3>La strada del sangue</h3>
+      <p>Una gengiva infiammata è un tessuto fragile, ricco di piccoli vasi. Uno studio danese ha cercato batteri nel sangue dopo gesti quotidiani, come masticare e lavarsi i denti, e dopo una seduta di igiene professionale. Dopo la pulizia dal professionista i batteri comparivano più spesso e in quantità maggiore nelle persone con parodontite che in quelle con gengive sane o con una semplice gengivite <span class="ref">[3]</span>.</p>
+      <p>Di solito è un passaggio breve, che il sistema immunitario gestisce senza difficoltà. Ma ripetuto per anni, in una bocca sempre infiammata, diventa un contatto costante tra i batteri orali e l'organismo.</p>
+      <h3>Un nome da ricordare: Fusobacterium nucleatum</h3>
+      <p><em>Fusobacterium nucleatum</em> è un abitante abituale della bocca, soprattutto sotto la gengiva. Negli ultimi anni è stato ritrovato nei tessuti di diversi tumori: il colon-retto in primo luogo, ma anche cavo orale, esofago, stomaco, pancreas e mammella <span class="ref">[8]</span>.</p>
+      <p>Gli studi di laboratorio descrivono un meccanismo quasi da romanzo. Con una proteina di superficie, FadA, il batterio si aggancia alle cellule e ne stimola la moltiplicazione; con un'altra, Fap2, riesce a sfuggire ad alcune cellule del sistema immunitario <span class="ref">[8]</span>. Una chiave per entrare, una per non farsi notare.</p>
+      <p>C'è poi un risultato che riguarda da vicino le terapie. In pazienti con tumore del colon-retto, <em>F. nucleatum</em> era più abbondante nei tessuti di chi aveva avuto una recidiva dopo la chemioterapia; negli esperimenti su cellule e su topi, lo stesso batterio rendeva il tumore meno sensibile ai farmaci <span class="ref">[9]</span>. Nell'uomo, quindi, abbiamo un'associazione; il rapporto di causa è stato mostrato solo in laboratorio.</p>
+      <div class="box dark">
+        <h4>Associazione o causa?</h4>
+        <p>Quando due cose compaiono insieme – un batterio e un tumore, una gengiva malata e un rischio più alto – parliamo di associazione. Per dire che una provoca l'altra servono prove diverse: esperimenti controllati, studi di intervento, meccanismi confermati nell'uomo.</p>
+        <p>In questo e-book indico sempre di che tipo di prova si tratta. Non per sminuire i dati, ma perché la fiducia si costruisce anche dichiarando i limiti.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><img src="assets/logo-teal.png" alt="Vivibiotic"><span>Tutto comincia dalla bocca · M. F. Cavaleri</span><span class="num">3</span></div>
+</section>
+
+<!-- ======================= PAGINA 4 ======================= -->
+<section class="page">
+  <div class="inner">
+    <div class="kicker">3 · Le prove sull'uomo</div>
+    <h2>Che cosa raccontano milioni di persone</h2>
+    <p class="lead">Gli esperimenti spiegano come le cose potrebbero accadere. Per capire se accadono davvero nella popolazione servono studi che seguono migliaia, a volte milioni, di persone nel tempo.</p>
+    <div class="cols">
+      <p>Uno degli strumenti principali è lo studio di coorte. Funziona un po' come una fotografia di gruppo: oggi si registra chi ha le gengive sane e chi no, poi si osserva per anni chi si ammala e chi resta in salute. Se un gruppo si ammala più spesso dell'altro, emerge un'associazione, che però va letta con attenzione, come vedremo alla fine di questa pagina.</p>
+      <h3>Settecentomila adulti in Corea</h3>
+      <p>In Corea del Sud i ricercatori hanno seguito per un massimo di dieci anni 713.201 adulti senza tumore, usando le banche dati del servizio sanitario nazionale. Chi aveva una diagnosi di parodontite ha mostrato un rischio complessivo di tumore più alto di circa il 13%, anche dopo aver tenuto conto di età, sesso, fumo, peso corporeo e altre malattie <span class="ref">[4]</span>. Associazioni simili sono emerse per stomaco, colon, polmone, vescica, tiroide e leucemia.</p>
+      <div class="box">
+        <h4>Che cosa vuol dire «13% in più»?</h4>
+        <p>Non significa che 13 persone su 100 con parodontite si ammaleranno. È un rischio relativo: se in un gruppo il rischio di partenza vale 10, nel gruppo con parodontite diventa circa 11,3. Un aumento modesto per il singolo, ma non trascurabile quando la condizione riguarda centinaia di milioni di persone.</p>
+      </div>
+      <h3>Cinque milioni di svedesi</h3>
+      <p>In Svezia un altro gruppo ha incrociato il registro nazionale della salute dentale con quello dei tumori: oltre cinque milioni di persone <span class="ref">[5]</span>. Chi all'inizio dello studio aveva una parodontite presentava un rischio di tumore dell'esofago più alto del 32–45%, a seconda del tipo di tumore.</p>
+      <p>Non solo: meno denti rimanevano, più il rischio saliva. Questo andamento «a scalini», che i ricercatori chiamano effetto dose-risposta, rende l'associazione più convincente, ma non la trasforma ancora in una prova di causa.</p>
+      <h3>Il quadro d'insieme</h3>
+      <p>Una revisione con meta-analisi di 50 studi ha concluso che i dati sostengono un'associazione tra malattia parodontale e tumori del cavo orale, del polmone e del pancreas, anche correggendo per il fumo <span class="ref">[6]</span>.</p>
+      <p>Sul pancreas c'è un dato particolarmente interessante. In uno studio che ha analizzato campioni di saliva raccolti anni prima della diagnosi, su 361 persone poi ammalate e 371 di confronto, la presenza di <em>Porphyromonas gingivalis</em>, un batterio legato alla parodontite, si associava a un rischio più alto di circa il 60% <span class="ref">[7]</span>. Aver raccolto la saliva prima della malattia rende meno probabile che sia stato il tumore a modificare la bocca, e non il contrario.</p>
+      <h3>Il limite da non nascondere</h3>
+      <p>Fumo, alcol, alimentazione, diabete e condizioni economiche influenzano sia la salute delle gengive sia il rischio di tumore. Gli studi migliori ne tengono conto, ma nessuna correzione statistica è perfetta, e gli stessi autori chiedono nuove ricerche per stabilire un rapporto di causa <span class="ref">[4,&nbsp;6]</span>.</p>
+      <div class="quote">Una bocca infiammata è un segnale da prendere sul serio, non una sentenza.</div>
+    </div>
+  </div>
+  <div class="footer"><img src="assets/logo-teal.png" alt="Vivibiotic"><span>Tutto comincia dalla bocca · M. F. Cavaleri</span><span class="num">4</span></div>
+</section>
+
+<!-- ======================= PAGINA 5 ======================= -->
+<section class="page">
+  <div class="inner">
+    <div class="kicker">4 · Indicazioni pratiche</div>
+    <h2>Prendersi cura del terreno, da domani</h2>
+    <p class="lead">Nessuno studio dimostra che curare le gengive prevenga il tumore. Occuparsene resta però sensato: la parodontite merita cura di per sé, e durante una terapia oncologica una bocca in ordine regge meglio.</p>
+    <div class="cols">
+      <h3>Nella vita di tutti i giorni</h3>
+      <p>Il punto di partenza sono gesti noti, ma spesso fatti di fretta: lavare i denti con cura due volte al giorno, pulire gli spazi tra un dente e l'altro, non dimenticare la lingua, dove la patina batterica si accumula volentieri.</p>
+      <p>Una gengiva che sanguina non è normale: è il motivo giusto per prenotare una visita, non per spazzolare di meno. I controlli periodici dal dentista o dall'igienista servono proprio a intercettare la parodontite quando è ancora silenziosa. E fumo e zuccheri frequenti sono nemici comuni, della bocca e del resto del corpo.</p>
+      <h3>Prima di una terapia oncologica</h3>
+      <p>Una valutazione odontoiatrica prima di iniziare chemioterapia o radioterapia permette di risolvere eventuali focolai di infezione quando le difese sono ancora integre. Conviene chiederla al proprio team.</p>
+      <h3>Durante le cure</h3>
+      <p>Le terapie colpiscono le cellule che si rinnovano in fretta, come quelle della mucosa della bocca: per questo compaiono spesso secchezza, gusto alterato e mucosite, un'infiammazione dolorosa che può rendere difficile mangiare.</p>
+      <p>Le linee guida internazionali MASCC/ISOO suggeriscono protocolli di cura orale che combinano più interventi – igiene accurata, controlli, educazione del paziente – per prevenire la mucosite durante la chemioterapia, la radioterapia di testa e collo e il trapianto di cellule staminali. Le stesse linee guida sconsigliano la clorexidina per prevenire la mucosite nella radioterapia di testa e collo, e non si pronunciano su soluzione salina e bicarbonato per mancanza di prove sufficienti <span class="ref">[10]</span>.</p>
+      <p>In pratica: spazzolino a setole morbide, sciacqui delicati e senza alcol scelti insieme al team, piccoli sorsi d'acqua spesso e nessun prodotto aggressivo su una mucosa già fragile.</p>
+      <div class="box dark">
+        <h4>Quando parlarne subito con il team oncologico</h4>
+        <p>Chiazze bianche che non si staccano o lasciano sotto una base rossa, ulcere che non guariscono, dolore che impedisce di mangiare o bere, febbre. Non sono cose da gestire da soli: riconoscerle e riferirle presto è il contributo più utile che ciascuno può dare.</p>
+      </div>
+      <h3>Quando la bocca aiuta un altro organo</h3>
+      <p>Una revisione Cochrane ha riunito sette piccoli studi randomizzati, per un totale di 691 persone con infezione da <em>Helicobacter pylori</em>, il batterio dello stomaco legato a gastrite e ulcera. Aggiungere la terapia parodontale alla cura antibiotica ha aumentato le probabilità di eliminare il batterio, con prove di qualità moderata <span class="ref">[11]</span>. Non riguarda i tumori, ma mostra che curare la bocca può sostenere le cure rivolte ad altri organi.</p>
+      <h3>Riequilibrare, non sterilizzare</h3>
+      <p>La prospettiva che propongo non è una bocca sterile, ma una bocca in equilibrio: pulita con costanza e gentilezza, curata quando si ammala, ascoltata quando cambia. È un obiettivo concreto, alla portata di tutti, e non ha bisogno di promesse.</p>
+    </div>
+  </div>
+  <div class="footer"><img src="assets/logo-teal.png" alt="Vivibiotic"><span>Tutto comincia dalla bocca · M. F. Cavaleri</span><span class="num">5</span></div>
+</section>
+
+<!-- ======================= PAGINA 6 · BIBLIOGRAFIA ======================= -->
+<section class="page">
+  <div class="inner">
+    <div class="kicker">5 · Le fonti</div>
+    <h2>Studi scientifici e bibliografia</h2>
+    <p style="font-size:10pt;margin-bottom:3mm">Ogni numero tra parentesi quadre nel testo rimanda a uno degli studi qui sotto. Per ciascuno è indicato il tipo di prova, per distinguere gli studi sull'uomo dai risultati preliminari di laboratorio. Le fonti sono state verificate sui record originali in PubMed.</p>
+    <div class="legend">
+      <span class="tag t-uomo">Studio sull'uomo · associazione</span>
+      <span class="tag t-rev">Revisione / meta-analisi</span>
+      <span class="tag t-lab">Laboratorio o animali · preliminare</span>
+      <span class="tag t-lg">Linee guida</span>
+    </div>
+    <ol class="biblio">
+      <li>GBD 2017 Oral Disorders Collaborators; Bernabe E, Marcenes W, et al. <span class="tt">Global, regional, and national levels and trends in burden of oral conditions from 1990 to 2017: a systematic analysis for the Global Burden of Disease 2017 Study.</span> <em>J Dent Res</em>. 2020;99(4):362-373. <a href="https://doi.org/10.1177/0022034520908533">doi.org/10.1177/0022034520908533</a> <span class="tag t-uomo">Epidemiologia</span></li>
+      <li>Schmidt TSB, Hayward MR, Coelho LP, et al. <span class="tt">Extensive transmission of microbes along the gastrointestinal tract.</span> <em>eLife</em>. 2019;8:e42693. <a href="https://doi.org/10.7554/eLife.42693">doi.org/10.7554/eLife.42693</a> <span class="tag t-uomo">Sull'uomo</span></li>
+      <li>Forner L, Larsen T, Kilian M, Holmstrup P. <span class="tt">Incidence of bacteremia after chewing, tooth brushing and scaling in individuals with periodontal inflammation.</span> <em>J Clin Periodontol</em>. 2006;33(6):401-407. <a href="https://doi.org/10.1111/j.1600-051X.2006.00924.x">doi.org/10.1111/j.1600-051X.2006.00924.x</a> <span class="tag t-uomo">Sull'uomo</span></li>
+      <li>Kim EH, Nam S, Park CH, et al. <span class="tt">Periodontal disease and cancer risk: a nationwide population-based cohort study.</span> <em>Front Oncol</em>. 2022;12:901098. <a href="https://doi.org/10.3389/fonc.2022.901098">doi.org/10.3389/fonc.2022.901098</a> <span class="tag t-uomo">Coorte</span></li>
+      <li>Zhang J, Bellocco R, Sandborgh-Englund G, et al. <span class="tt">Poor oral health and esophageal cancer risk: a nationwide cohort study.</span> <em>Cancer Epidemiol Biomarkers Prev</em>. 2022;31(7):1418-1425. <a href="https://doi.org/10.1158/1055-9965.EPI-22-0151">doi.org/10.1158/1055-9965.EPI-22-0151</a> <span class="tag t-uomo">Coorte</span></li>
+      <li>Michaud DS, Fu Z, Shi J, Chung M. <span class="tt">Periodontal disease, tooth loss, and cancer risk.</span> <em>Epidemiol Rev</em>. 2017;39(1):49-58. <a href="https://doi.org/10.1093/epirev/mxx006">doi.org/10.1093/epirev/mxx006</a> <span class="tag t-rev">Meta-analisi</span></li>
+      <li>Fan X, Alekseyenko AV, Wu J, et al. <span class="tt">Human oral microbiome and prospective risk for pancreatic cancer: a population-based nested case-control study.</span> <em>Gut</em>. 2018;67(1):120-127. <a href="https://doi.org/10.1136/gutjnl-2016-312580">doi.org/10.1136/gutjnl-2016-312580</a> <span class="tag t-uomo">Caso-controllo</span></li>
+      <li>Ye C, Liu X, Liu Z, et al. <span class="tt">Fusobacterium nucleatum in tumors: from tumorigenesis to tumor metastasis and tumor resistance.</span> <em>Cancer Biol Ther</em>. 2024;25(1):2306676. <a href="https://doi.org/10.1080/15384047.2024.2306676">doi.org/10.1080/15384047.2024.2306676</a> <span class="tag t-rev">Revisione</span><span class="tag t-lab">Meccanismi di laboratorio</span></li>
+      <li>Yu T, Guo F, Yu Y, et al. <span class="tt">Fusobacterium nucleatum promotes chemoresistance to colorectal cancer by modulating autophagy.</span> <em>Cell</em>. 2017;170(3):548-563.e16. <a href="https://doi.org/10.1016/j.cell.2017.07.008">doi.org/10.1016/j.cell.2017.07.008</a> <span class="tag t-uomo">Tessuti umani</span><span class="tag t-lab">Cellule e topi</span></li>
+      <li>Hong CHL, Gueiros LA, Fulton JS, et al. <span class="tt">Systematic review of basic oral care for the management of oral mucositis in cancer patients and clinical practice guidelines.</span> <em>Support Care Cancer</em>. 2019;27(10):3949-3967. <a href="https://doi.org/10.1007/s00520-019-04848-4">doi.org/10.1007/s00520-019-04848-4</a> <span class="tag t-lg">MASCC/ISOO</span></li>
+      <li>Ren Q, Yan X, Zhou Y, Li WX. <span class="tt">Periodontal therapy as adjunctive treatment for gastric Helicobacter pylori infection.</span> <em>Cochrane Database Syst Rev</em>. 2016;2:CD009477. <a href="https://doi.org/10.1002/14651858.CD009477.pub2">doi.org/10.1002/14651858.CD009477.pub2</a> <span class="tag t-rev">Revisione di studi randomizzati</span></li>
+    </ol>
+
+    <div class="biocard">
+      <img class="ph" src="assets/foto-cavaleri.jpg" alt="Ritratto di Maria Francesca Cavaleri">
+      <div class="txt">
+        <div class="n">Maria Francesca Cavaleri</div>
+        <p>Farmacista, chimica e tecnologa farmaceutica, esperta di microbiota orale, fondatrice di Vivibiotic e ideatrice del metodo Oral Gen – Reset del microbiota orale. Ha conseguito il Diploma universitario in microbiota orale.</p>
+        <div class="row"><span style="font-size:9pt;font-weight:600;color:var(--petrolio)">vivibiotic.it</span><img src="assets/logo-teal.png" alt="Vivibiotic"></div>
+      </div>
+    </div>
+    <p class="disclaimer">Questo e-book ha finalità divulgative e non sostituisce il parere del medico, dell'odontoiatra o del team oncologico. Ogni decisione terapeutica spetta ai professionisti che seguono la persona.</p>
+  </div>
+  <div class="footer"><img src="assets/logo-teal.png" alt="Vivibiotic"><span>Tutto comincia dalla bocca · M. F. Cavaleri</span><span class="num">6</span></div>
+</section>
+
+</body>
+</html>
