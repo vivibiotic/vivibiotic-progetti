@@ -21,8 +21,9 @@ Trattandosi di materiale per un corso ECM, l'e-book non contiene logo né riferi
 I richiami numerati `[n]` nel testo corrispondono all'elenco numerato della pagina 6.
 Tutte le fonti sono state verificate su PubMed.
 
-## Pagina online e QR code
+## PDF online e QR code
 
-- Pagina di lettura e download: https://claude.ai/artifact/M9opi5abCdkKWiARu2QsRn
-  (va resa pubblica dal menu Condividi della pagina, altrimenti chi inquadra il QR non riesce ad aprirla).
-- `qr-code-ebook.png` e `qr-code-ebook.svg`: QR code che punta a quella pagina (SVG per la stampa).
+- PDF pubblico (sezione File del negozio Shopify, indirizzo senza marchio):
+  https://cdn.shopify.com/s/files/1/0686/6812/9429/files/Tutto-comincia-dalla-bocca.pdf
+- `qr-code-ebook.png` e `qr-code-ebook.svg`: QR code che apre direttamente quel PDF (SVG per la stampa).
+- Per aggiornare il PDF senza cambiare il QR: in Shopify › Contenuti › File sostituisci il file mantenendo lo stesso nome.
