@@ -6,7 +6,9 @@ E-book divulgativo di 6 pagine A4, tratto dall'intervento di Maria Francesca Cav
 
 - `tutto-comincia-dalla-bocca.pdf`: il PDF pronto da condividere (6 pagine A4 verticali).
 - `tutto-comincia-dalla-bocca.html`: il file sorgente modificabile (testo, stili, bibliografia).
-- `assets/`: logo Vivibiotic (versione petrolio e bianca), foto dell'autrice, font Barlow (licenza OFL).
+- `assets/`: foto dell'autrice e font Barlow (licenza OFL).
+
+Trattandosi di materiale per un corso ECM, l'e-book non contiene logo né riferimenti aziendali.
 
 ## Come modificarlo e rigenerare il PDF
 
