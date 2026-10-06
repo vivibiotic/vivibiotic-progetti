@@ -5,62 +5,54 @@
 <title>Ormoni, colesterolo e gengive</title>
 <style>
   :root {
-    --bg: #F4EFE6;
-    --ink: #2F3B34;
-    --sage: #4E6B5A;
-    --sage-soft: #DCE4DA;
-    --blush: #C9876A;
-    --muted: #5E6A63;
-    --line: #BFC9BE;
+    --bg: #F5F1EA;
+    --ink: #1F3A3E;
+    --teal: #2F838E;      /* Vivibiotic – simbolo */
+    --teal-2: #3496A3;    /* Vivibiotic – lettering */
+    --teal-soft: #DCEDEE;
+    --warm: #C98B6E;
+    --muted: #556A6D;
+    --line: #C3D3D3;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { width: 1080px; height: 1350px; background: var(--bg); }
   body {
     font-family: "Inter", sans-serif;
     color: var(--ink);
-    padding: 72px 90px 56px;
+    padding: 64px 90px 48px;
     display: flex; flex-direction: column;
     position: relative; overflow: hidden;
   }
-  /* soft organic blobs */
-  .blob { position: absolute; border-radius: 50%; filter: blur(2px); z-index: 0; }
-  .b1 { width: 520px; height: 520px; background: var(--sage-soft); top: -220px; right: -200px; opacity: .7; }
-  .b2 { width: 380px; height: 380px; background: #EBD9CC; bottom: -180px; left: -160px; opacity: .6; }
+  .blob { position: absolute; border-radius: 50%; z-index: 0; }
+  .b1 { width: 520px; height: 520px; background: var(--teal-soft); top: -230px; right: -210px; opacity: .8; }
+  .b2 { width: 380px; height: 380px; background: #EEDFD3; bottom: -190px; left: -170px; opacity: .6; }
   .wrap { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100%; }
 
-  .eyebrow {
-    font-size: 20px; letter-spacing: .32em; font-weight: 600;
-    color: var(--blush); text-align: center;
-  }
+  .eyebrow { font-size: 20px; letter-spacing: .32em; font-weight: 600; color: var(--teal); text-align: center; }
   h1 {
     font-family: "Caladea", "Bitstream Charter", serif;
-    font-weight: 700; font-size: 74px; line-height: 1.02;
-    text-align: center; margin-top: 18px; color: var(--ink);
+    font-weight: 700; font-size: 70px; line-height: 1.02;
+    text-align: center; margin-top: 16px; color: var(--ink);
   }
-  .sub {
-    font-family: "Caladea", serif; font-style: italic;
-    font-size: 32px; text-align: center; color: var(--sage); margin-top: 12px;
-  }
-  .hero { display: flex; justify-content: center; margin-top: 18px; }
-  hr { border: 0; border-top: 1.5px solid var(--line); margin: 14px 0 26px; }
+  .sub { font-family: "Caladea", serif; font-style: italic; font-size: 31px; text-align: center; color: var(--teal); margin-top: 10px; }
+  .hero { display: flex; justify-content: center; margin-top: 10px; }
+  hr { border: 0; border-top: 1.5px solid var(--line); margin: 6px 0 24px; }
 
-  .rows { display: flex; flex-direction: column; gap: 26px; }
+  .rows { display: flex; flex-direction: column; gap: 22px; }
   .row { display: flex; gap: 28px; align-items: flex-start; }
   .ico {
-    flex: 0 0 76px; height: 76px; border-radius: 50%;
+    flex: 0 0 74px; height: 74px; border-radius: 50%;
     background: #fff; border: 1.5px solid var(--line);
     display: flex; align-items: center; justify-content: center;
   }
-  .ico svg { width: 40px; height: 40px; stroke: var(--sage); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-  .txt h2 { font-size: 27px; font-weight: 650; color: var(--ink); line-height: 1.25; }
-  .txt p { font-size: 22.5px; line-height: 1.42; color: var(--muted); margin-top: 5px; }
+  .ico svg { width: 38px; height: 38px; stroke: var(--teal); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .txt h2 { font-size: 26px; font-weight: 650; color: var(--ink); line-height: 1.25; }
+  .txt p { font-size: 22px; line-height: 1.4; color: var(--muted); margin-top: 4px; }
 
-  footer { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 12px; }
-  .brand { display: flex; align-items: center; gap: 14px; }
-  .logo {
-    font-family: "Caladea", serif; font-size: 34px; font-weight: 700; letter-spacing: .04em; color: var(--sage);
-  }
-  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blush); }
+  footer { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .brand { display: flex; align-items: center; gap: 22px; }
+  .brand img { height: 86px; display: block; }
+  .sep { width: 1.5px; height: 52px; background: var(--line); }
   .handle { font-size: 22px; color: var(--ink); font-weight: 500; }
   .disc { font-size: 15px; color: var(--muted); text-align: center; opacity: .85; }
 </style>
@@ -74,65 +66,54 @@
   <div class="sub">Un legame che parte dalla bocca</div>
 
   <div class="hero">
-    <svg width="720" height="330" viewBox="-80 0 720 330" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <svg width="720" height="360" viewBox="-80 0 720 360" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <defs>
         <marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-          <path d="M1 1 L8 5 L1 9" fill="none" stroke="#4E6B5A" stroke-width="1.6"/>
+          <path d="M1 1 L8 5 L1 9" fill="none" stroke="#2F838E" stroke-width="1.6"/>
         </marker>
+        <clipPath id="face"><circle cx="280" cy="190" r="112"/></clipPath>
       </defs>
-      <!-- circular flow: three arcs between badges -->
-      <g stroke="#4E6B5A" stroke-width="2" stroke-dasharray="2 9" marker-end="url(#ah)">
-        <path d="M 318 38 A 135 135 0 0 1 395 220"/>
-        <path d="M 360 270 A 135 135 0 0 1 200 270"/>
-        <path d="M 165 220 A 135 135 0 0 1 242 38"/>
+
+      <!-- circular flow between the three badges (ring r=158 around 280,190) -->
+      <g stroke="#2F838E" stroke-width="2" stroke-dasharray="2 9" marker-end="url(#ah)">
+        <path d="M 328.8 39.7 A 158 158 0 0 1 434.5 222.8"/>
+        <path d="M 385.7 307.4 A 158 158 0 0 1 174.3 307.4"/>
+        <path d="M 125.5 222.8 A 158 158 0 0 1 231.2 39.7"/>
       </g>
 
-      <!-- tooth + gum in center -->
-      <g transform="translate(220 92)">
-        <circle cx="60" cy="72" r="86" fill="#fff" stroke="#BFC9BE" stroke-width="1.5"/>
-        <!-- gum -->
-        <path d="M2 100 C18 86 32 100 44 92 C52 86 68 86 76 92 C88 100 102 86 118 100 L118 132 C90 146 30 146 2 132 Z"
-              fill="#EBD0C2" stroke="#C9876A" stroke-width="2"/>
-        <!-- tooth -->
-        <path d="M34 22 C20 22 14 36 15 52 C16 68 22 78 25 92 C28 108 31 122 38 122 C46 122 47 106 50 98 C53 90 67 90 70 98 C73 106 74 122 82 122 C89 122 92 108 95 92 C98 78 104 68 105 52 C106 36 100 22 86 22 C76 22 70 28 60 28 C50 28 44 22 34 22 Z"
-              fill="#FFFFFF" stroke="#2F3B34" stroke-width="2.4"/>
-        <!-- re-draw gum front to cover roots -->
-        <path d="M2 100 C18 86 32 100 44 92 C52 86 68 86 76 92 C88 100 102 86 118 100 L118 132 C90 146 30 146 2 132 Z"
-              fill="#EBD0C2" stroke="#C9876A" stroke-width="2"/>
-        <!-- sparkle -->
-        <path d="M84 36 l0 10 M79 41 l10 0" stroke="#C9876A" stroke-width="2"/>
-      </g>
+      <!-- portrait -->
+      <circle cx="280" cy="190" r="120" fill="#fff" stroke="#C3D3D3" stroke-width="1.5"/>
+      <image href="assets/foto-fondatrice.png" x="78.5" y="33" width="402.5" height="573" clip-path="url(#face)" preserveAspectRatio="none"/>
 
       <!-- badge: hormones (top) -->
-      <g transform="translate(280 36)">
-        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
-        <g transform="translate(-16 -18) scale(1.35)" stroke="#C9876A" stroke-width="1.8" fill="none">
+      <g transform="translate(280 32)">
+        <circle r="36" fill="#F5F1EA" stroke="#2F838E" stroke-width="2"/>
+        <g transform="translate(-16 -18) scale(1.35)" stroke="#C98B6E" stroke-width="1.8" fill="none">
           <circle cx="12" cy="9" r="6"/><path d="M12 15v8 M8.5 19.5h7"/>
         </g>
       </g>
       <!-- badge: heart (right) -->
-      <g transform="translate(420 250)">
-        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
-        <g transform="translate(-17 -17) scale(1.42)" stroke="#C9876A" stroke-width="1.7" fill="none">
+      <g transform="translate(416.8 269)">
+        <circle r="36" fill="#F5F1EA" stroke="#2F838E" stroke-width="2"/>
+        <g transform="translate(-17 -17) scale(1.42)" stroke="#C98B6E" stroke-width="1.7" fill="none">
           <path d="M12 20.5s-7.5-4.6-9.6-9.4A5 5 0 0 1 12 6.6a5 5 0 0 1 9.6 4.5C19.5 15.9 12 20.5 12 20.5z"/>
           <path d="M5 12.5h3.2l1.8-2.6 2.6 5 1.9-2.4H19"/>
         </g>
       </g>
       <!-- badge: probiotic leaf (left) -->
-      <g transform="translate(140 250)">
-        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
-        <g transform="translate(-17 -17) scale(1.42)" stroke="#C9876A" stroke-width="1.7" fill="none">
+      <g transform="translate(143.2 269)">
+        <circle r="36" fill="#F5F1EA" stroke="#2F838E" stroke-width="2"/>
+        <g transform="translate(-17 -17) scale(1.42)" stroke="#C98B6E" stroke-width="1.7" fill="none">
           <path d="M5 19C5 10 11 4.5 20 4.5 20 13.5 14 19 5 19z"/>
           <path d="M5 19 14 10"/>
-          <circle cx="15.5" cy="14" r=".6" fill="#C9876A"/><circle cx="10" cy="8.5" r=".6" fill="#C9876A"/>
+          <circle cx="15.5" cy="14" r=".6" fill="#C98B6E"/><circle cx="10" cy="8.5" r=".6" fill="#C98B6E"/>
         </g>
       </g>
 
-      <!-- labels -->
-      <g font-family="Inter" font-size="17" font-weight="600" fill="#5E6A63" letter-spacing="2" stroke="none">
-        <text x="330" y="42">ORMONI</text>
-        <text x="466" y="256">CUORE</text>
-        <text x="92" y="256" text-anchor="end">MICROBIOTA</text>
+      <g font-family="Inter" font-size="17" font-weight="600" fill="#556A6D" letter-spacing="2" stroke="none">
+        <text x="330" y="38">ORMONI</text>
+        <text x="466" y="275">CUORE</text>
+        <text x="94" y="275" text-anchor="end">MICROBIOTA</text>
       </g>
     </svg>
   </div>
@@ -171,7 +152,7 @@
   </div>
 
   <footer>
-    <div class="brand"><span class="logo">VIVIBIOTIC</span><span class="dot"></span><span class="handle">@vivibiotic</span></div>
+    <div class="brand"><img src="../brand/vivibiotic-logo.png" alt="Vivibiotic"><span class="sep"></span><span class="handle">@vivibiotic</span></div>
     <div class="disc">Contenuto informativo: non sostituisce il parere del tuo medico o dentista.</div>
   </footer>
 </div>
