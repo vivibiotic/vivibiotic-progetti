@@ -1,8 +1,12 @@
 # Vivibiotic – regole per i contenuti
 
 ## Brand
-- Usare **sempre il logo ufficiale Vivibiotic**: `brand/vivibiotic-logo.png` (PNG trasparente).
-  Origine: `logo.png` su Google Drive. Mai sostituirlo con il nome scritto a mano o con un logo ricreato.
+- Usare **sempre il logo ufficiale Vivibiotic**. Mai sostituirlo con il nome scritto a mano o con un logo ricreato.
+  File pronti all'uso (PNG con sfondo trasparente, cartella `brand/`):
+  - `brand/vivibiotic-logo-orizzontale.png` – simbolo + scritta affiancati: per footer, banner, formati larghi.
+  - `brand/vivibiotic-logo-verticale.png` – simbolo sopra la scritta: per formati quadrati o verticali.
+  - `brand/vivibiotic-simbolo.png` – solo il simbolo "V": per icone, avatar, watermark, spazi piccoli.
+  - Gli originali forniti (sfondo bianco) sono in `brand/originali/`.
 - Colori ufficiali ricavati dal logo:
   - Verde petrolio del simbolo: `#2F838E`
   - Verde acqua della scritta: `#3496A3`
