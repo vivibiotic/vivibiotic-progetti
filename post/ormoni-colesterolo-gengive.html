@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Ormoni, colesterolo e gengive</title>
+<style>
+  :root {
+    --bg: #F4EFE6;
+    --ink: #2F3B34;
+    --sage: #4E6B5A;
+    --sage-soft: #DCE4DA;
+    --blush: #C9876A;
+    --muted: #5E6A63;
+    --line: #BFC9BE;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; background: var(--bg); }
+  body {
+    font-family: "Inter", sans-serif;
+    color: var(--ink);
+    padding: 72px 90px 56px;
+    display: flex; flex-direction: column;
+    position: relative; overflow: hidden;
+  }
+  /* soft organic blobs */
+  .blob { position: absolute; border-radius: 50%; filter: blur(2px); z-index: 0; }
+  .b1 { width: 520px; height: 520px; background: var(--sage-soft); top: -220px; right: -200px; opacity: .7; }
+  .b2 { width: 380px; height: 380px; background: #EBD9CC; bottom: -180px; left: -160px; opacity: .6; }
+  .wrap { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100%; }
+
+  .eyebrow {
+    font-size: 20px; letter-spacing: .32em; font-weight: 600;
+    color: var(--blush); text-align: center;
+  }
+  h1 {
+    font-family: "Caladea", "Bitstream Charter", serif;
+    font-weight: 700; font-size: 74px; line-height: 1.02;
+    text-align: center; margin-top: 18px; color: var(--ink);
+  }
+  .sub {
+    font-family: "Caladea", serif; font-style: italic;
+    font-size: 32px; text-align: center; color: var(--sage); margin-top: 12px;
+  }
+  .hero { display: flex; justify-content: center; margin-top: 18px; }
+  hr { border: 0; border-top: 1.5px solid var(--line); margin: 14px 0 26px; }
+
+  .rows { display: flex; flex-direction: column; gap: 26px; }
+  .row { display: flex; gap: 28px; align-items: flex-start; }
+  .ico {
+    flex: 0 0 76px; height: 76px; border-radius: 50%;
+    background: #fff; border: 1.5px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ico svg { width: 40px; height: 40px; stroke: var(--sage); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .txt h2 { font-size: 27px; font-weight: 650; color: var(--ink); line-height: 1.25; }
+  .txt p { font-size: 22.5px; line-height: 1.42; color: var(--muted); margin-top: 5px; }
+
+  footer { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    font-family: "Caladea", serif; font-size: 34px; font-weight: 700; letter-spacing: .04em; color: var(--sage);
+  }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blush); }
+  .handle { font-size: 22px; color: var(--ink); font-weight: 500; }
+  .disc { font-size: 15px; color: var(--muted); text-align: center; opacity: .85; }
+</style>
+</head>
+<body>
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="wrap">
+  <div class="eyebrow">LO SAPEVI?</div>
+  <h1>Ormoni, colesterolo<br>e gengive</h1>
+  <div class="sub">Un legame che parte dalla bocca</div>
+
+  <div class="hero">
+    <svg width="720" height="330" viewBox="-80 0 720 330" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <defs>
+        <marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M1 1 L8 5 L1 9" fill="none" stroke="#4E6B5A" stroke-width="1.6"/>
+        </marker>
+      </defs>
+      <!-- circular flow: three arcs between badges -->
+      <g stroke="#4E6B5A" stroke-width="2" stroke-dasharray="2 9" marker-end="url(#ah)">
+        <path d="M 318 38 A 135 135 0 0 1 395 220"/>
+        <path d="M 360 270 A 135 135 0 0 1 200 270"/>
+        <path d="M 165 220 A 135 135 0 0 1 242 38"/>
+      </g>
+
+      <!-- tooth + gum in center -->
+      <g transform="translate(220 92)">
+        <circle cx="60" cy="72" r="86" fill="#fff" stroke="#BFC9BE" stroke-width="1.5"/>
+        <!-- gum -->
+        <path d="M2 100 C18 86 32 100 44 92 C52 86 68 86 76 92 C88 100 102 86 118 100 L118 132 C90 146 30 146 2 132 Z"
+              fill="#EBD0C2" stroke="#C9876A" stroke-width="2"/>
+        <!-- tooth -->
+        <path d="M34 22 C20 22 14 36 15 52 C16 68 22 78 25 92 C28 108 31 122 38 122 C46 122 47 106 50 98 C53 90 67 90 70 98 C73 106 74 122 82 122 C89 122 92 108 95 92 C98 78 104 68 105 52 C106 36 100 22 86 22 C76 22 70 28 60 28 C50 28 44 22 34 22 Z"
+              fill="#FFFFFF" stroke="#2F3B34" stroke-width="2.4"/>
+        <!-- re-draw gum front to cover roots -->
+        <path d="M2 100 C18 86 32 100 44 92 C52 86 68 86 76 92 C88 100 102 86 118 100 L118 132 C90 146 30 146 2 132 Z"
+              fill="#EBD0C2" stroke="#C9876A" stroke-width="2"/>
+        <!-- sparkle -->
+        <path d="M84 36 l0 10 M79 41 l10 0" stroke="#C9876A" stroke-width="2"/>
+      </g>
+
+      <!-- badge: hormones (top) -->
+      <g transform="translate(280 36)">
+        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
+        <g transform="translate(-16 -18) scale(1.35)" stroke="#C9876A" stroke-width="1.8" fill="none">
+          <circle cx="12" cy="9" r="6"/><path d="M12 15v8 M8.5 19.5h7"/>
+        </g>
+      </g>
+      <!-- badge: heart (right) -->
+      <g transform="translate(420 250)">
+        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
+        <g transform="translate(-17 -17) scale(1.42)" stroke="#C9876A" stroke-width="1.7" fill="none">
+          <path d="M12 20.5s-7.5-4.6-9.6-9.4A5 5 0 0 1 12 6.6a5 5 0 0 1 9.6 4.5C19.5 15.9 12 20.5 12 20.5z"/>
+          <path d="M5 12.5h3.2l1.8-2.6 2.6 5 1.9-2.4H19"/>
+        </g>
+      </g>
+      <!-- badge: probiotic leaf (left) -->
+      <g transform="translate(140 250)">
+        <circle r="36" fill="#F4EFE6" stroke="#4E6B5A" stroke-width="2"/>
+        <g transform="translate(-17 -17) scale(1.42)" stroke="#C9876A" stroke-width="1.7" fill="none">
+          <path d="M5 19C5 10 11 4.5 20 4.5 20 13.5 14 19 5 19z"/>
+          <path d="M5 19 14 10"/>
+          <circle cx="15.5" cy="14" r=".6" fill="#C9876A"/><circle cx="10" cy="8.5" r=".6" fill="#C9876A"/>
+        </g>
+      </g>
+
+      <!-- labels -->
+      <g font-family="Inter" font-size="17" font-weight="600" fill="#5E6A63" letter-spacing="2" stroke="none">
+        <text x="330" y="42">ORMONI</text>
+        <text x="466" y="256">CUORE</text>
+        <text x="92" y="256" text-anchor="end">MICROBIOTA</text>
+      </g>
+    </svg>
+  </div>
+
+  <hr>
+
+  <div class="rows">
+    <div class="row">
+      <div class="ico"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M14.2 13.2a2.6 2.6 0 1 0 0 4.6 3 3 0 0 1 0-4.6z"/></svg></div>
+      <div class="txt">
+        <h2>Gli ormoni parlano alle gengive</h2>
+        <p>Ciclo, gravidanza e menopausa possono renderle più sensibili e inclini al sanguinamento.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3.5c3 4.4 5.8 7.6 5.8 10.6a5.8 5.8 0 0 1-11.6 0c0-3 2.8-6.2 5.8-10.6z"/><path d="M9.3 14.6a2.8 2.8 0 0 0 2.4 2.6"/></svg></div>
+      <div class="txt">
+        <h2>Gengive che sanguinano non sono normali</h2>
+        <p>Sono spesso un segnale di infiammazione, non solo di uno spazzolamento sbagliato.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-9.6-9.4A5 5 0 0 1 12 6.6a5 5 0 0 1 9.6 4.5C19.5 15.9 12 20.5 12 20.5z"/><path d="M5 12.5h3.2l1.8-2.6 2.6 5 1.9-2.4H19"/></svg></div>
+      <div class="txt">
+        <h2>Bocca e cuore sono collegati</h2>
+        <p>Gli studi associano l'infiammazione delle gengive a valori alterati di colesterolo e al rischio cardiovascolare.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l7.5 2.8v5.7c0 4.8-3.2 8-7.5 9.3-4.3-1.3-7.5-4.5-7.5-9.3V5.8z"/><rect x="8" y="10" width="8" height="4.4" rx="2.2" transform="rotate(-30 12 12.2)"/><circle cx="10.6" cy="12.8" r=".5"/><circle cx="13.4" cy="11.6" r=".5"/></svg></div>
+      <div class="txt">
+        <h2>Riequilibra il microbiota orale</h2>
+        <p>Probiotici selezionati e ingredienti naturali sostengono ogni giorno le difese della bocca.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="brand"><span class="logo">VIVIBIOTIC</span><span class="dot"></span><span class="handle">@vivibiotic</span></div>
+    <div class="disc">Contenuto informativo: non sostituisce il parere del tuo medico o dentista.</div>
+  </footer>
+</div>
+</body>
+</html>
