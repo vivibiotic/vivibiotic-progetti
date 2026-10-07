@@ -1,0 +1,397 @@
+<!--
+  QUIZ «CHE BOCCA HAI?» — Vivibiotic
+  Da incollare in Shopify in una sezione «Liquid personalizzato» (o in un file di sezione del tema).
+  Aperto da solo nel browser funziona in modalità anteprima: non invia nessun dato.
+
+  Cosa fa:
+  1. 7 domande → calcola il profilo principale (folla) e gli interessi secondari.
+  2. Chiede nome, email e consenso marketing.
+  3. Iscrive il contatto con il modulo clienti nativo di Shopify (come la lista d'attesa cerotto),
+     con le etichette: quiz-che-bocca-hai, folla-<profilo>, interesse-<altri>, fonte-<utm_source>.
+     Shopify aggiunge da solo l'etichetta «newsletter». Omnisend sincronizza le etichette.
+  4. Mostra il risultato con il prodotto consigliato; la guida gratuita arriva via email (flusso Omnisend).
+-->
+<div class="vb-quiz" id="vb-quiz" aria-live="polite">
+  <style>
+    .vb-quiz{--vb-bg:#f7f4ee;--vb-card:#ffffff;--vb-ink:#22302a;--vb-muted:#5f6b64;--vb-accent:#4f7a63;--vb-accent-ink:#ffffff;--vb-soft:#e6eee8;--vb-line:#dcd6cb;--vb-radius:16px;
+      font-family:inherit;color:var(--vb-ink);background:var(--vb-bg);padding:32px 16px;box-sizing:border-box}
+    .vb-quiz *,.vb-quiz *::before,.vb-quiz *::after{box-sizing:border-box}
+    .vb-quiz__card{max-width:640px;margin:0 auto;background:var(--vb-card);border-radius:var(--vb-radius);padding:32px 24px;box-shadow:0 4px 24px rgba(34,48,42,.08)}
+    .vb-quiz h2{font-size:clamp(24px,5vw,32px);line-height:1.2;margin:0 0 12px}
+    .vb-quiz h3{font-size:clamp(20px,4vw,24px);line-height:1.3;margin:0 0 8px}
+    .vb-quiz p{font-size:16px;line-height:1.6;margin:0 0 16px;color:var(--vb-ink)}
+    .vb-quiz .vb-muted{color:var(--vb-muted);font-size:14px}
+    .vb-quiz__progress{height:6px;background:var(--vb-soft);border-radius:99px;margin:0 0 24px;overflow:hidden}
+    .vb-quiz__bar{height:100%;width:0;background:var(--vb-accent);transition:width .3s ease}
+    .vb-quiz__step{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--vb-muted);margin:0 0 8px}
+    .vb-quiz__options{display:grid;gap:10px;margin:20px 0 0;padding:0;list-style:none}
+    .vb-quiz__opt{width:100%;text-align:left;font:inherit;font-size:16px;line-height:1.4;color:var(--vb-ink);background:#fff;border:1.5px solid var(--vb-line);border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .15s,background .15s}
+    .vb-quiz__opt:hover,.vb-quiz__opt:focus-visible{border-color:var(--vb-accent);background:var(--vb-soft);outline:none}
+    .vb-quiz__btn{display:inline-block;font:inherit;font-size:16px;font-weight:600;color:var(--vb-accent-ink);background:var(--vb-accent);border:0;border-radius:99px;padding:14px 28px;cursor:pointer;text-decoration:none;text-align:center}
+    .vb-quiz__btn:hover{filter:brightness(1.08)}
+    .vb-quiz__btn[disabled]{opacity:.6;cursor:wait}
+    .vb-quiz__link{font:inherit;font-size:14px;color:var(--vb-muted);background:none;border:0;padding:8px 0;margin-top:16px;cursor:pointer;text-decoration:underline}
+    .vb-quiz label{display:block;font-size:14px;font-weight:600;margin:16px 0 6px}
+    .vb-quiz input[type=text],.vb-quiz input[type=email]{width:100%;font:inherit;font-size:16px;padding:12px 14px;border:1.5px solid var(--vb-line);border-radius:10px;background:#fff;color:var(--vb-ink)}
+    .vb-quiz input:focus{outline:none;border-color:var(--vb-accent)}
+    .vb-quiz__consent{display:flex;gap:10px;align-items:flex-start;font-weight:400!important;font-size:14px!important;line-height:1.5;color:var(--vb-muted)}
+    .vb-quiz__consent input{margin-top:3px;flex:0 0 auto;width:18px;height:18px;accent-color:var(--vb-accent)}
+    .vb-quiz__error{color:#a3322a;font-size:14px;min-height:20px;margin:8px 0 0}
+    .vb-quiz__badge{display:inline-block;background:var(--vb-soft);color:var(--vb-accent);font-weight:700;font-size:13px;letter-spacing:.05em;text-transform:uppercase;border-radius:99px;padding:6px 12px;margin:0 0 12px}
+    .vb-quiz__box{background:var(--vb-bg);border-radius:12px;padding:16px 18px;margin:20px 0}
+    .vb-quiz__box ul{margin:8px 0 0;padding-left:20px}
+    .vb-quiz__box li{margin:0 0 6px;line-height:1.5}
+    .vb-quiz__product{display:flex;gap:16px;align-items:center;border:1.5px solid var(--vb-line);border-radius:12px;padding:16px;margin:20px 0}
+    .vb-quiz__product img{width:88px;height:88px;object-fit:cover;border-radius:10px;flex:0 0 auto;background:var(--vb-soft)}
+    .vb-quiz__product p{margin:0 0 8px}
+    .vb-quiz [hidden]{display:none!important}
+    @media (max-width:480px){.vb-quiz__card{padding:24px 18px}.vb-quiz__product{flex-direction:column;align-items:flex-start}}
+  </style>
+
+  <div class="vb-quiz__card">
+    <!-- INTRO -->
+    <section data-screen="intro">
+      <p class="vb-quiz__step">Quiz gratuito · 1 minuto</p>
+      <h2>Che bocca hai?</h2>
+      <p>Rispondi a 7 domande veloci: scopri cosa sta succedendo davvero nella tua bocca e ricevi via email la <strong>guida gratuita</strong> pensata per il tuo caso.</p>
+      <button type="button" class="vb-quiz__btn" data-action="start">Inizia il quiz</button>
+      <p class="vb-muted" style="margin-top:16px">Il quiz ha scopo informativo e non sostituisce il parere del dentista.</p>
+    </section>
+
+    <!-- DOMANDE -->
+    <section data-screen="question" hidden>
+      <div class="vb-quiz__progress" aria-hidden="true"><div class="vb-quiz__bar"></div></div>
+      <p class="vb-quiz__step" data-ref="step"></p>
+      <h3 data-ref="question" tabindex="-1"></h3>
+      <ul class="vb-quiz__options" data-ref="options"></ul>
+      <button type="button" class="vb-quiz__link" data-action="back">← Indietro</button>
+    </section>
+
+    <!-- EMAIL -->
+    <section data-screen="email" hidden>
+      <div class="vb-quiz__progress" aria-hidden="true"><div class="vb-quiz__bar" style="width:100%"></div></div>
+      <p class="vb-quiz__step">Ultimo passo</p>
+      <h3 tabindex="-1">Il tuo risultato è pronto</h3>
+      <p>Dove ti mandiamo la guida gratuita per il tuo profilo?</p>
+      <form data-ref="form" novalidate>
+        <label for="vb-quiz-name">Nome</label>
+        <input type="text" id="vb-quiz-name" name="first_name" autocomplete="given-name" maxlength="60">
+        <label for="vb-quiz-email">Email *</label>
+        <input type="email" id="vb-quiz-email" name="email" autocomplete="email" required>
+        <label class="vb-quiz__consent">
+          <input type="checkbox" name="consent" required>
+          <span>Voglio ricevere la guida gratuita e le email di Vivibiotic con consigli e offerte. Posso cancellarmi in qualsiasi momento. Ho letto l'<a href="/policies/privacy-policy" target="_blank" rel="noopener">informativa privacy</a>.</span>
+        </label>
+        <p class="vb-quiz__error" data-ref="error" role="alert"></p>
+        <button type="submit" class="vb-quiz__btn">Vedi il mio risultato</button>
+      </form>
+      <button type="button" class="vb-quiz__link" data-action="back">← Indietro</button>
+    </section>
+
+    <!-- RISULTATO -->
+    <section data-screen="result" hidden>
+      <span class="vb-quiz__badge" data-ref="badge"></span>
+      <h2 data-ref="title" tabindex="-1"></h2>
+      <p data-ref="text"></p>
+      <div class="vb-quiz__box">
+        <strong>3 cose che puoi fare da oggi</strong>
+        <ul data-ref="tips"></ul>
+      </div>
+      <p data-ref="guide"></p>
+      <div class="vb-quiz__product">
+        <img data-ref="img" alt="" loading="lazy">
+        <div>
+          <p class="vb-muted" style="margin:0 0 4px">Per il tuo profilo ti consigliamo</p>
+          <p><strong data-ref="product"></strong></p>
+          <p class="vb-muted" data-ref="why"></p>
+          <a class="vb-quiz__btn" data-ref="cta" href="#">Scopri il kit</a>
+        </div>
+      </div>
+      <p class="vb-muted" data-ref="also"></p>
+      <p class="vb-muted">Se un fastidio dura più di due settimane, parlane con il tuo dentista o igienista.</p>
+    </section>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.getElementById('vb-quiz');
+    if (!root || root.dataset.ready) return;
+    root.dataset.ready = '1';
+
+    var CDN = 'https://cdn.shopify.com/s/files/1/0686/6812/9429/files/';
+    var STORAGE_KEY = 'vb_quiz_result';
+
+    /* ------------------------------------------------------------------
+       DOMANDE: ogni risposta assegna punti ai profili.
+       Profili: alito, gengive, ormoni, keto, sorriso, genitori
+       ------------------------------------------------------------------ */
+    var QUESTIONS = [
+      { q: 'Cosa vorresti migliorare per prima cosa?', options: [
+        { t: 'Il mio alito', s: { alito: 4 }, main: 'alito' },
+        { t: 'Le mie gengive (sanguinano, sono sensibili o gonfie)', s: { gengive: 4 }, main: 'gengive' },
+        { t: 'Il colore e la luminosità del mio sorriso', s: { sorriso: 4 }, main: 'sorriso' },
+        { t: 'La mia bocca è cambiata con gravidanza, ciclo o menopausa', s: { ormoni: 4 }, main: 'ormoni' },
+        { t: 'Sto seguendo la dieta keto e ho l’alito diverso', s: { keto: 4, alito: 1 }, main: 'keto' },
+        { t: 'La salute dei denti dei miei bambini', s: { genitori: 4 }, main: 'genitori' }
+      ]},
+      { q: 'Com’è il tuo alito, soprattutto al mattino?', options: [
+        { t: 'Fresco, non ci penso mai', s: {} },
+        { t: 'Un po’ pesante al risveglio, poi passa', s: { alito: 1 } },
+        { t: 'Spesso pesante anche durante la giornata', s: { alito: 3 } },
+        { t: 'Qualcuno me l’ha fatto notare, e mi imbarazza', s: { alito: 4 } }
+      ]},
+      { q: 'Quando ti lavi i denti o usi il filo, vedi sangue?', options: [
+        { t: 'Mai', s: {} },
+        { t: 'A volte', s: { gengive: 2 } },
+        { t: 'Spesso', s: { gengive: 3 } },
+        { t: 'Spesso, e le gengive sono anche gonfie o sensibili', s: { gengive: 4 } }
+      ]},
+      { q: 'Segui un’alimentazione particolare?', options: [
+        { t: 'Dieta chetogenica (keto) o molto povera di carboidrati', s: { keto: 4 } },
+        { t: 'Digiuno intermittente', s: { keto: 1, alito: 1 } },
+        { t: 'Nessuna in particolare', s: {} }
+      ]},
+      { q: 'Ti riconosci in una di queste fasi?', options: [
+        { t: 'Gravidanza o allattamento', s: { ormoni: 4, gengive: 1 } },
+        { t: 'Prima del ciclo le gengive sono più sensibili', s: { ormoni: 3 } },
+        { t: 'Perimenopausa o menopausa', s: { ormoni: 4 } },
+        { t: 'Pillola o terapia ormonale', s: { ormoni: 2 } },
+        { t: 'Nessuna di queste / non mi riguarda', s: {} }
+      ]},
+      { q: 'Quanto spesso bevi caffè, tè, vino rosso o fumi?', options: [
+        { t: 'Tutti i giorni', s: { sorriso: 2 } },
+        { t: 'Ogni tanto', s: { sorriso: 1 } },
+        { t: 'Quasi mai', s: {} }
+      ]},
+      { q: 'Hai figli sotto i 10 anni?', options: [
+        { t: 'Sì', s: { genitori: 2 } },
+        { t: 'No', s: {} }
+      ]}
+    ];
+
+    /* ------------------------------------------------------------------
+       RISULTATI: testo, consigli, guida gratuita e prodotto consigliato
+       ------------------------------------------------------------------ */
+    var RESULTS = {
+      alito: {
+        badge: 'Profilo: Alito', title: 'Il tuo alito ha bisogno di equilibrio, non di essere coperto',
+        text: 'Nella maggior parte dei casi l’alito pesante nasce in bocca: alcuni batteri, soprattutto sulla lingua, producono composti a base di zolfo. Mentine e collutori aggressivi coprono l’odore per poco e possono seccare la bocca. Il punto è riequilibrare il microbiota orale.',
+        tips: ['Pulisci la lingua ogni mattina, dal fondo verso la punta.', 'Usa il filo ogni sera: tra i denti restano residui che fermentano.', 'Bevi acqua durante la giornata: la bocca secca peggiora l’alito.'],
+        guide: 'Ti abbiamo inviato via email la guida <strong>«Alito fresco in 14 giorni»</strong>, con il programma giorno per giorno.',
+        product: 'Kit Routine', why: 'Collutorio e dentifricio probiotici con la routine completa per lingua, denti e gengive.',
+        url: '/products/kit-routine', img: CDN + 'Kit_Routine_copertina.png'
+      },
+      gengive: {
+        badge: 'Profilo: Gengive', title: 'Le tue gengive ti stanno mandando un segnale',
+        text: 'Il sangue quando ti lavi i denti è quasi sempre un segnale di infiammazione causata dalla placca lungo il bordo della gengiva. La buona notizia: nelle fasi iniziali si può tornare indietro, con una pulizia delicata ma costante e prodotti che rispettano le difese naturali della bocca.',
+        tips: ['Non smettere di spazzolare dove sanguina: usa uno spazzolino molto morbido e movimenti leggeri.', 'Pulisci tra i denti ogni giorno con filo o scovolino.', 'Se il sangue dura più di due settimane, prenota una visita dal dentista o dall’igienista.'],
+        guide: 'Ti abbiamo inviato via email la guida <strong>«Gengive che sanguinano: cosa significa e cosa fare»</strong>.',
+        product: 'Kit Esoso', why: 'Dentifricio e collutorio con tecnologia biomimetica ed esosomi vegetali, pensati per gengive più forti.',
+        url: '/products/kit-esoso', img: CDN + 'Kit_Esoso.png'
+      },
+      ormoni: {
+        badge: 'Profilo: Bocca ormonale', title: 'Non è un’impressione: gli ormoni cambiano anche la tua bocca',
+        text: 'Gravidanza, ciclo, pillola e menopausa modificano la risposta delle gengive e la quantità di saliva. Per questo in alcune fasi le gengive sanguinano di più, la bocca è più secca o l’alito cambia. Sapere cosa succede è il primo passo per prendersene cura.',
+        tips: ['Nelle fasi più delicate non saltare il filo: le gengive reagiscono di più alla placca.', 'Se la bocca è secca, bevi spesso e limita alcol e caffè.', 'In gravidanza, dopo nausea o vomito, sciacqua con acqua e aspetta prima di spazzolare.'],
+        guide: 'Ti abbiamo inviato via email la guida gratuita <strong>«Bocca e ormoni: la guida rapida»</strong>.',
+        product: 'Kit La Bocca Ormonale', why: 'La routine probiotica pensata per le fasi ormonali, con l’ebook della Dott.ssa Cavaleri.',
+        url: '/products/kit-la-bocca-ormonale', img: CDN + 'kit-la-bocca-ormonale-sfondo-lino.png'
+      },
+      keto: {
+        badge: 'Profilo: Keto', title: 'L’alito della keto ha due cause, e una puoi gestirla dalla bocca',
+        text: 'Nei primi tempi della dieta chetogenica il corpo produce corpi chetonici, come l’acetone, che escono anche con il respiro. In più, meno carboidrati e meno acqua significano spesso bocca più secca. La parte che nasce in bocca si può tenere sotto controllo.',
+        tips: ['Bevi più acqua del solito, soprattutto nelle prime settimane.', 'Pulisci la lingua ogni mattina e ogni sera.', 'Porta con te gomme senza zucchero allo xilitolo per stimolare la saliva.'],
+        guide: 'Ti abbiamo inviato via email la checklist <strong>«Keto senza alito da chetosi»</strong>.',
+        product: 'Kit Keto', why: 'Collutorio, dentifricio e spazzolino per la routine di chi segue la keto.',
+        url: '/products/kit-keto-collutorio-dentifricio-spazzolino', img: CDN + 'Vivi-KitKeto.png'
+      },
+      sorriso: {
+        badge: 'Profilo: Sorriso luminoso', title: 'Un sorriso più luminoso parte da uno smalto più liscio',
+        text: 'Caffè, tè, vino e fumo lasciano macchie sulla superficie dello smalto, che con il tempo diventa più opaco. Gli sbiancanti aggressivi possono renderlo più sensibile. L’alternativa è una routine delicata che pulisce di giorno e protegge lo smalto di notte.',
+        tips: ['Dopo caffè o vino sciacqua la bocca con acqua.', 'Dopo cibi acidi aspetta circa 30 minuti prima di spazzolare.', 'Evita rimedi fai-da-te abrasivi come limone o bicarbonato strofinati sui denti.'],
+        guide: 'Ti abbiamo inviato via email la guida <strong>«Il sorriso luminoso, senza sbiancanti aggressivi»</strong>.',
+        product: 'Kit Giorno e Notte', why: 'Il dentifricio probiotico per il giorno e il dentifricio notturno con idrossiapatite per la notte.',
+        url: '/products/kit-giorno-e-notte', img: CDN + 'WhatsAppImage2026-01-22at10.58.11.jpg'
+      },
+      genitori: {
+        badge: 'Profilo: Genitori', title: 'Lavarsi i denti può diventare un gioco, non una battaglia',
+        text: 'Le abitudini dei primi anni restano per tutta la vita. Il segreto non è insistere di più, ma trasformare il momento dello spazzolino in un rituale che il bambino aspetta: una storia, una sfida, un calendario da completare.',
+        tips: ['Lavate i denti insieme: i bambini imparano copiando.', 'Fino a 7-8 anni ripassa tu dopo di loro.', 'Chiedi al pediatra o al dentista quale dentifricio e quanta quantità usare in base all’età.'],
+        guide: 'Ti abbiamo inviato via email il <strong>calendario stampabile «21 giorni di Missione Denti»</strong>.',
+        product: 'Missione Denti: libro per bambini e genitori', why: 'Un libro illustrato che spiega ai bambini, con dolcezza, perché prendersi cura dei denti.',
+        url: '/products/libro-missione-denti', img: CDN + 'Book_Dust_Jacket_Mockup_1copia.jpg'
+      }
+    };
+
+    var ORDER = ['alito', 'gengive', 'ormoni', 'keto', 'sorriso', 'genitori'];
+    var NAMES = { alito: 'alito', gengive: 'gengive', ormoni: 'bocca ormonale', keto: 'keto', sorriso: 'sorriso luminoso', genitori: 'denti dei bambini' };
+
+    var answers = [];
+    var current = 0;
+
+    function $(sel) { return root.querySelector(sel); }
+    function ref(name) { return root.querySelector('[data-ref="' + name + '"]'); }
+    function show(name) {
+      root.querySelectorAll('[data-screen]').forEach(function (s) { s.hidden = s.dataset.screen !== name; });
+      var focusable = root.querySelector('[data-screen="' + name + '"] [tabindex="-1"]');
+      if (focusable) focusable.focus({ preventScroll: true });
+      var top = root.getBoundingClientRect().top + window.pageYOffset - 80;
+      if (root.getBoundingClientRect().top < 0) window.scrollTo({ top: top, behavior: 'smooth' });
+    }
+    function store(action, value) {
+      try {
+        if (action === 'set') sessionStorage.setItem(STORAGE_KEY, JSON.stringify(value));
+        else if (action === 'get') return JSON.parse(sessionStorage.getItem(STORAGE_KEY) || 'null');
+        else sessionStorage.removeItem(STORAGE_KEY);
+      } catch (e) { return null; }
+    }
+
+    function renderQuestion() {
+      var item = QUESTIONS[current];
+      ref('step').textContent = 'Domanda ' + (current + 1) + ' di ' + QUESTIONS.length;
+      ref('question').textContent = item.q;
+      $('[data-screen="question"] .vb-quiz__bar').style.width = (current / QUESTIONS.length * 100) + '%';
+      var list = ref('options');
+      list.innerHTML = '';
+      item.options.forEach(function (opt, i) {
+        var li = document.createElement('li');
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'vb-quiz__opt'; b.textContent = opt.t;
+        b.addEventListener('click', function () { answers[current] = i; next(); });
+        li.appendChild(b); list.appendChild(li);
+      });
+      show('question');
+    }
+
+    function next() {
+      current++;
+      if (current < QUESTIONS.length) renderQuestion();
+      else show('email');
+    }
+
+    function compute() {
+      var score = {}; ORDER.forEach(function (k) { score[k] = 0; });
+      var main = null;
+      answers.forEach(function (a, qi) {
+        var opt = QUESTIONS[qi].options[a];
+        if (!opt) return;
+        if (opt.main) main = opt.main;
+        Object.keys(opt.s).forEach(function (k) { score[k] += opt.s[k]; });
+      });
+      // A parità di punteggio vince la risposta alla prima domanda, poi l'ordine delle priorità.
+      var ranked = ORDER.slice().sort(function (a, b) {
+        if (score[b] !== score[a]) return score[b] - score[a];
+        if (a === main) return -1; if (b === main) return 1;
+        return ORDER.indexOf(a) - ORDER.indexOf(b);
+      });
+      var primary = ranked[0];
+      var secondary = ranked.slice(1).filter(function (k) { return score[k] >= 3 || (k === 'genitori' && score[k] >= 2); });
+      return { primary: primary, secondary: secondary, score: score };
+    }
+
+    function utmSource() {
+      try {
+        var src = new URLSearchParams(window.location.search).get('utm_source') || '';
+        return src.toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 30);
+      } catch (e) { return ''; }
+    }
+
+    function buildTags(res) {
+      var tags = ['quiz-che-bocca-hai', 'folla-' + res.primary];
+      res.secondary.forEach(function (k) { tags.push('interesse-' + k); });
+      var src = utmSource();
+      if (src) tags.push('fonte-' + src);
+      return tags;
+    }
+
+    function renderResult(res, name) {
+      var r = RESULTS[res.primary];
+      ref('badge').textContent = r.badge;
+      ref('title').textContent = (name ? name + ', ' : '') + r.title.charAt(0).toLowerCase() + r.title.slice(1);
+      if (!name) ref('title').textContent = r.title;
+      ref('text').textContent = r.text;
+      var tips = ref('tips'); tips.innerHTML = '';
+      r.tips.forEach(function (t) { var li = document.createElement('li'); li.textContent = t; tips.appendChild(li); });
+      ref('guide').innerHTML = r.guide;
+      ref('product').textContent = r.product;
+      ref('why').textContent = r.why;
+      ref('cta').href = r.url + '?utm_source=quiz&utm_medium=onsite&utm_campaign=che-bocca-hai-' + res.primary;
+      ref('img').src = r.img; ref('img').alt = r.product;
+      ref('also').textContent = res.secondary.length
+        ? 'Dalle tue risposte emerge anche il tema ' + res.secondary.map(function (k) { return '«' + NAMES[k] + '»'; }).join(' e ') + ': ti manderemo consigli anche su questo.'
+        : '';
+      show('result');
+    }
+
+    function trackLead(res) {
+      try { if (window.fbq) window.fbq('track', 'Lead', { content_name: 'quiz-che-bocca-hai', content_category: res.primary }); } catch (e) {}
+      try { if (window.gtag) window.gtag('event', 'generate_lead', { method: 'quiz-che-bocca-hai', profilo: res.primary }); } catch (e) {}
+      try { if (window.Shopify && Shopify.analytics && Shopify.analytics.publish) Shopify.analytics.publish('quiz_che_bocca_hai', { profilo: res.primary }); } catch (e) {}
+    }
+
+    // Invio con il modulo clienti nativo di Shopify (form_type=customer → POST /contact).
+    function submitToShopify(email, name, tags) {
+      var fields = { form_type: 'customer', utf8: '✓', 'contact[email]': email, 'contact[tags]': tags.join(',') };
+      if (name) fields['contact[first_name]'] = name;
+      var fd = new FormData();
+      Object.keys(fields).forEach(function (k) { fd.append(k, fields[k]); });
+      return fetch('/contact', { method: 'POST', body: fd, credentials: 'same-origin', headers: { Accept: 'text/html' } })
+        .then(function (r) {
+          // Se Shopify chiede la verifica anti-spam, si passa all'invio classico del modulo.
+          if (!r.ok || /\/challenge/.test(r.url)) throw new Error('challenge');
+        })
+        .catch(function () { nativeSubmit(fields); return 'redirect'; });
+    }
+
+    function nativeSubmit(fields) {
+      var f = document.createElement('form');
+      f.method = 'post'; f.action = '/contact#vb-quiz'; f.style.display = 'none';
+      Object.keys(fields).forEach(function (k) {
+        var i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = fields[k]; f.appendChild(i);
+      });
+      document.body.appendChild(f); f.submit();
+    }
+
+    var isShopify = !!(window.Shopify && window.Shopify.shop);
+
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-action]');
+      if (!a) return;
+      if (a.dataset.action === 'start') { answers = []; current = 0; renderQuestion(); }
+      if (a.dataset.action === 'back') {
+        if (!$('[data-screen="email"]').hidden) { current = QUESTIONS.length - 1; renderQuestion(); }
+        else if (current > 0) { current--; renderQuestion(); }
+        else show('intro');
+      }
+    });
+
+    ref('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var form = e.target;
+      var email = form.email.value.trim();
+      var name = form.first_name.value.trim();
+      var err = ref('error');
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Inserisci un indirizzo email valido.'; form.email.focus(); return; }
+      if (!form.consent.checked) { err.textContent = 'Per ricevere la guida serve il tuo consenso.'; return; }
+      err.textContent = '';
+      var res = compute();
+      var tags = buildTags(res);
+      store('set', { res: res, name: name });
+      trackLead(res);
+      if (!isShopify) { console.info('[Quiz anteprima] Etichette che verrebbero inviate:', tags); renderResult(res, name); return; }
+      var btn = form.querySelector('button[type=submit]');
+      btn.disabled = true; btn.textContent = 'Un attimo…';
+      submitToShopify(email, name, tags).then(function (outcome) {
+        if (outcome !== 'redirect') renderResult(res, name);
+      });
+    });
+
+    // Ritorno dopo l'invio classico del modulo (verifica anti-spam): mostra il risultato salvato.
+    var saved = store('get');
+    if (saved && /customer_posted=true/.test(window.location.search)) {
+      renderResult(saved.res, saved.name);
+      store('clear');
+    }
+  })();
+  </script>
+</div>

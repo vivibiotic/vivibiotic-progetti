@@ -1,0 +1,56 @@
+/* Stile comune delle guide gratuite Vivibiotic (formato A4, pensato per la stampa in PDF) */
+@page { size: A4; margin: 18mm 18mm 20mm; }
+:root { --ink:#22302a; --muted:#5f6b64; --accent:#4f7a63; --soft:#e6eee8; --bg:#f7f4ee; --line:#dcd6cb; --warn:#8a5a1f; --warn-bg:#fbf3e4; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.55; background: #fff; }
+
+/* Copertina */
+.cover { height: 257mm; display: flex; flex-direction: column; justify-content: space-between; background: var(--bg); border-radius: 6mm; padding: 18mm 16mm; page-break-after: always; }
+.brand { font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); font-size: 10pt; }
+.cover .kicker { display: inline-block; background: var(--soft); color: var(--accent); font-weight: 700; font-size: 9pt; letter-spacing: .08em; text-transform: uppercase; border-radius: 99px; padding: 2mm 4mm; margin-bottom: 6mm; }
+.cover h1 { font-size: 34pt; line-height: 1.1; margin: 0 0 6mm; }
+.cover .sub { font-size: 14pt; color: var(--muted); max-width: 140mm; margin: 0; }
+.cover .foot { font-size: 9pt; color: var(--muted); }
+
+/* Testo */
+h2 { font-size: 18pt; line-height: 1.2; margin: 0 0 4mm; color: var(--ink); page-break-after: avoid; }
+h3 { font-size: 13pt; margin: 6mm 0 2mm; color: var(--accent); page-break-after: avoid; }
+p { margin: 0 0 3.5mm; }
+ul, ol { margin: 0 0 4mm; padding-left: 6mm; }
+li { margin: 0 0 1.8mm; }
+section { margin: 0 0 8mm; }
+.page-break { page-break-before: always; }
+.lead { font-size: 12.5pt; color: var(--muted); }
+
+/* Box */
+.box { background: var(--bg); border-radius: 4mm; padding: 5mm 6mm; margin: 0 0 6mm; page-break-inside: avoid; }
+.box.green { background: var(--soft); }
+.box.warn { background: var(--warn-bg); border-left: 1.2mm solid var(--warn); }
+.box h3:first-child { margin-top: 0; }
+.box p:last-child, .box ul:last-child { margin-bottom: 0; }
+
+/* Tabella programma */
+table { width: 100%; border-collapse: collapse; margin: 0 0 6mm; font-size: 10pt; page-break-inside: auto; }
+th, td { text-align: left; vertical-align: top; padding: 2.5mm 3mm; border-bottom: .3mm solid var(--line); }
+th { background: var(--soft); color: var(--ink); font-weight: 700; }
+tr { page-break-inside: avoid; }
+td:first-child { white-space: nowrap; font-weight: 700; color: var(--accent); }
+
+/* Checklist */
+.check { list-style: none; padding-left: 0; }
+.check li { padding-left: 8mm; position: relative; }
+.check li::before { content: ""; position: absolute; left: 0; top: .6mm; width: 4mm; height: 4mm; border: .4mm solid var(--accent); border-radius: 1mm; }
+
+/* Calendario bambini */
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2.5mm; margin: 0 0 6mm; }
+.cal div { border: .4mm solid var(--line); border-radius: 3mm; height: 26mm; padding: 2mm; font-size: 9pt; color: var(--muted); display: flex; flex-direction: column; justify-content: space-between; }
+.cal b { font-size: 14pt; color: var(--accent); }
+.cal span { font-size: 8pt; }
+
+/* Invito finale */
+.cta { background: var(--accent); color: #fff; border-radius: 4mm; padding: 6mm; page-break-inside: avoid; }
+.cta h2, .cta h3, .cta p { color: #fff; }
+.cta a { color: #fff; font-weight: 700; }
+.small { font-size: 8.5pt; color: var(--muted); }
+a { color: var(--accent); }
