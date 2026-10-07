@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Nobel 2026 – Optogenetica</title>
+<style>
+  :root {
+    --bg: #F5F1EA;
+    --ink: #1F3A3E;
+    --teal: #2F838E;   /* Vivibiotic – simbolo */
+    --teal-2: #3496A3; /* Vivibiotic – lettering */
+    --teal-soft: #DCEDEE;
+    --sun: #F2C14E;
+    --muted: #556A6D;
+    --line: #C3D3D3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; background: var(--bg); }
+  body {
+    font-family: "Inter", sans-serif;
+    color: var(--ink);
+    padding: 78px 90px 48px;
+    position: relative; overflow: hidden;
+  }
+  .glow { position: absolute; border-radius: 50%; z-index: 0; }
+  .g1 { width: 640px; height: 640px; top: -300px; right: -260px;
+        background: radial-gradient(circle, rgba(242,193,78,.55) 0%, rgba(242,193,78,.18) 45%, rgba(242,193,78,0) 70%); }
+  .g2 { width: 420px; height: 420px; bottom: -210px; left: -190px; background: var(--teal-soft); opacity: .8; }
+  .wrap { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100%; }
+
+  .eyebrow {
+    align-self: center;
+    font-size: 21px; letter-spacing: .3em; font-weight: 700; color: var(--teal);
+    border: 1.5px solid var(--teal); border-radius: 999px; padding: 12px 28px 11px;
+  }
+  h1 {
+    font-family: "Caladea", "Bitstream Charter", serif;
+    font-weight: 700; font-size: 98px; line-height: 1.0; letter-spacing: -.01em;
+    text-align: center; margin-top: 40px;
+  }
+  h1 em { font-style: normal; color: var(--teal); }
+
+  .photos { display: flex; gap: 22px; margin-top: 56px; }
+  .p { flex: 1; text-align: center; }
+  .p img {
+    width: 100%; height: 350px; object-fit: cover; object-position: center 30%;
+    border-radius: 22px; display: block; box-shadow: 0 10px 28px rgba(31,58,62,.16);
+  }
+  .p .n { font-size: 25px; font-weight: 650; margin-top: 16px; }
+  .credit { font-size: 15px; color: var(--muted); text-align: center; margin-top: 14px; opacity: .85; }
+
+  .tag {
+    margin-top: 60px; display: flex; align-items: center; justify-content: center; gap: 22px;
+  }
+  .tag svg { width: 64px; height: 64px; flex: none; }
+  .tag p {
+    font-family: "Caladea", serif; font-style: italic; font-size: 40px; line-height: 1.15; color: var(--teal);
+  }
+
+  footer { margin-top: auto; display: flex; justify-content: center; }
+  .brand { display: flex; align-items: center; gap: 22px; }
+  .brand img { height: 78px; display: block; }
+  .sep { width: 1.5px; height: 48px; background: var(--line); }
+  .handle { font-size: 22px; font-weight: 500; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="wrap">
+    <div class="eyebrow">NOBEL PER LA MEDICINA 2026</div>
+    <h1>Hanno trovato<br>l'interruttore<br><em>del cervello.</em></h1>
+
+    <div class="photos">
+      <div class="p"><img src="assets/nobel-deisseroth.jpg" alt="Karl Deisseroth"><div class="n">Karl Deisseroth</div></div>
+      <div class="p"><img src="assets/nobel-hegemann.jpg" alt="Peter Hegemann"><div class="n">Peter Hegemann</div></div>
+      <div class="p"><img src="assets/nobel-nagel.jpg" alt="Georg Nagel"><div class="n">Georg Nagel</div></div>
+    </div>
+    <div class="credit">Foto: The Nobel Assembly, Karolinska Institutet</div>
+
+    <div class="tag">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#E0A92E" stroke-width="3" stroke-linecap="round">
+        <circle cx="32" cy="32" r="12" fill="#F2C14E" stroke="none"/>
+        <path d="M32 6v8M32 50v8M6 32h8M50 32h8M13.6 13.6l5.7 5.7M44.7 44.7l5.7 5.7M13.6 50.4l5.7-5.7M44.7 19.3l5.7-5.7"/>
+      </svg>
+      <p>Tutto grazie a un'alga<br>che voleva solo stare al sole.</p>
+    </div>
+
+    <footer>
+      <div class="brand"><img src="../brand/vivibiotic-logo-verticale.png" alt="Vivibiotic"><span class="sep"></span><span class="handle">@vivibiotic</span></div>
+    </footer>
+  </div>
+</body>
+</html>
