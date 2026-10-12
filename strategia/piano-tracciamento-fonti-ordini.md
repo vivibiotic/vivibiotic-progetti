@@ -103,6 +103,8 @@ Ordine pensato per avere risultati subito con ciò che non dipende dai cookie, e
 
 Metà degli ordini "invisibili" ha già un codice: basta collegarlo a una fonte.
 
+> **Stato al 12/10/2026**: il registro è pronto da compilare nel foglio `registro-codici-e-utm.xlsx` (cartella del progetto `tracciamento/`), con 38 codici con nome e i loro utilizzi. I codici più usati con un probabile partner dietro sono livebetter15 (257), manu10 (240), koel10 (233), laverita10 (159) e vitalmentebio (84). I codici unici di Judge.me, Omnisend e Shopjar («Porta un amico») hanno già una fonte nota.
+
 1. Esportare tutti i codici usati nell'ultimo anno con il numero di ordini.
 2. Compilare un foglio con una riga per codice:
 
