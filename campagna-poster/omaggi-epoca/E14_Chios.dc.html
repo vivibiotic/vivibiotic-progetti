@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Mastice di Chios</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17305E}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #F7F3EA; color: #17305E; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid {{blue}}; padding-bottom: 14px">
+<div style="font-family: 'Bodoni Moda', serif; font-size: 50px; font-weight: 800; letter-spacing: 8px">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Chios · Grecia</div>
+</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 900" width="900" height="844" aria-hidden="true">
+<circle cx="760" cy="180" r="110" fill="#F2C14E"></circle>
+<path d="M0 700 C 120 680, 200 720, 320 700 C 440 680, 520 720, 640 700 C 760 680, 860 720, 960 700 L960 900 L0 900 Z" fill="{{blue}}"></path>
+<path d="M0 760 C 120 740, 200 780, 320 760 C 440 740, 520 780, 640 760 C 760 740, 860 780, 960 760" fill="none" stroke="#F7F3EA" stroke-width="5"></path>
+<path d="M0 820 C 120 800, 200 840, 320 820 C 440 800, 520 840, 640 820 C 760 800, 860 840, 960 820" fill="none" stroke="#F7F3EA" stroke-width="5"></path>
+<path d="M140 700 C 220 610, 520 600, 640 700 Z" fill="#D9C9A3"></path>
+<path d="M370 640 C 360 560, 400 520, 380 440 C 370 400, 400 360, 420 340 L450 350 C 430 380, 410 420, 420 460 C 440 540, 400 580, 410 640 Z" fill="#6B4A2E"></path>
+<path d="M410 420 C 450 400, 500 400, 540 360" fill="none" stroke="#6B4A2E" stroke-width="18" stroke-linecap="round"></path>
+<path d="M395 470 C 350 450, 300 440, 270 400" fill="none" stroke="#6B4A2E" stroke-width="16" stroke-linecap="round"></path>
+<g fill="#4F7A4A">
+<circle cx="420" cy="290" r="110"></circle><circle cx="300" cy="340" r="90"></circle><circle cx="550" cy="330" r="96"></circle><circle cx="250" cy="400" r="60"></circle><circle cx="600" cy="390" r="60"></circle><circle cx="480" cy="210" r="70"></circle>
+</g>
+<g fill="#F2A93B" stroke="#8A5A10" stroke-width="3">
+<path d="M396 500 C 386 520, 386 540, 396 548 C 406 540, 406 520, 396 500 Z"></path>
+<path d="M415 560 C 405 580, 405 600, 415 608 C 425 600, 425 580, 415 560 Z"></path>
+<path d="M386 600 C 378 616, 378 630, 386 636 C 394 630, 394 616, 386 600 Z"></path>
+</g>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 92px; font-weight: 700; line-height: 0.98; letter-spacing: -2px">Una resina antica.<br><span style="font-style: italic; color: {{blue}}">Un sorriso di oggi.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 22px; max-width: 880px">Il mastice di Chios è la resina del lentisco che cresce sull’isola greca, usata da secoli. Noi la mettiamo nel dentifricio e nel collutorio, insieme ai probiotici.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 3px solid {{blue}}">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"blue":{"editor":"color","default":"#1E4E9C","options":["#1E4E9C","#0E5C50","#B8261F"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { blue: this.props.blue ?? '#1E4E9C' };
+  }
+}
+</script>
+</body>
+</html>

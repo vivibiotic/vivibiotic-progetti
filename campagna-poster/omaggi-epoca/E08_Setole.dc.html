@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>5460 setole</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2A1F2B}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{ground}}; color: #2A1F2B; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 112%">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Spazzolino 5460 · € 6,90</div>
+</div>
+<div style="font-size: 260px; font-weight: 900; font-stretch: 70%; line-height: 0.85; letter-spacing: -8px; margin-top: 36px">5460</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 64px; line-height: 1; margin-top: 6px">setole. Zero lacrime.</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 640" width="960" height="640" aria-hidden="true">
+<defs>
+<pattern id="bristle" width="7" height="300" patternUnits="userSpaceOnUse">
+<rect x="2" y="0" width="2.4" height="300" fill="#FFFFFF"></rect>
+<circle cx="3.2" cy="2" r="2.2" fill="#FFFFFF"></circle>
+</pattern>
+</defs>
+<rect x="60" y="100" width="560" height="250" rx="12" fill="url(#bristle)"></rect>
+<rect x="40" y="340" width="600" height="110" rx="55" fill="#5FB89D"></rect>
+<path d="M600 360 C 700 360, 760 400, 940 400 L940 430 C 760 430, 700 440, 600 440 Z" fill="#5FB89D"></path>
+<g fill="#2A1F2B">
+<circle cx="200" cy="560" r="10"></circle><circle cx="250" cy="580" r="7"></circle><circle cx="420" cy="570" r="12"></circle><circle cx="480" cy="600" r="6"></circle>
+</g>
+<g fill="#FFFFFF" stroke="#2A1F2B" stroke-width="3">
+<circle cx="120" cy="60" r="26"></circle><circle cx="180" cy="40" r="16"></circle><circle cx="560" cy="50" r="22"></circle><circle cx="620" cy="80" r="12"></circle><circle cx="360" cy="30" r="14"></circle>
+</g>
+</svg>
+</div>
+<div style="font-size: 22px; line-height: 1.45; max-width: 860px">Ultra morbido: 5460 setole sottilissime con la punta arrotondata, per spazzolare senza traumi per la gengiva. Per grandi e piccini.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #2A1F2B">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#F4C9C1","options":["#F4C9C1","#F2C14E","#7CC3E8"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ground: this.props.ground ?? '#F4C9C1' };
+  }
+}
+</script>
+</body>
+</html>

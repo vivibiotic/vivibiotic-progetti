@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>La giraffa e il Filo Infinito</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2B2118}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{ground}}; color: #2B2118; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 112%">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Gli animali Vivibiotic · N° 1</div>
+</div>
+<div style="flex: 1 1 auto; display: flex; align-items: flex-end; justify-content: center; min-height: 0">
+<svg viewBox="0 0 900 1000" width="820" height="911" aria-hidden="true">
+<path d="M330 1000 L340 780 L380 780 L380 1000 Z" fill="#E9B949"></path>
+<path d="M560 1000 L560 780 L600 780 L610 1000 Z" fill="#E9B949"></path>
+<path d="M300 640 C 300 580, 360 560, 460 560 C 600 560, 660 600, 650 700 C 640 790, 560 800, 460 800 C 360 800, 300 760, 300 640 Z" fill="#E9B949"></path>
+<path d="M330 620 C 300 480, 300 300, 360 180 L430 190 C 390 300, 400 460, 430 600 Z" fill="#E9B949"></path>
+<path d="M330 150 C 330 110, 380 90, 430 100 C 500 115, 540 150, 530 185 C 520 215, 470 215, 430 205 C 390 200, 330 190, 330 150 Z" fill="#E9B949"></path>
+<line x1="360" y1="100" x2="350" y2="60" stroke="#8A5A2B" stroke-width="10" stroke-linecap="round"></line>
+<line x1="392" y1="96" x2="392" y2="56" stroke="#8A5A2B" stroke-width="10" stroke-linecap="round"></line>
+<circle cx="350" cy="56" r="10" fill="#8A5A2B"></circle><circle cx="392" cy="52" r="10" fill="#8A5A2B"></circle>
+<circle cx="420" cy="140" r="9" fill="#2B2118"></circle>
+<path d="M480 175 Q 500 185 515 175" fill="none" stroke="#2B2118" stroke-width="5" stroke-linecap="round"></path>
+<g fill="#B5763A">
+<circle cx="400" cy="640" r="30"></circle><circle cx="500" cy="610" r="26"></circle><circle cx="580" cy="680" r="30"></circle><circle cx="470" cy="720" r="24"></circle><circle cx="370" cy="360" r="18"></circle><circle cx="390" cy="480" r="20"></circle><circle cx="360" cy="560" r="16"></circle>
+</g>
+<g fill="none" stroke="{{accent}}" stroke-width="7" stroke-linecap="round">
+<path d="M320 260 C 360 250, 420 240, 440 250 C 460 262, 380 290, 330 300"></path>
+<path d="M318 340 C 360 330, 420 320, 440 330 C 460 342, 380 370, 322 380"></path>
+<path d="M318 420 C 360 410, 420 400, 445 410 C 465 422, 380 450, 322 460"></path>
+<path d="M322 500 C 360 490, 425 480, 450 490 C 470 502, 380 530, 325 540"></path>
+<path d="M450 490 C 600 470, 700 520, 760 600"></path>
+</g>
+<rect x="720" y="600" width="140" height="160" rx="30" fill="#FFFFFF" stroke="#2B2118" stroke-width="5"></rect>
+<circle cx="790" cy="680" r="34" fill="none" stroke="{{accent}}" stroke-width="8"></circle>
+<text x="790" y="735" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="900" font-size="20" fill="#2B2118">250 m</text>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 96px; font-weight: 700; line-height: 0.98; letter-spacing: -2px">250 metri di filo.<br><span style="font-style: italic">Bastano anche a lei.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 22px; max-width: 880px">Filo Interdentale Infinito: lo stesso filo brevettato Riser® a 3 capi del Coraggioso, in formato grande con dispenser richiudibile.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #2B2118">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#CFE8E0","options":["#CFE8E0","#F6EBD9","#7CC3E8"]},"accent":{"editor":"color","default":"#D92B1C","options":["#D92B1C","#1F3FB4","#2B2118"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ground: this.props.ground ?? '#CFE8E0', accent: this.props.accent ?? '#D92B1C' };
+  }
+}
+</script>
+</body>
+</html>

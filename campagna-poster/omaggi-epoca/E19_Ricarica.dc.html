@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Ricarica Filo Coraggioso</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#F1E6D0}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #141210; color: #F1E6D0; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; align-items: center; text-align: center; overflow: hidden">
+<div style="font-family: 'Bodoni Moda', serif; font-size: 34px; font-weight: 700; letter-spacing: 18px; color: {{gold}}; padding-left: 18px">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 600; letter-spacing: 6px; text-transform: uppercase; margin-top: 14px">Ricarica per Filo Coraggioso</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0; width: 100%">
+<svg viewBox="0 0 900 900" width="880" height="880" aria-hidden="true">
+<g fill="{{gold}}">
+<path d="M450 450 L430 0 L470 0 Z"></path><path d="M450 450 L430 900 L470 900 Z"></path><path d="M450 450 L0 430 L0 470 Z"></path><path d="M450 450 L900 430 L900 470 Z"></path>
+<path d="M450 450 L120 60 L150 40 Z"></path><path d="M450 450 L780 60 L750 40 Z"></path><path d="M450 450 L120 840 L150 860 Z"></path><path d="M450 450 L780 840 L750 860 Z"></path>
+</g>
+<g fill="#2E8C6E">
+<path d="M450 450 L260 0 L300 0 Z"></path><path d="M450 450 L640 0 L600 0 Z"></path><path d="M450 450 L260 900 L300 900 Z"></path><path d="M450 450 L640 900 L600 900 Z"></path>
+<path d="M450 450 L0 220 L0 260 Z"></path><path d="M450 450 L900 220 L900 260 Z"></path><path d="M450 450 L0 680 L0 640 Z"></path><path d="M450 450 L900 680 L900 640 Z"></path>
+</g>
+<circle cx="450" cy="450" r="250" fill="#141210"></circle>
+<circle cx="450" cy="450" r="230" fill="none" stroke="{{gold}}" stroke-width="4"></circle>
+<rect x="300" y="330" width="300" height="240" fill="#F1E6D0"></rect>
+<g stroke="#D92B1C" stroke-width="5">
+<line x1="300" y1="350" x2="600" y2="350"></line><line x1="300" y1="368" x2="600" y2="368"></line><line x1="300" y1="386" x2="600" y2="386"></line><line x1="300" y1="404" x2="600" y2="404"></line><line x1="300" y1="422" x2="600" y2="422"></line><line x1="300" y1="440" x2="600" y2="440"></line><line x1="300" y1="458" x2="600" y2="458"></line><line x1="300" y1="476" x2="600" y2="476"></line><line x1="300" y1="494" x2="600" y2="494"></line><line x1="300" y1="512" x2="600" y2="512"></line><line x1="300" y1="530" x2="600" y2="530"></line><line x1="300" y1="548" x2="600" y2="548"></line>
+</g>
+<rect x="270" y="300" width="360" height="34" rx="6" fill="{{gold}}"></rect>
+<rect x="270" y="566" width="360" height="34" rx="6" fill="{{gold}}"></rect>
+<path d="M600 520 C 680 540, 700 620, 640 700" fill="none" stroke="#D92B1C" stroke-width="5" stroke-linecap="round"></path>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 94px; font-weight: 600; line-height: 1; letter-spacing: -2px">Non ricomprare<br><span style="font-style: italic; color: {{gold}}">tutto da capo.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 22px; max-width: 820px">Per chi il Filo Coraggioso l’ha già provato: solo la ricarica, stesso filo brevettato Riser® a 3 capi. Una ricarica € 6,80 · due € 12,50.</div>
+<div style="width: 100%; display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 1px solid {{gold}}">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"gold":{"editor":"color","default":"#D4AF6A","options":["#D4AF6A","#9FD8C5","#E8553A"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { gold: this.props.gold ?? '#D4AF6A' };
+  }
+}
+</script>
+</body>
+</html>

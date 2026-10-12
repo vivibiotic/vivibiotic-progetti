@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Tattoo Cream</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1D2B4A}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #F3E6CC; color: #1D2B4A; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 112%">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Tattoo Cream · 50 ml</div>
+</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 900" width="880" height="825" aria-hidden="true">
+<path d="M-20 420 C 200 360, 520 330, 760 360 C 860 372, 930 420, 960 470 L960 640 C 900 600, 820 590, 740 600 C 520 630, 220 640, -20 620 Z" fill="#E9C3A0" stroke="#1D2B4A" stroke-width="6"></path>
+<g transform="translate(400 480)">
+<path d="M-130 -10 C -60 -70, 0 -40, 20 -10 C 60 -60, 140 -90, 200 -60 C 140 -40, 90 -10, 70 20 C 110 30, 150 70, 160 110 C 110 80, 60 60, 20 50 C -10 70, -60 70, -100 40 C -60 40, -30 20, -10 10 C -50 0, -90 0, -130 -10 Z" fill="{{accent}}" stroke="#1D2B4A" stroke-width="6" stroke-linejoin="round"></path>
+<path d="M-10 10 C 20 0, 50 0, 70 20 C 40 30, 20 40, -10 10 Z" fill="#1D2B4A"></path>
+<circle cx="-95" cy="-10" r="6" fill="#1D2B4A"></circle>
+</g>
+<g transform="translate(230 140)">
+<path d="M0 30 L60 0 L60 90 L0 120 L30 75 Z" fill="#B53A2C" stroke="#1D2B4A" stroke-width="5" stroke-linejoin="round"></path>
+<path d="M560 30 L500 0 L500 90 L560 120 L530 75 Z" fill="#B53A2C" stroke="#1D2B4A" stroke-width="5" stroke-linejoin="round"></path>
+<path d="M60 0 C 200 -30, 360 -30, 500 0 L500 90 C 360 60, 200 60, 60 90 Z" fill="#F3E6CC" stroke="#1D2B4A" stroke-width="5"></path>
+<text x="280" y="62" text-anchor="middle" font-family="Bodoni Moda, serif" font-style="italic" font-weight="700" font-size="46" fill="#1D2B4A">Per sempre</text>
+</g>
+<g fill="#1D2B4A">
+<path d="M140 300 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 l18 -6 z"></path>
+<path d="M820 240 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 l18 -6 z"></path>
+</g>
+<g transform="rotate(-12 760 760)">
+<rect x="620" y="720" width="280" height="96" rx="14" fill="#FFFFFF" stroke="#1D2B4A" stroke-width="5"></rect>
+<rect x="900" y="742" width="40" height="52" rx="6" fill="#1D2B4A"></rect>
+<path d="M620 724 L590 736 L590 800 L620 812 Z" fill="#1D2B4A"></path>
+<text x="760" y="780" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="900" font-size="30" fill="#1D2B4A">TATTOO</text>
+</g>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 92px; font-weight: 700; line-height: 0.98; letter-spacing: -2px">Il tatuaggio è per sempre.<br><span style="font-style: italic; color: #B53A2C">Il rossore no.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 22px; max-width: 860px">Tattoo Cream Vivibiotic: crema lenitiva e rigenerante per la pelle appena tatuata, anche la più sensibile. € 39,00.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #1D2B4A">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#2F6FB0","options":["#2F6FB0","#5FB89D","#E8553A"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#2F6FB0' };
+  }
+}
+</script>
+</body>
+</html>

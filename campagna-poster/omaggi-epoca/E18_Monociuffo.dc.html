@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Monociuffo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141210}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{ground}}; color: #141210; font-family: 'Archivo', sans-serif; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto 1fr auto auto; column-gap: 40px; overflow: hidden">
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase">Vivibiotic</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; text-align: right">Spazzolino monociuffo · € 7,50</div>
+<div style="display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 20px">
+<div style="font-size: 160px; font-weight: 900; font-stretch: 62%; line-height: 0.86; letter-spacing: -5px">Un<br>ciuffo.</div>
+<div style="font-size: 160px; font-weight: 900; font-style: italic; font-stretch: 62%; line-height: 0.86; letter-spacing: -5px; margin-top: 24px">Un<br>solco.</div>
+</div>
+<div style="display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 300 1200" width="260" height="1040" aria-hidden="true">
+<rect x="120" y="260" width="60" height="940" rx="30" fill="#141210"></rect>
+<path d="M120 300 C 120 220, 135 190, 150 150 C 165 190, 180 220, 180 300 Z" fill="#141210"></path>
+<g stroke="#FFF6EA" stroke-width="5" stroke-linecap="round">
+<line x1="138" y1="90" x2="140" y2="160"></line><line x1="146" y1="70" x2="146" y2="160"></line><line x1="154" y1="70" x2="154" y2="160"></line><line x1="162" y1="90" x2="160" y2="160"></line><line x1="130" y1="110" x2="136" y2="160"></line><line x1="170" y1="110" x2="164" y2="160"></line>
+</g>
+<circle cx="150" cy="1120" r="14" fill="{{ground}}"></circle>
+</svg>
+</div>
+<div style="grid-column: 1 / span 2; font-size: 22px; line-height: 1.45; padding-top: 18px; border-top: 3px solid #141210; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px">
+<div>Perfettamente adatto all’anatomia del solco gengivale. Ciuffo lungo 6 mm.</div>
+<div>Filamenti CUREN da 0,10 mm di diametro. Per i punti dove lo spazzolino normale non arriva.</div>
+</div>
+<div style="grid-column: 1 / span 2; display: flex; justify-content: space-between; align-items: baseline; margin-top: 26px">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#E8762C","options":["#E8762C","#F2C14E","#9FD8C5"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ground: this.props.ground ?? '#E8762C' };
+  }
+}
+</script>
+</body>
+</html>

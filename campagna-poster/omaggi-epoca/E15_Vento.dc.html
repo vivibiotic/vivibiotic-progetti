@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Vento d'estate</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#3A2A14}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #F6E3C4; color: #3A2A14; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-family: 'Bodoni Moda', serif; font-size: 50px; font-weight: 800; letter-spacing: 8px">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">L’Olio Adorabile</div>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 112px; font-weight: 500; line-height: 0.96; letter-spacing: -2px; margin-top: 44px">Profuma di vento d’estate.</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 760" width="960" height="760" aria-hidden="true">
+<circle cx="720" cy="170" r="100" fill="{{sun}}"></circle>
+<g fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round">
+<path d="M40 150 C 200 110, 300 190, 460 150 C 540 130, 580 100, 560 70 C 540 50, 500 70, 520 100"></path>
+<path d="M120 250 C 280 220, 400 280, 620 240"></path>
+<path d="M60 330 C 180 310, 260 350, 380 330"></path>
+</g>
+<path d="M0 520 C 160 400, 360 420, 520 480 C 680 540, 820 420, 960 440 L960 760 L0 760 Z" fill="#D9A441"></path>
+<path d="M0 600 C 200 520, 400 560, 600 600 C 760 630, 860 560, 960 580 L960 760 L0 760 Z" fill="#9AA84B"></path>
+<path d="M0 680 C 240 640, 520 700, 960 660 L960 760 L0 760 Z" fill="#5E7A3A"></path>
+<g stroke="#3A2A14" stroke-width="3" fill="none">
+<path d="M200 520 L200 470 M190 480 L200 470 L210 480"></path>
+<path d="M260 540 L260 500"></path>
+</g>
+<g transform="translate(730 420)">
+<rect x="-50" y="60" width="100" height="220" rx="20" fill="#C46A2E"></rect>
+<rect x="-50" y="60" width="100" height="220" rx="20" fill="#FFFFFF" opacity="0.15"></rect>
+<rect x="-18" y="10" width="36" height="56" fill="#3A2A14"></rect>
+<rect x="-30" y="0" width="60" height="18" rx="6" fill="#3A2A14"></rect>
+<rect x="-36" y="130" width="72" height="80" fill="#F6E3C4"></rect>
+<text x="0" y="178" text-anchor="middle" font-family="Bodoni Moda, serif" font-style="italic" font-size="26" fill="#3A2A14">Adorabile</text>
+</g>
+</svg>
+</div>
+<div style="font-size: 22px; line-height: 1.45; max-width: 880px">Olio per viso, corpo e capelli. Non unge, e ti lascia addosso l’estate anche a novembre. 125 ml, € 75,00.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #3A2A14">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"sun":{"editor":"color","default":"#E8553A","options":["#E8553A","#F2C14E","#FFFFFF"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { sun: this.props.sun ?? '#E8553A' };
+  }
+}
+</script>
+</body>
+</html>

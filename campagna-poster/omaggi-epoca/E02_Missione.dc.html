@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Missione Denti</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#16263F}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{sky}}; color: #16263F; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 112%">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Per genitori e bambini</div>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 150px; font-weight: 700; line-height: 0.9; letter-spacing: -3px; margin-top: 40px; color: #16263F">Missione<br>Denti</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 900 760" width="900" height="760" aria-hidden="true">
+<g fill="#FFF8EC">
+<circle cx="120" cy="120" r="6"></circle><circle cx="780" cy="90" r="8"></circle><circle cx="700" cy="300" r="5"></circle><circle cx="160" cy="420" r="7"></circle><circle cx="820" cy="560" r="6"></circle>
+<path d="M240 220 l10 30 l30 10 l-30 10 l-10 30 l-10 -30 l-30 -10 l30 -10 z"></path>
+<path d="M690 170 l8 24 l24 8 l-24 8 l-8 24 l-8 -24 l-24 -8 l24 -8 z"></path>
+</g>
+<circle cx="740" cy="640" r="150" fill="#F2C14E"></circle>
+<path d="M600 640 Q 740 590 880 640" fill="none" stroke="#16263F" stroke-width="4" opacity="0.3"></path>
+<g transform="rotate(30 440 400)">
+<path d="M410 640 C 380 700, 420 740, 440 780 C 460 740, 500 700, 470 640 Z" fill="#E8553A"></path>
+<path d="M425 640 C 410 680, 430 710, 440 730 C 450 710, 470 680, 455 640 Z" fill="#F2C14E"></path>
+<rect x="400" y="200" width="80" height="450" rx="40" fill="#FFF8EC"></rect>
+<path d="M400 560 L350 650 L400 630 Z" fill="#E8553A"></path>
+<path d="M480 560 L530 650 L480 630 Z" fill="#E8553A"></path>
+<circle cx="440" cy="420" r="26" fill="{{sky}}" stroke="#16263F" stroke-width="6"></circle>
+<rect x="404" y="80" width="72" height="130" rx="18" fill="#E8553A"></rect>
+<g stroke="#FFF8EC" stroke-width="6" stroke-linecap="round">
+<line x1="418" y1="60" x2="418" y2="100"></line><line x1="432" y1="54" x2="432" y2="100"></line><line x1="446" y1="54" x2="446" y2="100"></line><line x1="460" y1="60" x2="460" y2="100"></line>
+</g>
+</g>
+</svg>
+</div>
+<div style="font-size: 54px; font-weight: 800; line-height: 1.05; letter-spacing: -1px; text-wrap: balance">Una missione per piccoli eroi e i loro grandi.</div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 18px; max-width: 820px">Il libro illustrato Vivibiotic che spiega ai bambini, con dolcezza e scienza, perché in bocca vivono amici invisibili.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 30px; padding-top: 16px; border-top: 3px solid #16263F">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"sky":{"editor":"color","default":"#7CC3E8","options":["#7CC3E8","#9FD8C5","#F2C14E"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { sky: this.props.sky ?? '#7CC3E8' };
+  }
+}
+</script>
+</body>
+</html>

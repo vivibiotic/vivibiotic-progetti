@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Il rituale che cresce</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2B2118}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #F6EBD9; color: #2B2118; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 112%">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Kit Starter</div>
+</div>
+<div style="display: flex; gap: 48px; flex: 1 1 auto; min-height: 0; margin-top: 40px">
+<svg viewBox="0 0 160 1000" width="140" height="880" aria-hidden="true">
+<rect x="20" y="0" width="120" height="1000" fill="#F2C14E"></rect>
+<g stroke="#2B2118" stroke-width="4">
+<line x1="20" y1="100" x2="90" y2="100"></line><line x1="20" y1="200" x2="70" y2="200"></line><line x1="20" y1="300" x2="90" y2="300"></line><line x1="20" y1="400" x2="70" y2="400"></line><line x1="20" y1="500" x2="90" y2="500"></line><line x1="20" y1="600" x2="70" y2="600"></line><line x1="20" y1="700" x2="90" y2="700"></line><line x1="20" y1="800" x2="70" y2="800"></line><line x1="20" y1="900" x2="90" y2="900"></line>
+</g>
+<g font-family="Archivo, sans-serif" font-size="26" font-weight="800" fill="#2B2118">
+<text x="100" y="110">1</text><text x="100" y="310">2</text><text x="100" y="510">3</text><text x="100" y="710">4</text><text x="100" y="910">5</text>
+</g>
+</svg>
+<div style="flex: 1 1 auto; display: flex; align-items: flex-end; justify-content: space-around">
+<svg viewBox="0 0 120 900" width="110" height="420" aria-hidden="true">
+<rect x="45" y="200" width="30" height="700" rx="15" fill="{{accent}}"></rect><rect x="38" y="40" width="44" height="170" rx="14" fill="{{accent}}"></rect>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"><line x1="48" y1="10" x2="48" y2="60"></line><line x1="60" y1="6" x2="60" y2="60"></line><line x1="72" y1="10" x2="72" y2="60"></line></g>
+</svg>
+<svg viewBox="0 0 120 900" width="130" height="620" aria-hidden="true">
+<rect x="45" y="200" width="30" height="700" rx="15" fill="#5FB89D"></rect><rect x="38" y="40" width="44" height="170" rx="14" fill="#5FB89D"></rect>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"><line x1="48" y1="10" x2="48" y2="60"></line><line x1="60" y1="6" x2="60" y2="60"></line><line x1="72" y1="10" x2="72" y2="60"></line></g>
+</svg>
+<svg viewBox="0 0 120 900" width="150" height="840" aria-hidden="true">
+<rect x="45" y="200" width="30" height="700" rx="15" fill="#2B2118"></rect><rect x="38" y="40" width="44" height="170" rx="14" fill="#2B2118"></rect>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"><line x1="48" y1="10" x2="48" y2="60"></line><line x1="60" y1="6" x2="60" y2="60"></line><line x1="72" y1="10" x2="72" y2="60"></line></g>
+</svg>
+</div>
+</div>
+<div style="height: 6px; background: #2B2118; margin-top: 0"></div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 92px; font-weight: 700; line-height: 0.98; letter-spacing: -2px; margin-top: 40px; text-wrap: balance">Il primo rituale <span style="font-style: italic; color: {{accent}}">non si scorda mai.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 20px; max-width: 860px">Kit Starter: dentifricio probiotico, collutorio 200 ml, filo interdentale e nettalingua. Tutto il necessario per un sorriso sano, da subito.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #2B2118">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8321F","options":["#C8321F","#1F3FB4","#E8553A"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#C8321F' };
+  }
+}
+</script>
+</body>
+</html>

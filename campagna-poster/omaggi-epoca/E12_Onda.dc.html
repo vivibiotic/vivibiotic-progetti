@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Fai l'onda</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#F2EADB}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #0B2420; color: #F2EADB; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="font-size: 118px; font-weight: 900; font-stretch: 112%; letter-spacing: -3px; line-height: 0.9; color: {{wave}}">VIVIBIOTIC</div>
+<div style="font-size: 20px; font-weight: 600; letter-spacing: 6px; text-transform: uppercase; margin-top: 12px">Collutorio probiotico · 500 ml</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 900" width="900" height="844" aria-hidden="true">
+<path d="M0 900 L0 600 C 120 560, 220 640, 330 560 C 470 450, 420 230, 620 170 C 800 120, 940 260, 900 380 C 870 470, 760 440, 760 360 C 760 300, 820 290, 840 320 C 800 260, 700 280, 690 380 C 680 520, 820 600, 960 560 L960 900 Z" fill="{{wave}}"></path>
+<path d="M0 900 L0 720 C 200 680, 360 760, 560 700 C 740 650, 840 700, 960 680 L960 900 Z" fill="#2E8C6E"></path>
+<g fill="#F2EADB">
+<circle cx="880" cy="250" r="14"></circle><circle cx="920" cy="320" r="9"></circle><circle cx="830" cy="200" r="8"></circle>
+</g>
+<g transform="rotate(-24 420 520)">
+<rect x="250" y="520" width="340" height="40" rx="20" fill="#F2EADB"></rect>
+<path d="M300 520 L330 470" stroke="#E8553A" stroke-width="22" stroke-linecap="round"></path>
+<path d="M470 520 L450 470" stroke="#E8553A" stroke-width="22" stroke-linecap="round"></path>
+<rect x="320" y="270" width="140" height="220" rx="70" fill="#E8553A"></rect>
+<path d="M330 360 C 260 330, 220 300, 200 250" fill="none" stroke="#E8553A" stroke-width="22" stroke-linecap="round"></path>
+<path d="M450 360 C 520 360, 560 330, 590 290" fill="none" stroke="#E8553A" stroke-width="22" stroke-linecap="round"></path>
+<circle cx="365" cy="340" r="17" fill="#FFFFFF"></circle><circle cx="415" cy="340" r="17" fill="#FFFFFF"></circle>
+<circle cx="370" cy="344" r="8" fill="#0B2420"></circle><circle cx="420" cy="344" r="8" fill="#0B2420"></circle>
+<path d="M360 390 Q 390 420 420 390" fill="none" stroke="#0B2420" stroke-width="8" stroke-linecap="round"></path>
+</g>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 120px; font-weight: 600; line-height: 0.95; letter-spacing: -3px">Fai l’onda.</div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 20px; max-width: 860px">Il formato grande del collutorio senza alcol: probiotici, acido ialuronico e mastice di Chios. Più sciacqui, meno riacquisti. € 34,00.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #F2EADB">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"wave":{"editor":"color","default":"#8FE36B","options":["#8FE36B","#9FD8C5","#F2C14E"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { wave: this.props.wave ?? '#8FE36B' };
+  }
+}
+</script>
+</body>
+</html>

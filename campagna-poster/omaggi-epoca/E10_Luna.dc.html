@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Destinazione mattino</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#F4EBDD}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #0D1B2A; color: #F4EBDD; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 42px; font-weight: 900; font-stretch: 125%; font-style: italic">VIVIBIOTIC</div>
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: {{accent}}">Dentifricio Notturno</div>
+</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 980" width="900" height="919" aria-hidden="true">
+<g fill="#F4EBDD">
+<circle cx="80" cy="120" r="4"></circle><circle cx="300" cy="60" r="3"></circle><circle cx="520" cy="200" r="5"></circle><circle cx="120" cy="520" r="3"></circle><circle cx="880" cy="600" r="4"></circle><circle cx="420" cy="420" r="3"></circle><circle cx="760" cy="420" r="3"></circle><circle cx="60" cy="800" r="4"></circle>
+</g>
+<circle cx="760" cy="190" r="140" fill="#F4EBDD"></circle>
+<circle cx="720" cy="160" r="22" fill="#D9CDB8"></circle><circle cx="800" cy="230" r="32" fill="#D9CDB8"></circle><circle cx="700" cy="250" r="14" fill="#D9CDB8"></circle>
+<circle cx="200" cy="300" r="56" fill="#5FB89D"></circle>
+<ellipse cx="200" cy="300" rx="110" ry="22" fill="none" stroke="{{accent}}" stroke-width="8" transform="rotate(-18 200 300)"></ellipse>
+<path d="M300 940 C 300 700, 450 450, 640 320" fill="none" stroke="#F4EBDD" stroke-width="5" stroke-dasharray="4 18" stroke-linecap="round"></path>
+<g transform="rotate(38 470 600)">
+<path d="M430 760 C 410 820, 450 870, 470 900 C 490 870, 530 820, 510 760 Z" fill="{{accent}}"></path>
+<path d="M445 760 C 435 800, 460 830, 470 850 C 480 830, 505 800, 495 760 Z" fill="#F2C14E"></path>
+<rect x="420" y="430" width="100" height="300" rx="10" fill="#F4EBDD"></rect>
+<path d="M420 440 L470 360 L520 440 Z" fill="{{accent}}"></path>
+<rect x="440" y="728" width="60" height="40" rx="6" fill="{{accent}}"></rect>
+<path d="M420 640 L370 740 L420 720 Z" fill="#5FB89D"></path>
+<path d="M520 640 L570 740 L520 720 Z" fill="#5FB89D"></path>
+<circle cx="470" cy="540" r="30" fill="#0D1B2A" stroke="{{accent}}" stroke-width="8"></circle>
+</g>
+</svg>
+</div>
+<div style="font-size: 108px; font-weight: 900; font-stretch: 75%; font-style: italic; line-height: 0.9; letter-spacing: -3px; text-transform: uppercase">Partenza: sera.<br><span style="color: {{accent}}">Arrivo: sorriso.</span></div>
+<div style="font-size: 22px; line-height: 1.45; margin-top: 22px; max-width: 860px">Dentifricio Notturno con Probiotici: lavora mentre dormi. Rimpolpa lo smalto, nutre le gengive e protegge il microbiota orale. € 19,80.</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 28px; padding-top: 16px; border-top: 2px solid #F4EBDD">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F28C38","options":["#F28C38","#E8553A","#9FD8C5"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#F28C38' };
+  }
+}
+</script>
+</body>
+</html>
