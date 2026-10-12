@@ -3,7 +3,7 @@
 :root { --ink:#22302a; --muted:#5f6b64; --accent:#4f7a63; --soft:#e6eee8; --bg:#f7f4ee; --line:#dcd6cb; --warn:#8a5a1f; --warn-bg:#fbf3e4; }
 * { box-sizing: border-box; }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.55; background: #fff; }
+body { margin: 0; font-family: "Liberation Sans", "DejaVu Sans", Arial, Helvetica, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.55; background: #fff; }
 
 /* Copertina */
 .cover { height: 257mm; display: flex; flex-direction: column; justify-content: space-between; background: var(--bg); border-radius: 6mm; padding: 18mm 16mm; page-break-after: always; }
