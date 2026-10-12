@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>La Bocca Ormonale</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#F6E7D3}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 60px 72px 60px; background: {{ground}}; color: #F6E7D3; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 14px; border-bottom: 2px solid #F6E7D3; font-size: 18px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase">
+<div>Vivibiotic</div>
+<div>Salute orale al femminile</div>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-weight: 800; font-size: 168px; line-height: 0.88; letter-spacing: -5px; margin-top: 30px">La Bocca<br><span style="font-style: italic; font-weight: 500">Ormonale</span></div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 960 420" width="960" height="420" aria-hidden="true">
+<line x1="40" y1="210" x2="920" y2="210" stroke="#F6E7D3" stroke-width="2" stroke-dasharray="4 10"></line>
+<circle cx="170" cy="210" r="120" fill="#3A1730"></circle>
+<circle cx="170" cy="210" r="96" fill="#F6E7D3"></circle>
+<circle cx="480" cy="210" r="120" fill="#3A1730"></circle>
+<path d="M480 114 A 96 96 0 0 1 480 306 Z" fill="#F6E7D3"></path>
+<circle cx="790" cy="210" r="120" fill="#3A1730"></circle>
+<circle cx="790" cy="210" r="96" fill="#F6E7D3"></circle>
+<circle cx="830" cy="190" r="92" fill="#3A1730"></circle>
+</svg>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; text-align: center; font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 34px; margin-top: -20px">
+<div>Ciclo</div>
+<div>Gravidanza</div>
+<div>Menopausa</div>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-size: 70px; line-height: 1.05; letter-spacing: -1px; margin-top: 56px; text-wrap: balance">Gli ormoni arrivano anche in bocca.</div>
+<div style="font-size: 21px; line-height: 1.5; margin-top: 24px; max-width: 900px">Gengive più sensibili, alito che cambia, microbiota fuori fase. Il Kit La Bocca Ormonale unisce dentifricio e collutorio probiotici alla guida della Dott.ssa Maria Francesca Cavaleri, farmacista e chimica con master in microbiota orale.</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 36px; padding-top: 18px; border-top: 2px solid #F6E7D3">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 24px">Ci sono batteri che ti vogliono bene.</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px">
+<div style="font-size: 26px; font-weight: 700">Kit · € 44,90</div>
+<div style="font-size: 32px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#A84B2A","options":["#A84B2A","#3A1730","#0E1830"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ground: this.props.ground ?? '#A84B2A' };
+  }
+}
+</script>
+</body>
+</html>

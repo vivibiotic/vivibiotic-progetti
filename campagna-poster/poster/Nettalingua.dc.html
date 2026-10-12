@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>E la lingua?</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2A0612}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{pink}}; color: #2A0612; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 44px; font-weight: 900; font-stretch: 112%; letter-spacing: -1px; color: #FFF3E6">VIVIBIOTIC</div>
+<div style="font-size: 20px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase">Nettalingua</div>
+</div>
+<div style="font-size: 122px; font-weight: 900; font-style: italic; font-stretch: 75%; line-height: 0.9; letter-spacing: -4px; margin-top: 48px; color: #FFF3E6">Ti lavi i denti.</div>
+<div style="font-size: 160px; font-weight: 900; font-style: italic; font-stretch: 75%; line-height: 0.9; letter-spacing: -5px; color: #2A0612">E la lingua?</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 900 600" width="960" height="640" aria-hidden="true">
+<defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+<circle cx="11" cy="11" r="4" fill="#2A0612" opacity="0.14"></circle>
+</pattern>
+</defs>
+<circle cx="450" cy="300" r="290" fill="url(#dots)"></circle>
+<path d="M60 250 C 200 290, 340 280, 450 290 C 560 280, 700 290, 840 250 C 760 430, 600 500, 450 500 C 300 500, 140 430, 60 250 Z" fill="#C8102E"></path>
+<path d="M60 250 C 180 130, 300 70, 380 120 C 420 140, 480 140, 520 120 C 600 70, 720 130, 840 250 C 700 272, 560 262, 450 272 C 340 262, 200 272, 60 250 Z" fill="#C8102E"></path>
+<path d="M90 252 C 220 280, 340 278, 450 284 C 560 278, 680 280, 810 252 C 690 300, 560 300, 450 302 C 340 300, 210 300, 90 252 Z" fill="#3B0010"></path>
+<path d="M330 284 C 326 450, 360 560, 450 560 C 540 560, 574 450, 570 284 Z" fill="#FF8FAB"></path>
+<path d="M450 300 V 470" stroke="#E0607F" stroke-width="10" stroke-linecap="round"></path>
+<ellipse cx="300" cy="400" rx="60" ry="16" fill="#FFFFFF" opacity="0.35"></ellipse>
+<ellipse cx="300" cy="170" rx="40" ry="11" fill="#FFFFFF" opacity="0.35" transform="rotate(-20 300 170)"></ellipse>
+<g transform="translate(640 380) rotate(-24)">
+<path d="M0 0 C 0 -40, 120 -40, 120 0 L 120 18 C 120 36, 0 36, 0 18 Z" fill="#FFF3E6"></path>
+<rect x="110" y="0" width="160" height="20" rx="10" fill="#FFF3E6"></rect>
+</g>
+</svg>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 44px; line-height: 1.15; text-wrap: balance">(Mi auguro che tu la usi troppo per baciare.)</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 34px; padding-top: 18px; border-top: 2px solid #2A0612">
+<div style="font-size: 21px; line-height: 1.45; max-width: 600px">Nettalingua Vivibiotic. Due passate al mattino, e i batteri buoni ringraziano.</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px">
+<div style="font-size: 30px; font-weight: 900">€ 6,80</div>
+<div style="font-size: 30px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"pink":{"editor":"color","default":"#E2508A","options":["#E2508A","#F2C14E","#8FE3C8"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { pink: this.props.pink ?? '#E2508A' };
+  }
+}
+</script>
+</body>
+</html>

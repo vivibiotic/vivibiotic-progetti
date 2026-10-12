@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Collutorio che non brucia</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#FFF6E8}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: {{ground}}; color: #FFF6E8; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<div style="font-size: 44px; font-weight: 900; font-stretch: 112%; letter-spacing: -1px">VIVIBIOTIC</div>
+<div style="font-size: 20px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase">Collutorio probiotico</div>
+</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 760 760" width="820" height="820" aria-hidden="true">
+<path d="M330 40 C 330 40, 590 340, 590 500 A 260 260 0 0 1 70 500 C 70 340, 330 40, 330 40 Z" fill="#8FE3C8"></path>
+<path d="M230 470 Q 262 500 294 470" fill="none" stroke="{{ground}}" stroke-width="14" stroke-linecap="round"></path>
+<path d="M366 470 Q 398 500 430 470" fill="none" stroke="{{ground}}" stroke-width="14" stroke-linecap="round"></path>
+<path d="M280 560 Q 330 610 380 560" fill="none" stroke="{{ground}}" stroke-width="14" stroke-linecap="round"></path>
+<circle cx="200" cy="530" r="20" fill="#F7A48C"></circle>
+<circle cx="460" cy="530" r="20" fill="#F7A48C"></circle>
+<ellipse cx="180" cy="390" rx="22" ry="54" fill="#FFFFFF" opacity="0.35" transform="rotate(25 180 390)"></ellipse>
+<path d="M650 470 C 650 470, 720 560, 720 610 A 70 70 0 0 1 650 680 Z" fill="#8FE3C8"></path>
+</svg>
+</div>
+<div style="font-size: 52px; font-weight: 500; line-height: 1">Il collutorio che</div>
+<div style="font-size: 196px; font-weight: 900; font-stretch: 62%; line-height: 0.86; letter-spacing: -4px; text-transform: uppercase; margin-top: 8px">Non brucia.</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; margin-top: 44px; padding-top: 22px; border-top: 2px solid #FFF6E8; align-items: end">
+<div style="font-size: 21px; line-height: 1.45">Senza alcol. Con probiotici selezionati, acido ialuronico e mastice di Chios. Sollievo per le gengive irritate, alito fresco senza fuoco.</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px">
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 26px">Ci sono batteri che ti vogliono bene.</div>
+<div style="font-size: 34px; font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#1F3FB4","options":["#1F3FB4","#15120F","#0E6B5C","#A84B2A"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ground: this.props.ground ?? '#1F3FB4' };
+  }
+}
+</script>
+</body>
+</html>

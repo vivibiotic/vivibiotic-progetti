@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Filo Coraggioso</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141210}a:hover{color:#000000}
+</style>
+</helmet>
+<div style="width: 1123px; height: 1587px; box-sizing: border-box; padding: 64px 72px 60px; background: #F3F1EC; color: #141210; font-family: 'Archivo', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; font-size: 18px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding-bottom: 16px; border-bottom: 3px solid #141210">
+<div>Vivibiotic</div>
+<div>Igiene orale</div>
+<div>Filo interdentale</div>
+<div style="text-align: right">N° 04</div>
+</div>
+<div style="font-size: 268px; font-weight: 900; font-stretch: 78%; line-height: 0.82; letter-spacing: -8px; margin-top: 36px">Corag-<br>gioso.</div>
+<div style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 0">
+<svg viewBox="0 0 900 640" width="900" height="640" aria-hidden="true">
+<path transform="translate(120 120)" d="M0 60 Q0 0 60 0 H240 Q300 0 300 60 V230 Q300 300 270 400 Q250 460 220 400 L190 310 Q150 270 110 310 L80 400 Q50 460 30 400 Q0 300 0 230 Z" fill="#141210"></path>
+<path transform="translate(480 120)" d="M0 60 Q0 0 60 0 H240 Q300 0 300 60 V230 Q300 300 270 400 Q250 460 220 400 L190 310 Q150 270 110 310 L80 400 Q50 460 30 400 Q0 300 0 230 Z" fill="#141210"></path>
+<line x1="330" y1="0" x2="570" y2="640" stroke="{{red}}" stroke-width="14" stroke-linecap="round"></line>
+<circle cx="330" cy="8" r="22" fill="{{red}}"></circle>
+</svg>
+</div>
+<div style="font-size: 54px; font-weight: 800; line-height: 1.05; letter-spacing: -1px; max-width: 900px; text-wrap: balance">Va dove lo spazzolino non osa.</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-top: 36px; padding-top: 18px; border-top: 3px solid #141210; font-size: 19px; line-height: 1.45">
+<div style="font-weight: 800">Il Filo Interdentale Coraggioso</div>
+<div>Brevetto Riser® a 3 capi: si espande durante l’uso.</div>
+<div>Testato clinicamente dall’Università di Genova.</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px">
+<div style="font-size: 30px; font-weight: 900; color: {{red}}">€ 7,80</div>
+<div style="font-weight: 800">vivibiotic.it</div>
+</div>
+</div>
+<div style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 22px; margin-top: 18px">Ci sono batteri che ti vogliono bene.</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"red":{"editor":"color","default":"#D92B1C","options":["#D92B1C","#1F3FB4","#0E6B5C"]},"$preview":{"width":1123,"height":1587}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { red: this.props.red ?? '#D92B1C' };
+  }
+}
+</script>
+</body>
+</html>
