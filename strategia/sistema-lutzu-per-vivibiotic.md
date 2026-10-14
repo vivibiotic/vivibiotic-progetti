@@ -55,7 +55,8 @@ I punti 2-7 li abbiamo già applicati in `business-direct-response-vivibiotic.md
 Lutzu non vende «un corso di marketing», vende il «Business Direct Response». Vivibiotic non deve vendere «un collutorio», ma un **modo di prendersi cura della bocca** con un nome proprio:
 
 > ## Il Metodo Bocca in Equilibrio
-> *La bocca non va disinfettata, va riequilibrata.*
+> *La bocca non va disinfettata. Va educata.*
+> (è lo slogan che la Dott.ssa Cavaleri usa già nell'ebook «La Bocca Ormonale»)
 
 - **Il «nemico»:** l'igiene orale che disinfetta tutto: collutori aggressivi, prodotti che «uccidono il 99,9% dei batteri», compresi quelli utili.
 - **Il meccanismo:** il microbiota orale. Probiotici, mastice di Chios, idrossiapatite ed esosomi vegetali lavorano *con* le difese naturali della bocca.
@@ -169,7 +170,7 @@ Ogni gradino ha un solo obiettivo: portare al gradino successivo.
 >
 > È per questo che l'alito torna. È per questo che le gengive restano sensibili.
 >
-> Non serve una bocca sterile. Serve una bocca in equilibrio.
+> Non serve una bocca sterile. La bocca non va disinfettata: va educata.
 >
 > Dal 9 al 13 novembre, ogni sera alle 21:00, la Dott.ssa Maria Francesca Cavaleri, Farmacista e Chimica con Master in Microbiota Orale, ti spiega in diretta come si fa, in 5 serate.
 >

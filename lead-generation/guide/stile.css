@@ -31,7 +31,7 @@ section { margin: 0 0 8mm; }
 .box p:last-child, .box ul:last-child { margin-bottom: 0; }
 
 /* Tabella programma */
-table { width: 100%; border-collapse: collapse; margin: 0 0 6mm; font-size: 10pt; page-break-inside: auto; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 6mm; font-size: 10pt; page-break-inside: avoid; }
 th, td { text-align: left; vertical-align: top; padding: 2.5mm 3mm; border-bottom: .3mm solid var(--line); }
 th { background: var(--soft); color: var(--ink); font-weight: 700; }
 tr { page-break-inside: avoid; }
