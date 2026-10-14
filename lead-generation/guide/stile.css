@@ -54,3 +54,8 @@ td:first-child { white-space: nowrap; font-weight: 700; color: var(--accent); }
 .cta a { color: #fff; font-weight: 700; }
 .small { font-size: 8.5pt; color: var(--muted); }
 a { color: var(--accent); }
+
+/* Firma della fonte in copertina */
+.cover .byline { margin-top: 8mm; font-size: 10.5pt; color: var(--ink); border-left: 1.2mm solid var(--accent); padding-left: 4mm; max-width: 140mm; }
+.cover .byline b { color: var(--accent); }
+.box.quote { background: #fff; border: .4mm solid var(--line); font-style: italic; }

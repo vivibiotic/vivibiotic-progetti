@@ -21,9 +21,9 @@ Prima di aprirla, ti anticipo la cosa più importante.
 
 L'alito pesante, nella maggior parte dei casi, nasce in bocca: alcuni batteri, soprattutto sulla parte posteriore della lingua, producono composti a base di zolfo. Per questo mentine e collutori aggressivi non risolvono: coprono l'odore per qualche minuto, e i collutori con alcol possono anche seccare la bocca e peggiorare le cose.
 
-La strada è un'altra: **riequilibrare** la bocca, non disinfettarla.
+La strada è un'altra: **riequilibrare** la bocca, non disinfettarla. L'alitosi non è un imbarazzo da coprire: è un segnale che il microbiota orale si è spostato.
 
-Nella guida trovi il programma giorno per giorno. Se vuoi iniziare stasera, parti da qui: domattina, prima di lavarti i denti, pulisci la lingua dal fondo verso la punta. È il gesto che fa più differenza, ed è quello che quasi nessuno fa.
+Nella guida trovi il programma giorno per giorno. Se vuoi iniziare stasera, parti da qui: dopo lo spazzolino, passa il nettalingua dalla base verso la punta, con qualche passata leggera. Rifallo domattina. È il gesto che fa più differenza, ed è quello che quasi nessuno fa.
 
 Nei prossimi giorni ti scrivo ancora per accompagnarti nel programma.
 
@@ -46,7 +46,7 @@ Una cosa da sapere subito: una gengiva sana non sanguina. Il sangue è il modo i
 
 La buona notizia è che nelle fasi iniziali si può tornare indietro.
 
-L'errore più comune? Smettere di spazzolare dove sanguina. Così la placca resta lì e l'infiammazione continua. Stasera fai il contrario: spazzolino morbido, movimenti leggeri, e passa il filo anche (soprattutto) nei punti che sanguinano.
+L'errore più comune? Smettere di spazzolare dove sanguina. Così la placca resta lì e l'infiammazione continua. Stasera fai il contrario: passa il filo prima dello spazzolino, anche (soprattutto) nei punti che sanguinano, poi spazzolino morbido a 45° verso la gengiva, con movimenti leggeri. Nel giro di 7-10 giorni il sangue dovrebbe diminuire.
 
 Nella guida trovi il piano di 3 settimane e i segnali per cui è meglio andare dal dentista.
 
