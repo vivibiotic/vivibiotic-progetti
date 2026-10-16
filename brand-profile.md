@@ -1,5 +1,5 @@
 # Brand Profile — Vivibiotic
-<!-- version: 0.1 (bozza) · last updated: 2026-10-15 · review: trimestrale o al lancio di nuove linee (es. cerotti)
+<!-- version: 0.2 (bozza) · last updated: 2026-10-16 · review: trimestrale o al lancio di nuove linee (es. cerotti)
      · type: ecommerce -->
 
 ## Identity
@@ -9,7 +9,7 @@
 
 ## Positioning
 - **Cosa ci rende diversi:** Non "sbianchiamo e basta": trattiamo la bocca come un ecosistema da nutrire. Probiotici, mastice di Chios, idrossiapatite, lisozima, esosomi vegetali. La cura orale come **rituale di bellezza**, non come dovere.
-- **Perché crederci:** Filo Coraggioso brevettato Riser® a 3 capi, testato clinicamente dall'Università di Genova. Dietro il brand c'è un'esperta che ci mette la faccia (la fondatrice). <!-- TODO: qualifica esatta (odontoiatra? igienista?) -->
+- **Perché crederci:** Filo Coraggioso brevettato Riser® a 3 capi, testato clinicamente dall'Università di Genova. Dietro il brand c'è chi ci mette la faccia: **Maria Francesca Cavaleri**, farmacista, chimica e tecnologa farmaceutica, esperta di microbiota orale, fondatrice di Vivibiotic e del **Metodo Oralgen**.
 - **Punto di vista (posizioni che difendiamo):**
   1. La bocca ha un microbiota come l'intestino: va protetto, non "sterilizzato".
   2. Pulire i denti non basta: lingua, spazi interdentali e gengive contano quanto lo smalto.
@@ -47,12 +47,12 @@
 - **Temi delicati:** Menopausa → con rispetto e normalità, mai come "problema da aggiustare". Prezzi → spiegare il valore (ingredienti, ricariche), mai scusarsi.
 - **Segni distintivi:** Aperture che "beccano" la lettrice in un'abitudine quotidiana. Frasi brevi. **Niente emoji.** Hashtag: pochi e mirati (vedi hashtag-strategy).
 - **Per piattaforma:** Instagram/Facebook = rituale, educazione, prima/dopo onesti. TikTok = più leggero e ironico.
-- **Pronuncia:** Vivibiotic = "vi-vi-BIÒ-tic"; Chios = "KÌ-os"; Riser = "RÀI-ser".
+- **Pronuncia:** Vivibiotic = "vi-vi-BIÒ-tic"; Oralgen = "o-RÀL-gen" (da confermare); Chios = "KÌ-os"; Riser = "RÀI-ser".
 
 ## Proof
 - **Numeri:** <!-- TODO: n. clienti, recensioni, valutazione media -->
 - **Risultati / studi:** Filo Riser® 3 capi, brevettato, testato clinicamente dall'Università di Genova (rimuove più placca di un filo tradizionale — verificare la formulazione esatta prima di citarla).
-- **Credenziali:** Esperta fondatrice. <!-- TODO: titolo, anni di esperienza -->
+- **Credenziali:** Maria Francesca Cavaleri — farmacista, chimica e tecnologa farmaceutica, esperta di microbiota orale; ideatrice del Metodo Oralgen. <!-- TODO: anni di esperienza -->
 - **Diritti d'uso:** <!-- TODO: quali recensioni/UGC possiamo ripubblicare, e se anche in ads -->
 
 ## Offers & CTAs
@@ -63,7 +63,7 @@
 
 ## Channels
 - **Piattaforme attive:** Instagram (principale), Facebook, TikTok (meno attivo ultimamente).
-- **Handle:** <!-- TODO: @instagram, @tiktok, pagina Facebook -->
+- **Handle:** @vivibiotic (Instagram) · sito vivibiotic.it <!-- TODO: confermare stesso handle su TikTok e Facebook -->
 - **Lingua / mercato:** Italiano, Italia.
 
 ## Operational defaults
@@ -83,4 +83,5 @@
 
 ## Notes
 - In arrivo: linea **cerotti** per sportivi → prevedere un lancio dedicato (campaign-and-launch-planning).
+- **Volto del brand:** la fondatrice parla in prima persona (contenuti "la farmacista ti spiega") — è il nostro asset di fiducia più forte; il Metodo Oralgen va presentato come metodo/rituale, non come terapia.
 - Scorte: molti prodotti a 0 di inventario su Shopify — controllare prima di spingerli nei post.
