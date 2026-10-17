@@ -93,7 +93,7 @@ E la spiegazione proposta è semplicissima: **meno masticazione, meno stimolo, m
 
 Qui entra in scena un libro che molti di voi conoscono: **The Dental Diet** di Steven Lin, dentista australiano.
 
-Lin riprende il lavoro di un altro eretico, Weston Price, un dentista americano che negli anni Trenta girò il mondo a guardare la bocca di popolazioni isolate — villaggi svizzeri, isole scozzesi, comunità indigene — che mangiavano ancora i loro cibi tradizionali. Price documentò arcate ampie, denti dritti, poche carie. E documentò che quando in quelle stesse comunità arrivavano i "cibi del commercio moderno" — farina bianca, zucchero, conserve — **nel giro di una generazione** le carie aumentavano e le arcate dei figli si restringevano.
+Lin riprende il lavoro di un altro eretico, Weston Price, un dentista americano che negli anni Trenta girò il mondo a guardare la bocca di popolazioni isolate — villaggi svizzeri, isole scozzesi, comunità indigene — che mangiavano ancora i loro cibi tradizionali. Price documentò arcate ampie, denti dritti, poche carie. E riferì che quando in quelle stesse comunità arrivavano i "cibi del commercio moderno" — farina bianca, zucchero, conserve — **nel giro di una generazione** le carie aumentavano e le arcate dei figli si restringevano.
 
 Lin ne fa una tesi che io trovo potentissima: **i denti storti non sono un difetto. Sono un sintomo.** Sono il segno visibile di un ambiente che non dà alla bocca quello che le serve per crescere: cibi veri, da masticare, ricchi di vitamine liposolubili — A, D, K2 — e di fermentati. E di una lingua che sta al suo posto, contro il palato, e di un naso che respira.
 
@@ -117,7 +117,7 @@ Perché c'è una differenza enorme tra ciò che mangiamo e ciò che **resta**.
 
 Una mela si mastica, stimola la saliva, la saliva lava. Un biscotto industriale, un cracker, una merendina, una patatina — si impastano, si incastrano nei solchi e tra dente e dente, e restano lì. Per ore. E diventano il pasto di qualcun altro.
 
-Perché noi non mangiamo mai da soli. **Ogni volta che mangiamo, diamo da mangiare a settecento specie batteriche.** E quello che resta tra i denti decide chi di loro vince.
+Perché noi non mangiamo mai da soli. **Ogni volta che mangiamo, diamo da mangiare a più di seicento specie batteriche.** E quello che resta tra i denti decide chi di loro vince.
 
 Lo zucchero, in questo, è il grande selezionatore. I batteri che lo fermentano producono acido. L'acido abbassa il pH. Con il pH basso, lo smalto perde minerali. E a pH basso prosperano proprio i batteri che amano l'acido, che a loro volta ne producono altro. È un circolo. **È una dittatura microbica.**
 
@@ -129,11 +129,11 @@ Nel 2014 Aubrey Sheiham e Philip James — non due outsider, due nomi della sani
 
 La carie compare anche quando gli zuccheri sono solo il **2–3% delle calorie** quotidiane, se l'esposizione dura qualche anno. E la carie non si ferma con l'infanzia: cresce **in modo progressivo per tutta la vita**. Per questo gli adulti hanno più carie dei bambini. E la loro conclusione è netta: il limite del 10% delle calorie "non è più accettabile".
 
-Il 10%, per capirci, è il limite che ancora oggi consideriamo prudente.
+Il 10%, per capirci, è ancora oggi il limite principale raccomandato dall'Organizzazione Mondiale della Sanità, che indica il 5% solo come obiettivo ulteriore.
 
 *(pausa)*
 
-E qui la parola "ci fanno" diventa letterale. Perché nessuno di noi ha scelto di mettere lo zucchero nel pane in cassetta, nel ketchup, nello yogurt "bianco", nei cereali "integrali", nei sughi pronti. **Lo zucchero ce l'hanno messo dove non lo cercavamo.** E poi l'hanno lasciato lì. Tra i denti.
+E qui la parola "ci fanno" diventa letterale. Perché nessuno di noi ha scelto di mettere lo zucchero nel pane in cassetta, nel ketchup, nello yogurt alla frutta, nei cereali "integrali", nei sughi pronti. **Lo zucchero ce l'hanno messo dove non lo cercavamo.** E poi l'hanno lasciato lì. Tra i denti.
 
 E non conta solo quanto. Conta **quante volte**. Ogni spuntino, ogni sorso di bibita, ogni caramella è un nuovo attacco acido. Dieci piccoli assaggi al giorno sono dieci attacchi. Uno sbocconcellare continuo è una bocca che non ha mai il tempo di risalire.
 
@@ -157,7 +157,11 @@ Avete capito bene. **Un pezzo della vostra pressione arteriosa dipende da batter
 
 E cosa succede se ogni mattina e ogni sera passate su quella lingua un collutorio antisettico, potente, pensato per uccidere il 99,9% dei germi?
 
-La letteratura lo descrive senza mezzi termini: alterare quella comunità batterica **sopprime la produzione di ossido nitrico per questa via**, con effetti misurabili sulla pressione e perfino sulla performance sportiva.
+Nel 2013 un gruppo di Londra lo ha misurato. Diciannove volontari sani, una settimana di collutorio antisettico alla clorexidina. Risultato: la produzione di nitriti in bocca crolla del **90%**, i nitriti nel sangue scendono di un quarto, e la pressione sale di **2–3,5 millimetri di mercurio**. Entro un solo giorno.
+
+*(pausa)*
+
+Sembra poco. Ma è l'effetto di un gesto di igiene, su persone sane, in sette giorni. E le revisioni successive lo confermano: alterare quella comunità batterica **sopprime la produzione di ossido nitrico per questa via** e peggiora la pressione.
 
 Quindi mangiate la vostra insalata, bevete il vostro succo di barbabietola, e poi spegnete con un risciacquo l'interruttore che quell'insalata doveva accendere.
 
@@ -191,7 +195,7 @@ La revisione Cochrane del 2019 su filo e strumenti interdentali — 35 studi, qu
 
 C'è chi da questo ha concluso: "il filo non serve".
 
-Io ne concludo un'altra cosa: **nessuno ha mai finanziato seriamente lo studio di un gesto che non si può brevettare a caro prezzo**. L'assenza di prove forti non è la prova dell'assenza di effetto. E la biologia del biofilm è chiara: un biofilm che viene disturbato ogni giorno non matura. Un biofilm lasciato in pace per settimane, sì.
+Io ne concludo un'altra cosa: **studiare per anni un gesto quotidiano è difficile, e gli studi che abbiamo sono brevi**. L'assenza di prove forti non è la prova dell'assenza di effetto. E la biologia del biofilm è chiara: un biofilm che viene disturbato ogni giorno non matura. Un biofilm lasciato in pace per settimane, sì.
 
 Il filo non serve a "togliere il pezzetto di carne". Serve a **disturbare l'organizzazione**. A impedire che, tra dente e dente, si formi una città abusiva.
 
@@ -217,7 +221,7 @@ Un congresso di eretici che finisce con un applauso e nessun cambiamento è un c
 
 **Secondo. Lo zucchero raro, non frequente.** Se proprio deve esserci, che sia a fine pasto, non sparso in dieci assaggi. Leggete le etichette: lo zucchero non sta solo nei dolci. Sta dove ve l'hanno nascosto.
 
-**Terzo. Nutrite i batteri che vi servono.** Verdure a foglia verde, ortaggi, fermentati. Siete il giardiniere di settecento specie: decidete voi cosa coltivare.
+**Terzo. Nutrite i batteri che vi servono.** Verdure a foglia verde, ortaggi, fermentati. Siete il giardiniere di più di seicento specie: decidete voi cosa coltivare.
 
 **Quarto. Smettete di disinfettare ogni giorno.** L'antisettico è un farmaco: ha un momento, una durata, un'indicazione. Non è un'abitudine quotidiana. La bocca si riequilibra, non si sterilizza.
 
@@ -261,34 +265,69 @@ Autrice de *La bocca che cura*
 
 -----
 
-# Fonti da tenere sotto mano
+# Bibliografia verificata
 
-*Riferimenti reperiti tramite PubMed, più il libro di Steven Lin. Servono per le domande dalla platea: sono i lavori che reggono le affermazioni del discorso.*
+*Ogni articolo è stato controllato su PubMed il 17 ottobre 2026: titolo, autori, rivista, anno, volume, pagine e DOI corrispondono al record ufficiale. Per ciascuno è indicato il tipo di studio e quanto pesa come prova. I due libri sono stati verificati su cataloghi bibliotecari ed editoriali.*
 
-**Il tartaro come archivio — le due rivoluzioni alimentari**
-Adler C.J. et al., *Sequencing ancient calcified dental plaque shows changes in oral microbiota with dietary shifts of the Neolithic and Industrial revolutions*, Nat Genet, 2013;45(4):450-5. [10.1038/ng.2536](https://doi.org/10.1038/ng.2536)
-→ Fonte per: 34 scheletri europei; spostamento verso una configurazione associata alla malattia con l'agricoltura; dominanza dei batteri cariogeni con farina e zucchero industriali (~1850); minore diversità del microbiota orale moderno.
+**1. Il tartaro come archivio — le due rivoluzioni alimentari**
+Adler C.J., Dobney K., Weyrich L.S., et al. *Sequencing ancient calcified dental plaque shows changes in oral microbiota with dietary shifts of the Neolithic and Industrial revolutions.* Nature Genetics. 2013;45(4):450-455. DOI: [10.1038/ng.2536](https://doi.org/10.1038/ng.2536) · PMID 23416520
+→ Usato per: 34 scheletri europei; con l'agricoltura il microbiota si sposta verso una configurazione associata alla malattia; con farina e zucchero industriali (~1850) dominano i batteri cariogeni; il microbiota orale moderno è meno diverso.
+→ Affidabilità: **alta**. Rivista di primissimo livello, gruppo dell'Australian Centre for Ancient DNA (Università di Adelaide). Limite: campione piccolo (34 individui) e solo europeo; la frase su "malattie croniche" è un'ipotesi degli autori, e nel discorso è presentata come tale.
 
-**La mandibola che riflette la dieta**
-von Cramon-Taubadel N., *Global human mandibular variation reflects differences in agricultural and hunter-gatherer subsistence strategies*, PNAS, 2011;108(49):19546-51. [10.1073/pnas.1113050108](https://doi.org/10.1073/pnas.1113050108)
-→ Fonte per: la forma della mandibola riflette la strategia alimentare più della genetica neutrale; minore carico masticatorio → crescita diversa → affollamento dentale e malocclusioni nelle popolazioni postindustriali.
+**2. La mandibola che riflette la dieta**
+von Cramon-Taubadel N. *Global human mandibular variation reflects differences in agricultural and hunter-gatherer subsistence strategies.* PNAS. 2011;108(49):19546-19551. DOI: [10.1073/pnas.1113050108](https://doi.org/10.1073/pnas.1113050108) · PMID 22106280
+→ Usato per: la forma della mandibola riflette la strategia alimentare più della genetica neutrale; meno carico masticatorio → crescita diversa → affollamento dentale e malocclusioni nelle popolazioni postindustriali.
+→ Affidabilità: **alta**. Rivista autorevole, analisi su scala globale con controllo per storia di popolazione, geografia e clima. Limite: è uno studio di morfologia comparata; il nesso masticazione-crescita è l'interpretazione proposta dall'autrice, coerente con altri lavori ma non un esperimento.
 
-**Zucchero e carie: il 10% non basta**
-Sheiham A., James W.P.T., *A new understanding of the relationship between sugars, dental caries and fluoride use: implications for limits on sugars consumption*, Public Health Nutr, 2014;17(10):2176-84. [10.1017/S136898001400113X](https://doi.org/10.1017/S136898001400113X)
-→ Fonte per: carie anche con zuccheri al 2–3% dell'energia dopo >3 anni di esposizione; aumento lineare della carie per tutta la vita; il limite del 10% "non più accettabile".
+**3. Zucchero e carie: il 10% non basta**
+Sheiham A., James W.P.T. *A new understanding of the relationship between sugars, dental caries and fluoride use: implications for limits on sugars consumption.* Public Health Nutrition. 2014;17(10):2176-2184. DOI: [10.1017/S136898001400113X](https://doi.org/10.1017/S136898001400113X) · PMID 24892213
+→ Usato per: carie anche con zuccheri al 2–3% dell'energia dopo più di 3 anni di esposizione; aumento lineare della carie per tutta la vita; il limite del 10% "non più accettabile".
+→ Affidabilità: **medio-alta**. Autori di riferimento della sanità pubblica (UCL, London School of Hygiene & Tropical Medicine). È una revisione critica con rianalisi di dati (in parte giapponesi, storici), non un nuovo studio clinico: è una posizione autorevole, non un consenso unanime.
 
-**Filo e strumenti interdentali — la revisione Cochrane**
-Worthington H.V. et al., *Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries*, Cochrane Database Syst Rev, 2019;4:CD012018. [10.1002/14651858.CD012018.pub2](https://doi.org/10.1002/14651858.CD012018.pub2)
-→ Fonte per: 35 RCT, 3.929 adulti; filo + spazzolino può ridurre la gengivite; scovolini forse più efficaci del filo; certezza delle prove bassa o molto bassa, studi brevi.
+**4. Il limite raccomandato dall'OMS**
+World Health Organization. *Guideline: Sugars intake for adults and children.* Ginevra: WHO; 2015. ISBN 978-92-4-154902-8.
+→ Usato per: raccomandazione forte di zuccheri liberi sotto il 10% dell'energia; riduzione sotto il 5% come raccomandazione condizionale.
+→ Affidabilità: **alta** (linea guida ufficiale).
 
-**Nitrati, batteri della lingua, ossido nitrico e collutori antisettici**
-Jones A.M. et al., *Dietary Nitrate and Nitric Oxide Metabolism: Mouth, Circulation, Skeletal Muscle, and Exercise Performance*, Med Sci Sports Exerc, 2021;53(2):280-294. [10.1249/MSS.0000000000002470](https://doi.org/10.1249/MSS.0000000000002470)
-Bryan N.S., Burleigh M.C., Easton C., *The oral microbiome, nitric oxide and exercise performance*, Nitric Oxide, 2022;125-126:23-30. [10.1016/j.niox.2022.05.004](https://doi.org/10.1016/j.niox.2022.05.004)
-→ Fonte per: riduzione batterica orale nitrato→nitrito; soppressione della via con collutori antisettici; effetti su pressione e performance. (Già citate in *Il paradosso delle 8 ore*.)
+**5. Filo e strumenti interdentali — la revisione Cochrane**
+Worthington H.V., MacDonald L., Poklepovic Pericic T., et al. *Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries.* Cochrane Database of Systematic Reviews. 2019;4(4):CD012018. DOI: [10.1002/14651858.CD012018.pub2](https://doi.org/10.1002/14651858.CD012018.pub2) · PMID 30968949
+→ Usato per: 35 studi randomizzati, 3.929 adulti; filo + spazzolino può ridurre la gengivite; gli scovolini forse più del filo; certezza delle prove bassa o molto bassa, studi brevi, partecipanti con poca infiammazione di partenza.
+→ Affidabilità: **la più alta disponibile sul tema** (revisione sistematica Cochrane). Il discorso ne riporta onestamente anche i limiti.
 
-**Il libro**
-Lin S., *The Dental Diet: The Surprising Link between Your Teeth, Real Food, and Life-Changing Natural Health*, Hay House, 2018.
-→ Fonte per: denti storti come sintomo di un ambiente alimentare; ripresa del lavoro di Weston Price; vitamine liposolubili A, D, K2, fermentati, postura della lingua, respirazione nasale.
+**6. Collutorio antisettico, batteri orali e pressione arteriosa — lo studio diretto**
+Kapil V., Haydar S.M.A., Pearl V., Lundberg J.O., Weitzberg E., Ahluwalia A. *Physiological role for nitrate-reducing oral bacteria in blood pressure control.* Free Radical Biology & Medicine. 2013;55:93-100. DOI: [10.1016/j.freeradbiomed.2012.11.013](https://doi.org/10.1016/j.freeradbiomed.2012.11.013) · PMID 23183324
+→ Usato per: 19 volontari sani, 7 giorni di collutorio alla clorexidina; produzione orale di nitriti −90%, nitriti plasmatici −25%, pressione sistolica e diastolica +2–3,5 mmHg, effetto visibile entro un giorno.
+→ Affidabilità: **alta per il meccanismo**, gruppo di riferimento sul tema (Queen Mary University of London, Karolinska). Limite: 19 persone, una settimana; l'effetto è piccolo sul singolo e non dimostra danni clinici a lungo termine.
+
+**7. Nitrati, bocca e ossido nitrico — le revisioni**
+Jones A.M., Vanhatalo A., Seals D.R., et al. *Dietary Nitrate and Nitric Oxide Metabolism: Mouth, Circulation, Skeletal Muscle, and Exercise Performance.* Medicine & Science in Sports & Exercise. 2021;53(2):280-294. DOI: [10.1249/MSS.0000000000002470](https://doi.org/10.1249/MSS.0000000000002470) · PMID 32735111
+Bryan N.S., Burleigh M.C., Easton C. *The oral microbiome, nitric oxide and exercise performance.* Nitric Oxide. 2022;125-126:23-30. DOI: [10.1016/j.niox.2022.05.004](https://doi.org/10.1016/j.niox.2022.05.004) · PMID 35636654
+→ Usato per: verdure a foglia verde come fonte di nitrati; riduzione nitrato→nitrito da parte dei batteri orali; soppressione della via con collutori antisettici o antibiotici, con effetto negativo sulla pressione.
+→ Affidabilità: **buona** (revisioni narrative su riviste peer-reviewed). Due avvertenze: (a) il primo autore della seconda revisione è affiliato a un'azienda del settore (Nitric Oxide Innovations LLC), quindi va citata insieme a Jones e Kapil, non da sola; (b) la stessa revisione dice che l'effetto sulla **performance sportiva non è ancora dimostrato**: per questo il discorso parla solo di pressione.
+
+**8. Quante specie vivono in bocca**
+Dewhirst F.E., Chen T., Izard J., et al. *The human oral microbiome.* Journal of Bacteriology. 2010;192(19):5002-5017. DOI: [10.1128/JB.00542-10](https://doi.org/10.1128/JB.00542-10) · PMID 20656903
+→ Usato per: "più di seicento specie" (oltre 600 taxa prevalenti; 619 nella prima versione dello Human Oral Microbiome Database).
+→ Affidabilità: **alta** (lavoro fondativo del database di riferimento, Forsyth Institute).
+
+**9. Il libro di Steven Lin**
+Lin S. *The Dental Diet: The Surprising Link between Your Teeth, Real Food, and Life-Changing Natural Health.* Carlsbad (CA): Hay House; 2018. ISBN 978-1-4019-5317-1. Introduzione di Mark Hyman.
+→ Usato per: denti storti come sintomo di un ambiente alimentare; ripresa del lavoro di Weston Price; vitamine liposolubili A, D, K2, fermentati, postura della lingua, respirazione nasale.
+→ Affidabilità: **divulgativa**. È un libro di un dentista, non uno studio peer-reviewed: nel discorso è presentato come "una direzione di ricerca, non un dogma". Le idee gli sono attribuite sulla base di schede editoriali e interviste: confrontarle con la propria copia prima dell'intervento.
+
+**10. Weston Price**
+Price W.A. *Nutrition and Physical Degeneration: A Comparison of Primitive and Modern Diets and Their Effects.* New York: Paul B. Hoeber; 1939.
+→ Usato per: le osservazioni su popolazioni isolate (valli svizzere, Ebridi scozzesi, comunità indigene) e sul peggioramento di denti e arcate con l'arrivo di farina bianca e zucchero.
+→ Affidabilità: **storica, bassa come prova**. Osservazioni sul campo degli anni Trenta, senza i controlli moderni. Nel discorso è usato esplicitamente come "domanda", e la prova antropologica è affidata a von Cramon-Taubadel 2011.
+
+## Correzioni fatte al testo dopo la verifica
+
+- **"Settecento specie" → "più di seicento specie"**: è il dato pubblicato da Dewhirst 2010 (le stime più recenti del database salgono, ma 600+ è il numero citabile con fonte).
+- **Collutorio e performance sportiva**: tolta. La revisione di Bryan 2022 dice che l'effetto sulla performance non è dimostrato. Al suo posto, i numeri dello studio di Kapil 2013 sulla pressione.
+- **"Nessuno ha mai finanziato seriamente lo studio del filo"**: tolta, perché non è verificabile. Sostituita con il limite documentato dalla Cochrane: gli studi sono brevi.
+- **"Il 10% è il limite che consideriamo prudente"**: precisato con la linea guida OMS 2015 (10% raccomandazione forte, 5% condizionale).
+- **"Yogurt bianco"** → **"yogurt alla frutta"**: lo yogurt bianco naturale non contiene zuccheri aggiunti.
+- **Weston Price "documentò"** → **"riferì"** per il passaggio "nel giro di una generazione", che è una sua osservazione non controllata.
 
 -----
 
@@ -306,7 +345,7 @@ Lin S., *The Dental Diet: The Surprising Link between Your Teeth, Real Food, and
 
 ## Note per la presentazione
 
-- **Durata:** circa 2.350 parole di testo parlato → 17–18 minuti a 130–140 parole al minuto; con le pause indicate e l'interazione con la sala (mani alzate) si arriva a 19–20 minuti.
+- **Durata:** circa 2.450 parole di testo parlato → 18 minuti a 130–140 parole al minuto; con le pause indicate e l'interazione con la sala (mani alzate) si arriva a 19–20 minuti.
 - **Oggetto di scena consigliato:** un rotolo di filo interdentale in mano dall'inizio, mostrato solo nella sezione 6.
 - **Slide minime suggerite:** (1) titolo; (2) foto di tartaro su un dente antico; (3) linea del tempo: 10.000 anni fa → 1850 → oggi; (4) due mandibole a confronto; (5) "2–3%" a tutto schermo; (6) schema nitrati → lingua → ossido nitrico; (7) le cinque eresie; (8) frase finale.
 - **Da adattare:** se il tempo stringe, accorciare la sezione 3 (Price/Lin) o la sezione 5; non tagliare l'apertura e la chiusura, che si richiamano a vicenda.
