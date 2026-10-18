@@ -140,7 +140,7 @@ Fondatrice di Vivibiotic · Membro del MIX
 
 ---
 
-## CAPTION CON DOMANDE FREQUENTI (1.935 caratteri, limite Instagram 2.200)
+## CAPTION CON DOMANDE FREQUENTI (1550 caratteri, limite Instagram 2.200)
 
 Ozempic e bocca secca: cosa succede davvero a denti e gengive con i farmaci GLP-1 🦷
 
@@ -156,27 +156,17 @@ Questi farmaci parlano al cervello per spegnere la fame. Ma il primo posto dove 
 DOMANDE FREQUENTI
 
 ❓ Ozempic fa venire la bocca secca?
-Sì. La bocca secca (xerostomia) è l'effetto orale più segnalato del semaglutide. Mangi meno, bevi meno, lo stomaco si svuota più lentamente: la saliva cala.
+Sì. È l'effetto orale più segnalato del semaglutide. Il farmaco rallenta lo stomaco e spegne la fame: mangi meno, bevi meno, e la saliva cala. Senza saliva la bocca perde la sua prima difesa.
 
-❓ Ozempic rovina i denti?
-Non direttamente. Ma nausea, vomito e reflusso portano acido sui denti. E con poca saliva le difese crollano: più rischio di erosione e carie.
+❓ Ozempic e Mounjaro rovinano i denti?
+Non direttamente. Ma nausea, vomito e reflusso portano acido sui denti, e con poca saliva nessuno lo neutralizza. Il risultato? Più rischio di erosione, carie e alito pesante. La buona notizia: si può prevenire.
 
-❓ Perché cambia l'alito?
-Reflusso, eruttazioni e meno saliva. I batteri che producono cattivo odore trovano campo libero.
+❓ Cosa posso fare da subito per proteggere la bocca?
+Tre gesti semplici. Bevi a piccoli sorsi durante il giorno. Dopo nausea o reflusso sciacqua con acqua e aspetta 30-60 minuti prima di spazzolare. Scegli un collutorio senza alcol. E dillo al tuo dentista: è un'informazione clinica, non un segreto.
 
-❓ Mounjaro fa lo stesso effetto?
-Agisce su due recettori (GLP-1 e GIP). Uno studio su quasi 196.000 pazienti lo associa a meno parodontite rispetto agli altri GLP-1. È un'associazione, non ancora una prova.
+Se hai altre domande, scrivimele nei commenti: ti leggo qui sotto 👇
 
-❓ I farmaci GLP-1 fanno bene alle gengive?
-In laboratorio riducono l'infiammazione e proteggono l'osso. Sull'uomo i dati sono ancora pochi.
-
-❓ Cosa posso fare da subito?
-Bevi a piccoli sorsi. Dopo nausea o reflusso sciacqua con acqua e aspetta 30-60 minuti prima di spazzolare. Scegli un collutorio senza alcol. E dillo al dentista: è un'informazione clinica, non un segreto.
-
-❓ Devo smettere il farmaco?
-Mai di testa tua. Parlane con chi te l'ha prescritto. La bocca si cura, la terapia non si interrompe da soli.
-
-Fonti su PubMed: Al-Zawawi 2026, Kofman & Ouanounou 2026, Nijakowski 2026, Tu 2026.
+Fonti su PubMed: Al-Zawawi 2026, Kofman & Ouanounou 2026.
 
 Dott.ssa Maria Francesca Cavaleri
 Farmacista e chimica farmaceutica · Vivibiotic
