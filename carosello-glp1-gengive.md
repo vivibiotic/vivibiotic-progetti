@@ -1,6 +1,6 @@
 # Carosello Instagram — "Ozempic e gengive" (9 slide)
 
-**Voce:** Dott.ssa Maria Francesca Cavaleri (Vivibiotic): parla in prima persona, è calda e diretta e ha un pizzico di ironia.
+**Voce:** Dott.ssa Maria Francesca Cavalieri (Vivibiotic): parla in prima persona, è calda e diretta e ha un pizzico di ironia.
 **Copy:** frasi brevi, una sola idea per slide, ogni slide apre un vuoto che la successiva chiude.
 **Keyword principale:** Ozempic e salute orale · **secondarie:** bocca secca Ozempic, semaglutide denti, Mounjaro gengive, farmaci GLP-1 effetti collaterali bocca.
 
@@ -13,7 +13,7 @@ Cosa succede davvero alla tua bocca quando prendi un farmaco GLP-1
 
 *La scienza del 2026, spiegata senza giri di parole.*
 
-Dott.ssa Maria Francesca Cavaleri · Vivibiotic
+Dott.ssa Maria Francesca Cavalieri · Vivibiotic
 
 > Leva: curiosity gap + nome commerciale (Ozempic) al posto di "GLP-1". La gente cerca il marchio, non la molecola.
 
@@ -131,9 +131,9 @@ Elenco delle 8 fonti scientifiche (vedi in fondo) e avvertenza:
 
 ## SLIDE 9 — Chi ti parla
 
-**Dott.ssa Maria Francesca Cavaleri**
-Farmacista e chimica farmaceutica
-Esperta del microbiota orale
+**Dott.ssa Maria Francesca Cavalieri**
+Chimica e tecnologa farmaceutica
+Esperta in microbiota orale
 Fondatrice di Vivibiotic · Membro del MIX
 
 *"Non c'è nulla che un chimico non possa fare, anche camminare sull'acqua: è solo una questione di temperatura."*
@@ -168,8 +168,8 @@ Se hai altre domande, scrivimele nei commenti: ti leggo qui sotto 👇
 
 Fonti su PubMed: Al-Zawawi 2026, Kofman & Ouanounou 2026.
 
-Dott.ssa Maria Francesca Cavaleri
-Farmacista e chimica farmaceutica · Vivibiotic
+Dott.ssa Maria Francesca Cavalieri
+Chimica e tecnologa farmaceutica · Esperta in microbiota orale · Fondatrice di Vivibiotic
 
 #ozempic #mounjaro #semaglutide #glp1 #boccasecca #saluteorale #gengive #parodontite #microbiotaorale #igieneorale #vivibiotic
 
@@ -225,4 +225,4 @@ Negli studi di laboratorio e sugli animali riducono l'infiammazione gengivale e 
 ## NOTE PRIMA DI PUBBLICARE
 
 - **Prodotti (slide 6):** i claim sono presi dalle etichette. I prodotti sono senza fluoro e usano l'idrossiapatite per lo smalto.
-- **Foto:** copertina e slide 9 usano la foto in bianco e nero della Dott.ssa Cavaleri.
+- **Foto:** copertina e slide 9 usano la foto in bianco e nero della Dott.ssa Cavalieri.
