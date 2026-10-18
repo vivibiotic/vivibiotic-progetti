@@ -101,7 +101,7 @@ Uno studio su quasi **196.000 pazienti** con diabete di tipo 2 ha visto meno par
 **Prodotti Vivibiotic** (claim presi dalle etichette):
 - **Dentifricio Probiotico:** idrossiapatite e acido ialuronico: smalto protetto, bocca idratata.
 - **Collutorio Probiotico:** senza alcol, con acido ialuronico e mastice di Chios.
-- **Dentifricio Notturno:** con xilitolo e idrossiapatite, per proteggere durante la notte.
+- **Dentifricio Esoso:** con esosomi, probiotici e idrossiapatite: routine rigenerante.
 
 ---
 
