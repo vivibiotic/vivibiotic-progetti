@@ -1,6 +1,6 @@
-# Carosello Instagram — "Ozempic e gengive" (8 slide)
+# Carosello Instagram — "Ozempic e gengive" (9 slide)
 
-**Voce:** Vivi Biotti (Vivibiotic): parla in prima persona, è calda e diretta e ha un pizzico di ironia.
+**Voce:** Dott.ssa Maria Francesca Cavaleri (Vivibiotic): parla in prima persona, è calda e diretta e ha un pizzico di ironia.
 **Copy:** frasi brevi, una sola idea per slide, ogni slide apre un vuoto che la successiva chiude.
 **Keyword principale:** Ozempic e salute orale · **secondarie:** bocca secca Ozempic, semaglutide denti, Mounjaro gengive, farmaci GLP-1 effetti collaterali bocca.
 
@@ -13,7 +13,7 @@ Cosa succede davvero alla tua bocca quando prendi un farmaco GLP-1
 
 *La scienza del 2026, spiegata senza giri di parole.*
 
-Vivi Biotti · Vivibiotic
+Dott.ssa Maria Francesca Cavaleri · Vivibiotic
 
 > Leva: curiosity gap + nome commerciale (Ozempic) al posto di "GLP-1". La gente cerca il marchio, non la molecola.
 
@@ -98,9 +98,10 @@ Uno studio su quasi **196.000 pazienti** con diabete di tipo 2 ha visto meno par
 4. **Stimola la saliva** con una gomma allo xilitolo senza zucchero.
 5. **Dillo al tuo dentista o igienista.** È un'informazione clinica, non un segreto.
 
-*[Inserire qui i prodotti Vivibiotic: vedi le note in fondo]*
-
-> Leva: cinque azioni concrete, che danno senso di controllo. L'ultima aumenta l'autorità di chi scrive perché è un consiglio che "il dentista non ti dice".
+**Prodotti Vivibiotic** (claim presi dalle etichette):
+- **Dentifricio Probiotico:** idrossiapatite e acido ialuronico: smalto protetto, bocca idratata.
+- **Collutorio Probiotico:** senza alcol, con acido ialuronico e mastice di Chios.
+- **Dentifricio Notturno:** con xilitolo e idrossiapatite, per proteggere durante la notte.
 
 ---
 
@@ -121,16 +122,21 @@ E alcuni batteri della bocca producono enzimi simili al DPP-4, cioè proprio que
 
 ---
 
-## SLIDE 8 — CTA
+## SLIDE 8 — Fonti
 
-**Vuoi la guida completa "Bocca & GLP-1"?**
-
-Scrivi **BOCCA** nei commenti e te la mando in DM.
-
-📌 Salva questo post per la prossima visita dal dentista
-↗️ Mandalo a chi ha appena iniziato Ozempic o Mounjaro
-
+Elenco delle 8 fonti scientifiche (vedi in fondo) e avvertenza:
 *Questo post è informativo e non sostituisce il parere del medico. Non interrompere né modificare una terapia senza parlarne con chi te l'ha prescritta.*
+
+---
+
+## SLIDE 9 — Chi ti parla
+
+**Dott.ssa Maria Francesca Cavaleri**
+Farmacista e chimica farmaceutica
+Esperta del microbiota orale
+Fondatrice di Vivibiotic · Membro del MIX
+
+*"Non c'è nulla che un chimico non possa fare, anche camminare sull'acqua: è solo una questione di temperatura."*
 
 ---
 
@@ -145,7 +151,6 @@ La risposta lunga è in queste 8 slide.
 
 I farmaci GLP-1 (semaglutide, liraglutide, tirzepatide) stanno cambiando la vita di milioni di persone. Io sono felice di questo. Ma la bocca è la prima a darti segnali, ed è l'ultima che qualcuno ti dice di controllare.
 
-👉 Scrivi BOCCA e ti mando la guida gratuita.
 
 #ozempic #mounjaro #semaglutide #glp1 #saluteorale #boccasecca #gengive #parodontite #microbiotaorale #igieneorale #vivibiotic
 
@@ -200,5 +205,5 @@ Negli studi di laboratorio e sugli animali riducono l'infiammazione gengivale e 
 
 ## NOTE PRIMA DI PUBBLICARE
 
-- **Prodotti Vivibiotic (slide 6):** usare solo i claim già approvati per ogni prodotto. Non scrivere che "curano" o "prevengono" gli effetti dei GLP-1: sono cosmetici. Verificare se il dentifricio contiene fluoro, perché è il primo consiglio contro l'erosione.
-- **Copertina:** foto di Vivi Biotti (quella in bianco e nero funziona bene come contrasto con il titolo).
+- **Prodotti (slide 6):** i claim sono presi dalle etichette. I prodotti sono senza fluoro e usano l'idrossiapatite per lo smalto.
+- **Foto:** copertina e slide 9 usano la foto in bianco e nero della Dott.ssa Cavaleri.
