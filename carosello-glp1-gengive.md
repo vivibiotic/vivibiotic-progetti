@@ -140,19 +140,48 @@ Fondatrice di Vivibiotic · Membro del MIX
 
 ---
 
-## CAPTION (prima riga = hook SEO)
+## CAPTION CON DOMANDE FREQUENTI (1.935 caratteri, limite Instagram 2.200)
 
-Ozempic, Mounjaro e la tua bocca: cosa dice la scienza nel 2026 🦷
+Ozempic e bocca secca: cosa succede davvero a denti e gengive con i farmaci GLP-1 🦷
 
-Ogni settimana qualcuno mi scrive: "Da quando prendo Ozempic ho sempre la bocca secca. È normale?"
+"Da quando prendo Ozempic ho sempre la bocca secca. È normale?"
+Me lo chiedete ogni settimana.
+La risposta breve: sì.
+La risposta lunga è nelle 9 slide.
 
-La risposta breve è sì: è l'effetto orale più segnalato.
-La risposta lunga è in queste 8 slide.
+Questi farmaci parlano al cervello per spegnere la fame. Ma il primo posto dove te ne accorgi è la bocca.
 
-I farmaci GLP-1 (semaglutide, liraglutide, tirzepatide) stanno cambiando la vita di milioni di persone. Io sono felice di questo. Ma la bocca è la prima a darti segnali, ed è l'ultima che qualcuno ti dice di controllare.
+📌 Salva il post e mostralo al tuo dentista alla prossima visita.
 
+DOMANDE FREQUENTI
 
-#ozempic #mounjaro #semaglutide #glp1 #saluteorale #boccasecca #gengive #parodontite #microbiotaorale #igieneorale #vivibiotic
+❓ Ozempic fa venire la bocca secca?
+Sì. La bocca secca (xerostomia) è l'effetto orale più segnalato del semaglutide. Mangi meno, bevi meno, lo stomaco si svuota più lentamente: la saliva cala.
+
+❓ Ozempic rovina i denti?
+Non direttamente. Ma nausea, vomito e reflusso portano acido sui denti. E con poca saliva le difese crollano: più rischio di erosione e carie.
+
+❓ Perché cambia l'alito?
+Reflusso, eruttazioni e meno saliva. I batteri che producono cattivo odore trovano campo libero.
+
+❓ Mounjaro fa lo stesso effetto?
+Agisce su due recettori (GLP-1 e GIP). Uno studio su quasi 196.000 pazienti lo associa a meno parodontite rispetto agli altri GLP-1. È un'associazione, non ancora una prova.
+
+❓ I farmaci GLP-1 fanno bene alle gengive?
+In laboratorio riducono l'infiammazione e proteggono l'osso. Sull'uomo i dati sono ancora pochi.
+
+❓ Cosa posso fare da subito?
+Bevi a piccoli sorsi. Dopo nausea o reflusso sciacqua con acqua e aspetta 30-60 minuti prima di spazzolare. Scegli un collutorio senza alcol. E dillo al dentista: è un'informazione clinica, non un segreto.
+
+❓ Devo smettere il farmaco?
+Mai di testa tua. Parlane con chi te l'ha prescritto. La bocca si cura, la terapia non si interrompe da soli.
+
+Fonti su PubMed: Al-Zawawi 2026, Kofman & Ouanounou 2026, Nijakowski 2026, Tu 2026.
+
+Dott.ssa Maria Francesca Cavaleri
+Farmacista e chimica farmaceutica · Vivibiotic
+
+#ozempic #mounjaro #semaglutide #glp1 #boccasecca #saluteorale #gengive #parodontite #microbiotaorale #igieneorale #vivibiotic
 
 ---
 
