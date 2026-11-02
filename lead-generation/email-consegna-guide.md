@@ -48,7 +48,7 @@ La buona notizia è che nelle fasi iniziali si può tornare indietro.
 
 L'errore più comune? Smettere di spazzolare dove sanguina. Così la placca resta lì e l'infiammazione continua. Stasera fai il contrario: passa il filo prima dello spazzolino, anche (soprattutto) nei punti che sanguinano, poi spazzolino morbido a 45° verso la gengiva, con movimenti leggeri. Nel giro di 7-10 giorni il sangue dovrebbe diminuire.
 
-Nella guida trovi il piano di 3 settimane e i segnali per cui è meglio andare dal dentista.
+Nella guida trovi il piano di 4 settimane e i segnali per cui è meglio andare dal dentista.
 
 Francesca di Vivibiotic
 
@@ -93,7 +93,7 @@ L'alito della keto ha due cause diverse:
 1. l'acetone, che il corpo produce in chetosi ed elimina anche con il respiro (questa parte di solito si attenua con le settimane);
 2. la bocca più secca, che lascia spazio ai batteri che producono odore.
 
-La seconda si può controllare, ed è quella che fa la differenza. Inizia oggi da due cose: bevi più acqua del solito e pulisci la lingua mattina e sera.
+La seconda si può controllare, ed è quella che fa la differenza. Inizia oggi da due cose: bevi più acqua del solito, con un po' di elettroliti, e pulisci la lingua mattina e sera con il nettalingua.
 
 Nella checklist trovi la routine completa, cosa evitare e un avviso importante per la salute da leggere con attenzione.
 
@@ -116,7 +116,7 @@ Un sorriso luminoso non dipende solo dalle macchie, ma da quanto è **liscio** l
 
 Per questo limone e bicarbonato strofinati sui denti, che sui social sembrano miracolosi, a lungo andare possono peggiorare le cose.
 
-Nella guida trovi gli errori da evitare e la routine giorno e notte: di giorno pulire e prevenire le macchie, di notte prenderti cura dello smalto.
+Nella guida trovi gli errori da evitare e la routine in due momenti: la mattina, prima di colazione, per pulire e prevenire le macchie; la sera, prima di dormire, con il dentifricio notturno per prenderti cura dello smalto.
 
 Francesca di Vivibiotic
 
@@ -135,7 +135,7 @@ ecco il tuo calendario: **[Scarica «21 giorni di Missione Denti»]([LINK PDF])*
 
 Stampalo e appendilo in bagno, all'altezza del tuo bambino. Ogni volta che i denti sono lavati bene, mattina e sera, colora una casella. Ogni 7 giorni c'è un traguardo da festeggiare, e al giorno 21 il diploma di Agente Missione Denti.
 
-Dentro trovi anche 7 consigli per i genitori. Il primo è il più semplice: lavatevi i denti insieme. I bambini imparano copiando.
+Dentro trovi anche 7 consigli per i genitori. Uno dei più semplici: lavatevi i denti insieme. I bambini imparano copiando.
 
 Buona missione!
 
