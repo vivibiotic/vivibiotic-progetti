@@ -6,7 +6,7 @@
 
 ## In breve (se hai solo 30 secondi)
 
-**L'Olio Favoloso Vivibiotic è una miscela balsamica di 96 ingredienti vegetali**, tra oli essenziali (pino, eucalipto, menta, lavanda, rosmarino, camomilla…), oli vegetali ed estratti. Si usa **solo sulla pelle e nell'ambiente, mai in bocca**: nel bagno, nel pediluvio, nei massaggi, nei suffumigi e per profumare casa. È concentrato: **bastano poche gocce, sempre diluite**. Non si usa in gravidanza né sotto i 12 anni. Un flacone da 100 ml contiene circa 2.000 gocce.
+**L'Olio Favoloso Vivibiotic è una miscela balsamica di 96 ingredienti vegetali**, tra oli essenziali (pino, eucalipto, menta, lavanda, rosmarino, camomilla…), oli vegetali ed estratti. Si usa **solo sulla pelle e nell'ambiente, mai in bocca**: sotto la pianta del piede, annusato, nei massaggi prima e dopo lo sport, nel bagno, nei suffumigi e per la pulizia di casa. **Puro in poche gocce o diluito in una crema.** Non si usa in gravidanza né sotto i 12 anni.
 
 ---
 
@@ -52,7 +52,7 @@ Ti diamo tre motivi.
 
 **1. Non è un profumo solo. È un bosco intero.** 96 ingredienti vegetali che lavorano insieme, come un'orchestra. Nessuna nota copre le altre: per questo il profumo cambia mentre lo respiri, e non stanca.
 
-**2. Il ponte tra fresco e morbido.** Molti oli balsamici sono "tutto canfora e menta": svegliano, ma stancano. Nell'Olio Favoloso la parte balsamica è bilanciata da essenze più rotonde (lavanda, camomilla, melissa, tiglio, passiflora, luppolo) e da una base di oli vegetali nutrienti come avocado, germe di grano e mandorle dolci. Per questo, diluito, **non unge**.
+**2. Il ponte tra fresco e morbido.** Molti oli balsamici sono "tutto canfora e menta": svegliano, ma stancano. Nell'Olio Favoloso la parte balsamica è bilanciata da essenze più rotonde (lavanda, camomilla, melissa, tiglio, passiflora, luppolo) e da una base di oli vegetali nutrienti come avocado, germe di grano e mandorle dolci. Per questo **non unge**.
 
 **3. La trasparenza.** Più avanti in questa guida trovi l'elenco degli avvisi di sicurezza, scritto per esteso. Non in corpo 4 sul retro della scatola. Se un prodotto è potente, devi sapere esattamente quando non usarlo.
 
@@ -60,16 +60,30 @@ Ti diamo tre motivi.
 
 ---
 
-## Prima regola: poche gocce, sempre diluito
+## Come si usano gli oli essenziali: le tre vie
 
-Prima dei mille usi, la regola che li governa tutti.
+Gli oli essenziali entrano in contatto con il corpo in tre modi. L'Olio Favoloso funziona in tutti e tre.
 
-Gli oli essenziali sono **concentrati**. Una goccia di olio essenziale contiene la "forza" di una quantità di pianta che non ti immagini. Per questo:
+| | **1. Sotto il piede** | **2. Annusato** | **3. Massaggio** |
+|---|---|---|---|
+| **Come** | 2-3 gocce sulla pianta del piede, massaggia fino ad assorbimento | 1-2 gocce tra i palmi o su un fazzoletto, poi respiri lenti | Puro in poche gocce sulla zona, oppure 5 gocce in una noce di crema o in un cucchiaio di olio vegetale |
+| **Perché funziona** | La pelle della pianta è spessa e tollera bene le essenze; i pori sono tanti e il gesto è rapido | L'olfatto arriva diretto ai centri delle emozioni: l'effetto si sente in pochi secondi | Il calore delle mani e il movimento aiutano l'olio a distribuirsi e sciolgono le tensioni |
+| **Quando** | La sera prima di dormire, o al mattino per svegliarti | Nei momenti di stress, prima di una riunione, quando sei raffreddato | Prima e dopo lo sport, a fine giornata su nuca, spalle e gambe |
 
-- **Sulla pelle, usalo diluito**: in una crema neutra, in un olio vegetale (mandorle, jojoba, oliva) o in acqua. Una buona proporzione di partenza è **3-5 gocce in un cucchiaio di olio vegetale**.
-- **Fai la prova**: la prima volta, una goccia diluita sull'interno del polso. Aspetta 24 ore.
-- **Lontano da occhi, mucose e bocca.**
-- **Più non è meglio.** Se senti bruciare o il profumo ti dà fastidio, hai esagerato.
+E poi c'è una quarta via, meno conosciuta: **la casa**. Nell'acqua dei pavimenti, nel sapone, nel bucato. Ne parliamo più avanti.
+
+### Puro o diluito?
+
+**Tutti e due.** L'Olio Favoloso nasce con una base di oli vegetali, per questo si può usare:
+
+- **puro, in poche gocce**, su zone limitate: pianta del piede, nuca, polpacci, muscoli prima e dopo l'allenamento;
+- **diluito in una crema o in un olio vegetale**, quando vuoi trattare zone ampie, sul viso o se hai la pelle sensibile.
+
+Qualche regola d'oro:
+
+- **Fai la prova** la prima volta: una goccia sull'interno del polso, aspetta 24 ore.
+- **Lontano da occhi, mucose e bocca.** Dopo l'uso lavati le mani.
+- **Più non è meglio.** Se senti bruciare o il profumo ti dà fastidio, diluisci o riduci.
 
 Ricordatelo così: **l'Olio Favoloso si dosa a gocce, non a cucchiai.**
 
@@ -87,11 +101,13 @@ Abbiamo preso la lista storica dei "mille usi" scritta da Maria Francesca Cavale
 
 **Rituale della buonanotte.** Una o due gocce su un fazzoletto di cotone, da infilare nella federa o da tenere sul comodino.
 
-**Massaggio sulla nuca e sulle tempie.** Quando la testa è pesante e le spalle sono salite fino alle orecchie: 2-3 gocce in un cucchiaino di olio vegetale, massaggio lento su nuca, collo e tempie. Lontano dagli occhi.
+**Massaggio sulla nuca e sulle tempie.** Quando la testa è pesante e le spalle sono salite fino alle orecchie: 2-3 gocce, pure o in un cucchiaino di olio vegetale, massaggio lento su nuca, collo e tempie. Lontano dagli occhi.
 
 ### 🦶 Dopo una giornata in piedi
 
-**Pediluvio.** 5-10 gocce in una bacinella di acqua calda con due manciate di sale grosso. 15 minuti.
+**Pianta del piede.** La sera, 2-3 gocce pure sotto ogni piede, massaggio fino ad assorbimento, calzini di cotone. È uno dei gesti preferiti di chi lo usa.
+
+**Pediluvio.** 5-10 gocce sciolte in due manciate di sale grosso o di sale di Epsom, poi in una bacinella di acqua calda. 15 minuti.
 
 **Maniluvio.** Stessa ricetta, per mani e polsi. Perfetto d'inverno.
 
@@ -99,13 +115,23 @@ Abbiamo preso la lista storica dei "mille usi" scritta da Maria Francesca Cavale
 
 **Gambe stanche.** Qualche goccia nella crema corpo, massaggio dal basso verso l'alto.
 
-### 🏃 Dopo lo sport
+### 🏃 Prima e dopo lo sport
 
-**Massaggio defaticante.** 5 gocce in un cucchiaio di olio vegetale o di crema neutra, massaggio sui muscoli che hai fatto lavorare.
+Qui l'Olio Favoloso dà il meglio. Il motivo è nella formula.
+
+Dentro ci sono **tre mente diverse (menta piperita, menta arvense e menta verde) più il mentolo**. E il mentolo è una delle molecole vegetali più studiate per il suo rapporto con il dolore.
+
+> 🧠 **Cosa fa il mentolo, secondo la ricerca.** Il mentolo attiva i recettori del freddo della pelle (TRPM8): è la sensazione di fresco che arriva subito. Ma la ricerca è andata oltre. Uno studio pubblicato su *Neuroscience Letters* (Galeotti e colleghi, 2002) ha mostrato che il mentolo agisce anche sui **recettori oppioidi kappa**, gli stessi che il nostro corpo usa per abbassare la percezione del dolore. Freddo che distrae, recettori che "abbassano il volume": è per questo che da secoli le mente si usano nei massaggi muscolari.
+
+**Prima dell'allenamento.** 3-4 gocce pure sui muscoli che stai per usare (polpacci, cosce, spalle), massaggio energico di un minuto. La pelle si scalda, il profumo balsamico ti sveglia.
+
+**Dopo l'allenamento.** 5 gocce in una noce di crema o in un cucchiaio di olio vegetale, massaggio lento sui muscoli che hai fatto lavorare. Il muscolo si rilassa, la sensazione di fresco accompagna il recupero.
 
 **Impacco caldo.** Sciogli 5 gocce in un cucchiaio di sale, poi il sale in acqua calda. Immergi un asciugamano, strizzalo e appoggialo sulla zona da rilassare.
 
 **Le scarpe da ginnastica.** Un batuffolo di cotone con una goccia dentro ogni scarpa, durante la notte. Il mattino dopo ci ringrazi.
+
+*Se hai un trauma, un dolore forte o che non passa, l'olio non sostituisce il medico o il fisioterapista.*
 
 ### 🤧 Quando arriva il freddo
 
@@ -133,23 +159,29 @@ Abbiamo preso la lista storica dei "mille usi" scritta da Maria Francesca Cavale
 
 ### 🏠 In casa
 
+> 🔬 **Perché gli oli essenziali puliscono così bene.** Molti oli essenziali presenti nella formula, come tea tree, timo, origano, chiodi di garofano, cannella, eucalipto e lavanda, sono studiati da decenni per la loro **azione antibatterica e antimicotica**. È il loro modo di difendere la pianta da batteri e funghi. In casa li puoi usare per pulire e profumare in modo naturale.
+
+**Gli angolini del bagno.** Quelli dove si forma sempre un po' di nero: dopo averli puliti, passa una spugna con 5 gocce di Olio Favoloso in un bicchiere d'acqua. Ripeti una volta a settimana. Il bagno resta profumato a lungo.
+
+**Il cambio dell'armadio.** Prima di riporre i vestiti di stagione, passa l'interno di armadi e cassetti con una spugna umida e 10 gocce. Poi un batuffolo di cotone con 2-3 gocce in ogni ripiano o scatola. A settembre li ritrovi freschi, senza odore di chiuso.
+
+**Pavimenti con il sale di Epsom.** Sciogli 10 gocce in un cucchiaio di sale di Epsom, poi versalo nel secchio d'acqua calda con il tuo detersivo. Il sale aiuta l'olio a disperdersi nell'acqua invece di galleggiare.
+
+**Detersivo per piatti.** 10 gocce nel flacone del detersivo. Agita. Le stoviglie restano senza odori.
+
+**Sapone per le mani.** 10 gocce in un flacone da 200 ml di sapone liquido neutro. Agita.
+
 **Profumatore d'ambiente.** 20 gocce in un cucchiaio di bicarbonato, sciolto in 500 ml d'acqua, in un flacone spray. Agita prima dell'uso.
 
 **Nel diffusore.** 3-5 gocce nell'acqua del diffusore a ultrasuoni. Arieggia ogni tanto.
 
-**Pavimenti.** 3 gocce nel secchio con il tuo detersivo abituale.
-
-**Spugna per mobili e armadi.** 5-10 gocce su una spugna umida.
-
-**Cassetti e scarpiere.** Un batuffolo di cotone con 2-3 gocce, rinnovato ogni settimana.
-
 **Bucato.** 5-10 gocce nella vaschetta dell'ammorbidente o nell'ultimo risciacquo.
 
-**Sapone per le mani.** 10 gocce in un flacone da 200 ml di sapone liquido neutro. Agita.
+**Scarpiere.** Un batuffolo di cotone con 2-3 gocce, rinnovato ogni settimana.
 
 **Odori di cucina.** 10 gocce in un pentolino d'acqua che sobbolle dopo aver cucinato cavolo, pesce o fritto.
 
-**Bagno.** Qualche goccia su un batuffolo di cotone nascosto dietro il WC.
+**WC.** Qualche goccia su un batuffolo di cotone nascosto dietro il water.
 
 ### 🧘 Per la testa (in senso buono)
 
@@ -168,7 +200,7 @@ Leggi questa parte. Davvero.
 - ❌ **Non usarlo sotto i 12 anni.** Mentolo e canfora possono essere pericolosi per i bambini piccoli, anche solo inalati da vicino. Tienilo fuori dalla loro portata.
 - ❌ **Se sei allergico ad arachidi o frutta a guscio, non usarlo.** Contiene olio di arachidi, olio di mandorle dolci ed estratto di noce.
 - ❌ **Niente sole dopo l'applicazione.** Contiene bergamotto e altri agrumi che possono rendere la pelle fotosensibile: non applicarlo sulla pelle prima di esporti al sole o alle lampade.
-- ❌ **Non applicarlo puro sulla pelle**, su ferite, su pelle irritata o sulle mucose.
+- ❌ **Non applicarlo su ferite, pelle irritata o mucose.** Puro va bene solo in poche gocce su zone limitate di pelle sana; su viso e zone ampie sempre diluito.
 - ❌ **Non scaldarlo su lampadine, fiamme o superfici calde.** Gli oli essenziali sono infiammabili.
 - ⚠️ **Se soffri di asma, epilessia o hai una pelle molto reattiva**, chiedi prima al medico. Gli oli molto balsamici possono dare fastidio.
 - ⚠️ **Se in casa hai gatti**, non diffonderlo in stanze chiuse dove stanno loro: i gatti metabolizzano male molti oli essenziali.
@@ -195,41 +227,34 @@ L'Olio Favoloso ha una valutazione media di **4,69 su 5** su 16 recensioni verif
 
 ---
 
-## Quanto costa davvero (fai il conto con noi)
+## Come conservarlo
 
-Il flacone da 100 ml costa **45 €**.
-
-Detto così sembra tanto. Facciamo due conti.
-
-Un flacone da 100 ml contiene circa **2.000 gocce**. Vuol dire poco più di **2 centesimi a goccia**.
-
-- Un pediluvio (5 gocce): **11 centesimi.**
-- Un bagno rilassante (20 gocce): **45 centesimi.**
-- Un massaggio sulla nuca (3 gocce): **7 centesimi.**
-- Un mese di fazzoletto balsamico (2 gocce al giorno): **1,35 €.**
-
-Meno di un caffè al bar per un mese di sere più leggere. E nel frattempo hai profumato i cassetti, le scarpe e il bucato.
-
-Si conserva **12 mesi** dall'apertura, al buio e con il tappo ben chiuso.
+Al buio, lontano da fonti di calore, con il tappo ben chiuso. Una volta aperto si usa entro **12 mesi**.
 
 ---
 
 ## Domande frequenti
 
 ### Cos'è l'Olio Favoloso Vivibiotic?
-È un olio balsamico multiuso da 100 ml, formulato con 96 ingredienti vegetali tra oli essenziali (pino, eucalipto, menta, lavanda, rosmarino, camomilla e molti altri), oli vegetali ed estratti. Si usa sulla pelle, diluito, e per profumare l'ambiente.
+È un olio balsamico multiuso da 100 ml, formulato con 96 ingredienti vegetali tra oli essenziali (pino, eucalipto, menta, lavanda, rosmarino, camomilla e molti altri), oli vegetali ed estratti. Si usa sulla pelle, puro in poche gocce o diluito, e per la casa.
 
 ### A cosa serve l'Olio Favoloso?
-Serve per bagni e pediluvi rilassanti, massaggi defaticanti, suffumigi balsamici nei mesi freddi, cura di pelle e capelli (sempre diluito in crema, olio o shampoo) e per profumare casa, bucato, armadi e scarpe.
+Serve per massaggi prima e dopo lo sport, bagni e pediluvi rilassanti, suffumigi balsamici nei mesi freddi, cura di pelle e capelli e per la casa: pavimenti, angolini del bagno, armadi, piatti, sapone per le mani e bucato.
 
 ### Cosa rende diverso l'Olio Favoloso dagli altri oli balsamici?
-La formula: 96 ingredienti vegetali che bilanciano le note balsamiche (pino, eucalipto, menta) con essenze più morbide (lavanda, camomilla, melissa) e oli vegetali nutrienti. Il profumo è intenso ma non aggressivo e, diluito, non unge.
+La formula: 96 ingredienti vegetali che bilanciano le note balsamiche (pino, eucalipto, menta) con essenze più morbide (lavanda, camomilla, melissa) e oli vegetali nutrienti. Il profumo è intenso ma non aggressivo e non unge.
 
 ### Si può usare l'Olio Favoloso per l'oil pulling?
 No. L'Olio Favoloso è solo per uso esterno: non va ingerito né usato in bocca, perché contiene canfora, trementina e oli essenziali non adatti all'uso orale.
 
 ### Si può applicare puro sulla pelle?
-Meglio di no. È un prodotto concentrato: va sempre diluito in una crema, in un olio vegetale o in acqua. Una proporzione di partenza è 3-5 gocce in un cucchiaio di olio vegetale.
+Sì, in poche gocce e su zone limitate di pelle sana, come la pianta del piede, la nuca o i muscoli prima e dopo lo sport. Su viso, zone ampie o pelle sensibile è meglio diluirlo in una crema o in un olio vegetale.
+
+### Perché è adatto ai massaggi sportivi?
+Contiene tre tipi di menta (piperita, arvense e verde) e mentolo. Il mentolo dà una sensazione di fresco attivando i recettori del freddo della pelle e, secondo la ricerca, interagisce con i recettori oppioidi kappa, coinvolti nella percezione del dolore.
+
+### Come si usano gli oli essenziali?
+In tre modi principali: sulla pianta del piede, annusati (dai palmi, da un fazzoletto o con i suffumigi) e con il massaggio, puri in poche gocce o diluiti in crema. In casa si aggiungono all'acqua dei pavimenti, al sapone e al bucato.
 
 ### Quante gocce usare per il bagno?
 Da 15 a 20 gocce, sciolte prima in un cucchiaio di sale grosso o in un po' di bagnoschiuma, così l'olio si disperde nell'acqua.
@@ -241,10 +266,10 @@ No. Non va usato in gravidanza, in allattamento e sotto i 12 anni.
 No. Contiene olio di arachidi, olio di mandorle dolci ed estratto di noce.
 
 ### Quanto dura un flacone?
-Un flacone da 100 ml contiene circa 2.000 gocce. Con un uso quotidiano di poche gocce dura mesi. Una volta aperto, va usato entro 12 mesi.
+Si usa a gocce, quindi un flacone da 100 ml dura mesi. Una volta aperto, va usato entro 12 mesi.
 
 ### Unge?
-No, se lo usi come indicato. Diluito in crema o in olio vegetale si assorbe e non lascia la pelle unta.
+No. Si assorbe in fretta e non lascia la pelle unta.
 
 ---
 
@@ -254,7 +279,7 @@ Puoi continuare a comprare un prodotto diverso per il bagno, uno per i piedi, un
 
 Oppure puoi tenere un flacone sul comodino e uno in bagno.
 
-**Un bosco intero in 100 ml. Poche gocce per ogni momento della giornata.**
+**Un bosco intero in 100 ml. Poche gocce per il corpo, la testa e la casa.**
 
 👉 **[Scopri l'Olio Favoloso](https://vivibiotic.it/products/olio-favoloso-100ml)**
 
