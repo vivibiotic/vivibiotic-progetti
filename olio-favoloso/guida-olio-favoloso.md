@@ -1,4 +1,4 @@
-# Olio Favoloso: la guida completa. Cos'è, come si usa e perché non è "l'ennesimo olio 31"
+# Olio Favoloso: la guida completa. Cos'è, come si usa e perché ti cambia la serata
 
 *Aggiornata a novembre 2026 · Tempo di lettura: 9 minuti*
 
@@ -44,26 +44,19 @@ Il profumo di una passeggiata in montagna, da portarsi dietro quando non si può
 
 ---
 
-## Olio 31, Olio 99, Olio Favoloso: che differenza c'è?
+## Perché proprio l'Olio Favoloso
 
-Domanda legittima. Se cerchi "olio balsamico multiuso" trovi soprattutto due famiglie:
+Di oli balsamici ne trovi tanti. Allora perché questo?
 
-- **Gli "olii 31"**: miscele di circa 31 oli essenziali, nate da una vecchia ricetta svizzera e oggi prodotte da tante marche diverse.
-- **Gli "olii 99 erbe"**: miscele più ricche, con 99 tra oli essenziali ed estratti, vendute anche nelle grandi catene di cosmetica.
+Ti diamo tre motivi.
 
-Funzionano tutti con la stessa logica: tante essenze balsamiche in un flacone, poche gocce per tanti usi.
-
-E allora perché scegliere l'Olio Favoloso?
-
-Ti diamo tre motivi. E uno lo diciamo contro il nostro interesse.
-
-**1. Il numero.** Non abbiamo 99 ingredienti. Ne abbiamo 96. Potevamo aggiungerne tre per fare cifra tonda e finire in etichetta col numero magico. Non l'abbiamo fatto, perché il numero non conta: conta cosa c'è dentro e in che proporzione. Diffida di chi ti vende un numero.
+**1. Non è un profumo solo. È un bosco intero.** 96 ingredienti vegetali che lavorano insieme, come un'orchestra. Nessuna nota copre le altre: per questo il profumo cambia mentre lo respiri, e non stanca.
 
 **2. Il ponte tra fresco e morbido.** Molti oli balsamici sono "tutto canfora e menta": svegliano, ma stancano. Nell'Olio Favoloso la parte balsamica è bilanciata da essenze più rotonde (lavanda, camomilla, melissa, tiglio, passiflora, luppolo) e da una base di oli vegetali nutrienti come avocado, germe di grano e mandorle dolci. Per questo, diluito, **non unge**.
 
-**3. La trasparenza.** In fondo a questa guida trovi l'elenco degli avvisi di sicurezza, scritto per esteso. Non in corpo 4 sul retro della scatola. Se un prodotto è potente, devi sapere esattamente quando non usarlo.
+**3. La trasparenza.** Più avanti in questa guida trovi l'elenco degli avvisi di sicurezza, scritto per esteso. Non in corpo 4 sul retro della scatola. Se un prodotto è potente, devi sapere esattamente quando non usarlo.
 
-> **Il punto in una riga:** gli olii 31 e 99 sono una categoria. L'Olio Favoloso è la versione Vivibiotic di quella categoria: 96 ingredienti vegetali, bilanciati per essere balsamici senza essere aggressivi.
+> **Il punto in una riga:** 96 ingredienti vegetali, bilanciati per essere balsamici senza essere aggressivi. Un flacone, mille gesti.
 
 ---
 
@@ -229,8 +222,8 @@ Si conserva **12 mesi** dall'apertura, al buio e con il tappo ben chiuso.
 ### A cosa serve l'Olio Favoloso?
 Serve per bagni e pediluvi rilassanti, massaggi defaticanti, suffumigi balsamici nei mesi freddi, cura di pelle e capelli (sempre diluito in crema, olio o shampoo) e per profumare casa, bucato, armadi e scarpe.
 
-### Che differenza c'è tra Olio Favoloso, olio 31 e olio 99 erbe?
-Sono tutti oli balsamici multiuso a base di molti oli essenziali. Gli "olii 31" contengono circa 31 essenze, gli "olii 99 erbe" circa 99 tra oli ed estratti. L'Olio Favoloso ne contiene 96, con una formula che bilancia le note balsamiche (pino, eucalipto, menta) con essenze più morbide (lavanda, camomilla, melissa) e oli vegetali nutrienti. Non unge.
+### Cosa rende diverso l'Olio Favoloso dagli altri oli balsamici?
+La formula: 96 ingredienti vegetali che bilanciano le note balsamiche (pino, eucalipto, menta) con essenze più morbide (lavanda, camomilla, melissa) e oli vegetali nutrienti. Il profumo è intenso ma non aggressivo e, diluito, non unge.
 
 ### Si può usare l'Olio Favoloso per l'oil pulling?
 No. L'Olio Favoloso è solo per uso esterno: non va ingerito né usato in bocca, perché contiene canfora, trementina e oli essenziali non adatti all'uso orale.
